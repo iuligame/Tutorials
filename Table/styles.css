@@ -1,0 +1,13 @@
+tr:nth-child(1), tr:nth-child(6){
+    background-color: #427fef;
+    color:white;
+    border: 1px;
+}
+
+tr:nth-child(2), tr:nth-child(4){
+    background-color:#eef7ff;
+    border: 1px;
+}
+
+
+

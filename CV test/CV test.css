@@ -1,0 +1,67 @@
+/* Style the body element */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container element */
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Style the left column */
+.left {
+    width: 30%;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Style the right column */
+.right {
+    width: 70%;
+    padding: 20px;
+}
+
+/* Style the photo element */
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Style the name element */
+.name {
+    text-align: center;
+}
+
+/* Style the title element */
+.title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style the education table */
+.education {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style the work table */
+.work {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style the bullet points */
+.bullet {
+    list-style-type: disc;
+}
+
+/* Add more styles as you like */

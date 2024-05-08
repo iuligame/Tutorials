@@ -1,0 +1,47 @@
+h1{
+    font-size: x-large;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    border: solid black 10px;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 1em;
+    padding-right: 1em;  
+}
+
+.container1 .title{ 
+    background-color:#0685d6;  
+}
+
+.container2 .title{
+    background-color:#8bc149; 
+}
+
+.container3 .title{
+    background-color:#f06d00; 
+}
+
+
+.container4 .title{
+    background-color:#0098a5;
+}
+
+.text{
+    border: solid black 10px;
+    border-top: 0px;
+    font-size: large;
+    overflow: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.picture{
+    text-align: center;
+    padding-top: 1em;
+}
