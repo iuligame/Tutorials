@@ -46,8 +46,13 @@ header{
 .navlink a{
     color: #ea776a;
     text-decoration: none;
+    font-size: large;
 }
 
+.navlink a:hover{
+    text-decoration:underline;
+    color: #f9cc6e;
+}
 
 .section{
     max-width: 1000px;
@@ -92,3 +97,9 @@ p a{
     text-decoration: none;
     color: #ea776a;
 }
+
+.tutorial:hover{
+    background-color: #fbe472;
+
+}
+
