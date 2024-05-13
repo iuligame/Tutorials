@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = "Ion invata pentru scoala";
+        var b = "Ion merge la scoala";
+
+        if (a === b){
+            document.write(" Da");
+        }else if(a === a){
+            document.write(" Da");
+        }else{
+            document.write(" Nu");
+        }
+
+        var c = 1;
+        var d = 2;
+
+        if(c === d){
+            document.write(true, " - Intradevar"  +c+ "este egal cu" +d);
+        }else{
+            document.write(false, " - " +c+ "nu este egal cu" +d);
+        };
+        
+        var e = 6;
+        var f = 5;
+
+        if(e < f && e <= f){
+            document.write( e+" este mai mic decat "+f || " - "+e+"este mai mic sau egal cu"+f);
+            //document.write(true, " - "+e+"este mai mic sau egal cu"+f);
+        }else if (e === f){
+            document.write( e+" este egal cu "+f);
+        }else if (e > f && e >= f){
+            document.write( e+" este mai mare decat "+f || " - "+e+"este mai mare sau egal cu"+f);
+            //document.write(true, " - "+e+"este mai mare sau egal cu"+f);
+        }else{
+            document.write(" Nici o afirmatie nu este adevarata");
+        };
+
+
+        var materie = 'matematica';
+
+        switch (materie){
+            case 'matematica':
+                document.write("Materia ta preferata este matematica");
+                break;
+            case 'romana':
+                document.write("Materia ta preferata este romana");
+                break;
+            case 'chimie':
+                document.write("Materia ta preferata este chimie");
+                break;
+            default:
+                document.write("Nu stiu care este materia ta preferata.")
+        }
+            
+    </script>
+
+</body>
+</html>

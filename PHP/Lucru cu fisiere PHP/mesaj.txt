@@ -1,0 +1,2 @@
+Am creat un fisier text "mesaj.txt".
+Hello world!
