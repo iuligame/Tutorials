@@ -1,0 +1,42 @@
+body{
+    background-color: #c4ebfa
+}
+
+header{
+    height: 70px;
+    background-color: #03bfb1;
+    border:#c4ebfa solid 10px;
+}
+
+section{
+    display: flex;
+}
+
+aside{
+    width: 30%;
+    height: 350px;
+    background-color: #6edb6e;
+    border:#c4ebfa solid 10px;
+}
+
+article{
+    width: 70%;
+    height: 350px;
+    background-color: #fbb04b;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border:#c4ebfa solid 10px;
+}
+
+.image{
+    width: 30%;
+    height: 30%;
+    background-color: #eed147;
+}
+
+footer{
+    height: 70px;
+    background-color: #03bfb1;
+    border:#c4ebfa solid 10px;
+}
