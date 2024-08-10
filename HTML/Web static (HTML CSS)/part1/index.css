@@ -1,0 +1,141 @@
+body {
+  margin: 20px 40px;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 16px;
+}
+
+/*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+.wrapper {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+}
+
+/*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+.redExample {
+  flex: 1;
+  background-color: red;
+}
+
+/*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+.blueExample {
+  flex: 1;
+  background-color: blue;
+}
+
+/*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+.emptyExample2 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+}
+
+.blueExample2 {
+  width: 80px;
+  background-color: blue;
+}
+
+/* TODO: Add CSS for the rest of your solution below */
+
+.emptyExample3 {
+  display: flex;
+  flex: 2;
+  flex-direction: row;
+}
+
+.redExample3 {
+  width: 80px;
+  background-color: red;
+}
+
+.blueExample3 {
+  width: 80px;
+  background-color: blue;
+}
+
+.redExample4 {
+  flex: 1;
+  background-color: red;
+}
+
+.blueExample4 {
+  width: 80px;
+  background-color: blue; 
+}
+
+.wrapper-center{
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+}
+
+.red {
+  flex: 1;
+  background-color: red;
+}
+
+.blue {
+  width: 80px;
+  background-color: blue;
+}
+
+.redExample7 {
+  width: 80px;
+  background-color: red;
+}
+
+.emptyExample7{
+  flex: 1;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+}
+
+.greenExample7 {
+  flex: 1;
+  background-color: green;
+}
+
+.blueExample7 {
+  flex: 1;
+  background-color: blue; 
+}
+
+.emptyExample8 {
+  width: 80px;
+  flex: 1;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  background-color: orange;
+}
+
+.orangebox1 {
+  width: 80px;
+  background-color: green; 
+}
+  
+.emptyExample9 {
+  width: 80px;
+  flex: 1;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: orange;
+}
+
+.orangebox2 {
+  width: 10px;
+  background-color: green; 
+}
