@@ -33,11 +33,18 @@ header .nav_links{
   margin: 0;
   padding: 0;
   list-style: none;
+  position: relative;
+  left: 50px;
 }
 
 header .nav_link{
   margin: 10px;
   display: inline-block;
+}
+
+header .nav_link a {
+  text-decoration: none;
+  color: #69757e;
 }
 
 header .logo{
@@ -52,7 +59,7 @@ header .header-right{
   justify-content: end;
 }
 
-header a{
+header .header-right a{
   margin: 10px;
   padding: 5px 10px;
   width: 60px;
@@ -123,7 +130,7 @@ section .profile_account{
 section .name{
   margin: 0;
   padding: 0;
-  text-decoration:underline
+  text-decoration: underline
 }
 
 section .email{
@@ -161,9 +168,11 @@ section .message_content{
 
 section .message_avater{
   margin: 15px;
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
+  min-height: 51px;
   border-radius: 50%;
+  border-bottom: 1px solid #e6ecf0;
   position: relative;
   bottom: 3px;
 }
