@@ -1,14 +1,15 @@
-html, body{
+html,
+body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-html{
+html {
   background-color: lightgray;
 }
 
-header{
+header {
   background-color: white;
   display: flex;
   justify-content: space-around;
@@ -20,16 +21,16 @@ header{
   z-index: 100;
 }
 
-header .logo{
+header .logo {
   width: 20px;
   height: 20px;
 }
 
-header .navbar{
+header .navbar {
   flex: 1;
 }
 
-header .nav_links{
+header .nav_links {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -37,7 +38,7 @@ header .nav_links{
   left: 50px;
 }
 
-header .nav_link{
+header .nav_link {
   margin: 10px;
   display: inline-block;
 }
@@ -47,19 +48,23 @@ header .nav_link a {
   color: #69757e;
 }
 
-header .logo{
+header .nav_link a:hover {
+  color: #4AB3F4;
+}
+
+header .logo {
   margin: 10px;
   justify-content: center;
   align-items: center;
 }
 
-header .header-right{
+header .header-right {
   flex: 1;
   display: flex;
   justify-content: end;
 }
 
-header .header-right a{
+header .header-right a {
   margin: 10px;
   padding: 5px 10px;
   width: 60px;
@@ -67,35 +72,39 @@ header .header-right a{
   border-radius: 2em;
   background-color: #4AB3F4;
   color: white;
-  text-align: center; 
+  text-align: center;
   text-decoration: none;
   font-size: small;
 }
 
-section{
+header .header-right a:hover{
+  background-color: blue;
+}
+
+section {
   max-width: 1190px;
-  margin: 56px auto; 
+  margin: 56px auto;
   display: flex;
   align-items: flex-start;
   column-gap: 10px;
 }
 
-section .profile_section{
- width: 290px;
- height: 240px;
- background-color: white;
+section .profile_section {
+  width: 290px;
+  height: 240px;
+  background-color: white;
 }
 
-section .profile_benner{
+section .profile_benner {
   padding: 20px;
   background-color: black;
 }
 
-section .benner{
+section .benner {
   width: 100%;
 }
 
-section .profile_avatar{
+section .profile_avatar {
   width: 80px;
   height: 80px;
   border: 4px solid white;
@@ -105,108 +114,109 @@ section .profile_avatar{
   left: 10px;
 }
 
-section .profile_account .email{
+section .profile_account .email {
   color: black;
   font-size: small;
 }
 
-section .profile_statistics .profile_statistic .atribut{
+section .profile_statistics .profile_statistic .atribut {
   font-size: small;
 }
 
-section .score{
+section .score {
   color: #4AB3F4;
   font-weight: bold;
   position: relative;
   bottom: 5px;
 }
 
-section .profile_account{
+section .profile_account {
   position: relative;
   left: 120px;
   bottom: 90px;
 }
 
-section .name{
+section .name {
   margin: 0;
   padding: 0;
   text-decoration: underline
 }
 
-section .email{
+section .email {
   margin: 0;
   padding: 0;
 }
 
-section .profile_statistics{
+section .profile_statistics {
   display: flex;
   justify-content: space-around;
   position: relative;
   bottom: 50px;
 }
 
-section .atributs{
+section .atributs {
   margin: 0;
   padding: 0;
-  text-align: center; 
+  text-align: center;
 }
 
-section .messages_section{
+section .messages_section {
   flex: 1;
   width: 400px;
   background-color: white;
 }
 
-section .message{
+section .message {
   display: flex;
 }
 
-section .message_content{
+section .message_content {
   margin: 15px;
   flex: 1;
 }
 
-section .message_avater{
+section .message_avater {
   margin: 15px;
-  width: 40px;
-  height: 40px;
-  min-height: 51px;
+  margin-right: 0px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   border-bottom: 1px solid #e6ecf0;
   position: relative;
   bottom: 3px;
 }
 
-section .message_account{
+section .message_account {
   display: flex;
 }
 
-section .message_account p{
+section .message_account p {
   margin: 0;
 }
 
-section .follow{
+section .follow {
   margin: 20px;
 }
 
-section .follow_section{
+section .follow_section {
   background-color: white;
   width: 290px;
+  padding: 10px 20px;
 }
 
-section .follow_avatar{
+section .follow_avatar {
   width: 80px;
   height: 80px;
   border-radius: 50%;
 }
 
-section .follow{
+section .follow {
   margin: 3px;
   padding: 10px;
   justify-content: space-between;
 }
 
-section a{
+section a {
   padding: 5px 15px;
   border: 2px solid #4AB3F4;
   border-radius: 1em;
@@ -214,9 +224,10 @@ section a{
   text-decoration: none;
 }
 
-
-
-
-
-
-
+/*Cand latimea paginii este mai mica de 1000 de pixeli,
+se aplica stilurile urmatoare*/
+@media only screen and (max-width:1000px) {
+  section .follow_section {
+   display: none;
+  }
+}
