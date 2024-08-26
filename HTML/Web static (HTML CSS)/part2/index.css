@@ -11,14 +11,19 @@ html {
 
 header {
   background-color: white;
-  display: flex;
-  justify-content: space-around;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   height: 46px;
   z-index: 100;
+}
+
+header .header-container{
+  display: flex;
+  justify-content: space-around;
+  max-width: 1190px;
+  margin: 0 auto;
 }
 
 header .logo {
@@ -34,8 +39,6 @@ header .nav_links {
   margin: 0;
   padding: 0;
   list-style: none;
-  position: relative;
-  left: 50px;
 }
 
 header .nav_link {
