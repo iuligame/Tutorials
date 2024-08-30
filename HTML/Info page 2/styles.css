@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:whitesmoke;
+}
+
+header{
+    display: flex;
+    width: auto;
+    height: 60px;
+    background-color: white;
+    flex: 1;
+}
+
+header .header-container{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+header .navbar{
+    flex: 1;
+}
+
+header .header-title{
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-size: small;
+}
+
+header .nav-link{
+    margin: 10px;
+    display: flex;
+}
+
+header .nav-links{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-size: larger;
+    position: relative;
+    top: 16px;
+    left: 200px;
+}
+
+header .vertical-menu{
+    flex: 1;
+    width: 100px;
+}
+
+header .vertical-menu a{
+    flex: 1;
+    display: block;
+    background-color: white;
+}
+
+header .vertical-menu a:hover{
+    flex: 1;
+    background-color: darkgray;
+}
+
+header .vertical-menu a.active{
+    background-color: lightgray;
+}
+
+header .header-right{
+    flex: 1;
+    justify-content: end;
+    display: flex;
+    position: relative;
+    left: 220px;
+    bottom: 50px;
+}
+
+header img{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    bottom: 18px;
+    left: 20px; 
+}
+
+header a{
+    text-decoration: none;
+    color: #000;
+}
+
+section{
+    flex: 1;
+}
+
+section .section-titles{
+    max-width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #14A6BF;
+    flex: 1;
+}
+
+.section .section-title{
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    position: relative;
+    top: 130px;
+}
+
+section .welcome{
+    color: #016A7D;
+    text-align: center;
+}
+
+section .title-name{
+    color: white;
+    text-align: center;
+}
+
+section .grade{
+    color: yellow;
+    text-align: center;
+}
