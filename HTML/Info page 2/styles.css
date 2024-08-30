@@ -9,7 +9,7 @@ header{
     display: flex;
     width: auto;
     height: 60px;
-    background-color: white;
+    background-color:white;
     flex: 1;
 }
 
@@ -21,6 +21,7 @@ header .header-container{
 }
 
 header .navbar{
+    display: flex;
     flex: 1;
 }
 
@@ -37,6 +38,10 @@ header .nav-link{
     display: flex;
 }
 
+header .nav-link:hover{
+    border-bottom: #F1C232 solid 5px; 
+}
+
 header .nav-links{
     display: flex;
     text-decoration: none;
@@ -48,18 +53,16 @@ header .nav-links{
 }
 
 header .vertical-menu{
-    flex: 1;
     width: 100px;
 }
 
 header .vertical-menu a{
-    flex: 1;
     display: block;
     background-color: white;
+    text-align: center;
 }
 
 header .vertical-menu a:hover{
-    flex: 1;
     background-color: darkgray;
 }
 
@@ -89,11 +92,11 @@ header a{
     color: #000;
 }
 
-section{
+.section-bh{
     flex: 1;
 }
 
-section .section-titles{
+.section-bh .section-titles{
     max-width: 1000px;
     height: 400px;
     margin: 0 auto;
@@ -101,7 +104,7 @@ section .section-titles{
     flex: 1;
 }
 
-.section .section-title{
+.section-bh .section-title{
     text-decoration: none;
     list-style: none;
     align-items: center;
@@ -109,17 +112,17 @@ section .section-titles{
     top: 130px;
 }
 
-section .welcome{
+.section-bh .welcome{
     color: #016A7D;
     text-align: center;
 }
 
-section .title-name{
+.section-bh .title-name{
     color: white;
     text-align: center;
 }
 
-section .grade{
-    color: yellow;
+.section-bh .grade{
+    color: #F1C232;
     text-align: center;
 }
