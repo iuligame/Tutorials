@@ -126,3 +126,112 @@ header a{
     color: #F1C232;
     text-align: center;
 }
+
+.section-pa{
+    max-width: 1000px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.section-pa .section-about{
+    list-style: none;
+}
+
+.section-pa .section-about h2{
+    color:#016A7D;
+}
+
+.section-pa .section-about a{
+    color:#016A7D;
+}
+
+.section-pa .button1{
+    width: 120px;
+    height: 40px;
+    background-color: #F1C232;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.section-ps{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex: 1;
+}
+
+.section-ps .score1{
+    color: #F1C232;
+    list-style: none;
+}
+
+.section-ps .score2{
+    color: #016A7D;
+    list-style: none;
+}
+
+.section-ps .info-score{
+    list-style: none;
+}
+
+.section-pw{
+    max-width: 1000px;
+    height: 200px;
+    background-color: #F1C232;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.section-pw p{
+    position: relative;
+    top: 90px;
+    left: 10px;
+}
+
+.section-pb{
+    max-width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.section-pb .pb-title{
+    color: #016A7D;
+}
+
+.section-pb a{
+    color: #016A7D;
+}
+
+.section-pb .button2{
+    color: #F1C232;
+    border: 2px solid #F1C232;
+    border-radius: 5%;
+    text-decoration: none;
+}
+
+.footer{
+    max-width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.footer .footer-about{
+    list-style: none;
+}
+
+.footer .footer-about a{
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.footer .footer-links{
+    list-style: none;
+    display: flex;
+}
+
+.footer .footer-links a{
+    width: 20px;
+    height: 20px;
+}
