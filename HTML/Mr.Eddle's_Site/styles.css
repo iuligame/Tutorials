@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:whitesmoke;
+}
+
+header{
+    display: flex;
+    width: auto;
+    background-color:white;
+    flex: 1;
+}
+
+header .header-container{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+header .navbar{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+}
+
+header .header-title{
+    display: flex;
+    text-align: center;
+    font-size: small;
+}
+
+header .nav-link{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+header .nav-link:hover{
+    border-bottom: #F1C232 solid 5px; 
+}
+
+header .nav-links{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-size: larger;
+    column-gap: 10px;
+}
+
+header .vertical-menu{
+    position: absolute;
+    top: 100%;
+    width: 100px;
+    box-shadow: 1px 1px 1px black;
+}
+
+header .vertical-menu a{
+    display: block;
+    background-color: white;
+    text-align: center;
+}
+
+header .vertical-menu a:hover{
+    background-color: darkgray;
+}
+
+header .vertical-menu a.active{
+    background-color: lightgray;
+}
+
+header img{
+    width: 25px;
+    height: 25px;
+}
+
+header a{
+    text-decoration: none;
+    color: #000;
+}
+
+.section-bh{
+    position: absolute;
+    flex: 1;
+}
+
+.section-bh-container{
+    background-image: url("5q92mjc5c51bjlwaj3rs9aa82.svg");
+    background-color: #cccccc;
+}
+
+.section-bh .section-title{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 100px;
+    right: 650px;
+    flex: 1;
+}
+
+.section-bh .welcome{
+    color: #016A7D;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+
+.section-bh .title-name{
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+
+.section-bh .grade{
+    color: #F1C232;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.section-pa{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: 250px;
+    flex: 1;
+}
+
+.section-pa .section-about{
+    list-style: none;
+}
+
+.section-pa .section-about h2{
+    color:#016A7D;
+}
+
+.section-pa .section-about a{
+    color:#016A7D;
+}
+
+.section-pa .button1{
+    width: 120px;
+    height: 40px;
+    background-color: #F1C232;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.section-ps{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    top: 250px;
+    flex: 1;
+}
+
+.section-ps .score1{
+    color: #F1C232;
+    list-style: none;
+}
+
+.section-ps .score2{
+    color: #016A7D;
+    list-style: none;
+}
+
+.section-ps .info-score{
+    list-style: none;
+}
+
+.section-pw{
+    max-width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    top: 250px;
+    flex: 1;
+}
+
+.section-pw p{
+    position: relative;
+    top: 90px;
+    left: 10px;
+}
+
+.section-pb{
+    max-width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    top: 350px;
+    flex: 1;
+}
+
+.section-pb .pb-title{
+    color: #016A7D;
+}
+
+.section-pb a{
+    color: #016A7D;
+}
+
+.section-pb .button2{
+    color: #F1C232;
+    border: 2px solid #F1C232;
+    border-radius: 5%;
+    text-decoration: none;
+}
+
+.footer{
+    max-width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    flex: 1;
+    background-color: aqua;
+}
+
+.footer .footer-about{
+    display: flex;
+    list-style: none;
+    flex: 1;
+}
+
+.footer .footer-about a{
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.footer .footer-links{
+    list-style: none;
+    display: flex;
+}
+
+.footer .footer-links img{
+    width: 40px;
+    height: 40px;
+}
