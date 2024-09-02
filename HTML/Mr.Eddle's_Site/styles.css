@@ -83,14 +83,13 @@ header a{
 }
 
 .section-bh{
+    position: absolute;
     flex: 1;
 }
 
 .section-bh .section-titles{
     max-width: 1000px;
-    height: 400px;
     margin: 0 auto;
-    background-color: #14A6BF;
     flex: 1;
 }
 
@@ -98,28 +97,36 @@ header a{
     text-decoration: none;
     list-style: none;
     align-items: center;
-    position: relative;
-    top: 130px;
+    justify-content: space-between;
+    position: absolute;
+    top: 100px;
+    right: 650px;
+    flex: 1;
 }
 
 .section-bh .welcome{
     color: #016A7D;
     text-align: center;
+    position: relative;
+    bottom: 40px;
 }
 
 .section-bh .title-name{
     color: white;
     text-align: center;
+    position: relative;
+    bottom: 10px;
 }
 
 .section-bh .grade{
     color: #F1C232;
     text-align: center;
+    position: relative;
+    top: 40px;
 }
 
 .section-pa{
     max-width: 1000px;
-    margin: 0 auto;
     flex: 1;
 }
 
@@ -166,8 +173,7 @@ header a{
 
 .section-pw{
     max-width: 1000px;
-    height: 200px;
-    background-color: #F1C232;
+    height: 100px;
     margin: 0 auto;
     flex: 1;
 }
