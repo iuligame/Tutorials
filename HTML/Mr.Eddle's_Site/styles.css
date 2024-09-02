@@ -205,10 +205,13 @@ header a{
     height: 200px;
     margin: 0 auto;
     flex: 1;
+    background-color: aqua;
 }
 
 .footer .footer-about{
+    display: flex;
     list-style: none;
+    flex: 1;
 }
 
 .footer .footer-about a{
@@ -221,7 +224,7 @@ header a{
     display: flex;
 }
 
-.footer .footer-links a{
-    width: 20px;
-    height: 20px;
+.footer .footer-links img{
+    width: 40px;
+    height: 40px;
 }
