@@ -87,8 +87,9 @@ header a{
     flex: 1;
 }
 
-.section-bh .section-bh-container img{
-    justify-content: center;
+.section-bh-container{
+    background-image: url("5q92mjc5c51bjlwaj3rs9aa82.svg");
+    background-color: #cccccc;
 }
 
 .section-bh .section-title{
