@@ -83,18 +83,18 @@ header a{
 }
 
 .section-bh{
+    width: 1500px;
+    height: 250px;
+    background-image: url(./5q92mjc5c51bjlwaj3rs9aa82.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     position: absolute;
     flex: 1;
 }
 
-.section-bh-container{
-    background-image: url("5q92mjc5c51bjlwaj3rs9aa82.svg");
-    background-color: #cccccc;
-}
-
 .section-bh .section-title{
-    max-width: 1000px;
-    margin: 0 auto;
     text-decoration: none;
     list-style: none;
     align-items: center;
@@ -102,7 +102,6 @@ header a{
     position: absolute;
     top: 100px;
     right: 650px;
-    flex: 1;
 }
 
 .section-bh .welcome{
@@ -113,16 +112,19 @@ header a{
 }
 
 .section-bh .title-name{
+    font-size: xx-large;
     color: white;
     text-align: center;
     position: relative;
-    bottom: 10px;
+    left: 40px;
+    bottom: 20px;
 }
 
 .section-bh .grade{
     color: #F1C232;
     text-align: center;
     position: relative;
+    left: 45px;
     top: 40px;
 }
 
