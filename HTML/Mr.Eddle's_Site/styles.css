@@ -8,7 +8,6 @@ body{
 header{
     display: flex;
     width: auto;
-    height: 60px;
     background-color:white;
     flex: 1;
 }
@@ -23,19 +22,19 @@ header .header-container{
 header .navbar{
     display: flex;
     flex: 1;
+    justify-content: end;
 }
 
 header .header-title{
     display: flex;
     text-align: center;
-    position: relative;
-    top: 20px;
     font-size: small;
 }
 
 header .nav-link{
-    margin: 10px;
     display: flex;
+    align-items: center;
+    position: relative;
 }
 
 header .nav-link:hover{
@@ -43,17 +42,20 @@ header .nav-link:hover{
 }
 
 header .nav-links{
+    padding: 0;
+    margin: 0;
     display: flex;
     text-decoration: none;
     list-style: none;
     font-size: larger;
-    position: relative;
-    top: 16px;
-    left: 200px;
+    column-gap: 10px;
 }
 
 header .vertical-menu{
+    position: absolute;
+    top: 100%;
     width: 100px;
+    box-shadow: 1px 1px 1px black;
 }
 
 header .vertical-menu a{
@@ -70,21 +72,9 @@ header .vertical-menu a.active{
     background-color: lightgray;
 }
 
-header .header-right{
-    flex: 1;
-    justify-content: end;
-    display: flex;
-    position: relative;
-    left: 220px;
-    bottom: 50px;
-}
-
 header img{
     width: 25px;
     height: 25px;
-    position: relative;
-    bottom: 18px;
-    left: 20px; 
 }
 
 header a{
