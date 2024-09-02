@@ -87,13 +87,13 @@ header a{
     flex: 1;
 }
 
-.section-bh .section-titles{
-    max-width: 1000px;
-    margin: 0 auto;
-    flex: 1;
+.section-bh .section-bh-container img{
+    justify-content: center;
 }
 
 .section-bh .section-title{
+    max-width: 1000px;
+    margin: 0 auto;
     text-decoration: none;
     list-style: none;
     align-items: center;
@@ -127,6 +127,9 @@ header a{
 
 .section-pa{
     max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: 250px;
     flex: 1;
 }
 
@@ -154,6 +157,8 @@ header a{
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
+    position: relative;
+    top: 250px;
     flex: 1;
 }
 
@@ -175,6 +180,8 @@ header a{
     max-width: 1000px;
     height: 100px;
     margin: 0 auto;
+    position: relative;
+    top: 250px;
     flex: 1;
 }
 
@@ -188,6 +195,8 @@ header a{
     max-width: 1000px;
     height: 200px;
     margin: 0 auto;
+    position: relative;
+    top: 350px;
     flex: 1;
 }
 
