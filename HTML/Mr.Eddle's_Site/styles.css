@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     padding: 0;
@@ -83,54 +84,43 @@ header a{
 }
 
 .section-bh{
-    position: absolute;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-image: url(./5q92mjc5c51bjlwaj3rs9aa82.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20px 0;   
     flex: 1;
 }
 
-.section-bh-container{
-    background-image: url("5q92mjc5c51bjlwaj3rs9aa82.svg");
-    background-color: #cccccc;
-}
-
 .section-bh .section-title{
-    max-width: 1000px;
-    margin: 0 auto;
     text-decoration: none;
     list-style: none;
     align-items: center;
     justify-content: space-between;
-    position: absolute;
-    top: 100px;
-    right: 650px;
-    flex: 1;
 }
 
 .section-bh .welcome{
     color: #016A7D;
     text-align: center;
-    position: relative;
-    bottom: 40px;
 }
 
 .section-bh .title-name{
+    font-size: xx-large;
     color: white;
     text-align: center;
-    position: relative;
-    bottom: 10px;
 }
 
 .section-bh .grade{
     color: #F1C232;
     text-align: center;
-    position: relative;
-    top: 40px;
 }
 
 .section-pa{
     max-width: 1000px;
     margin: 0 auto;
-    position: relative;
-    top: 250px;
     flex: 1;
 }
 
@@ -158,8 +148,6 @@ header a{
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
-    position: relative;
-    top: 250px;
     flex: 1;
 }
 
@@ -179,25 +167,23 @@ header a{
 
 .section-pw{
     max-width: 1000px;
-    height: 100px;
     margin: 0 auto;
-    position: relative;
-    top: 250px;
+    background-image: url(./pngtree-simple-yellow-background-pasta-machine-psd-layered-master-map-background-material-image_128498.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20px 0;   
     flex: 1;
 }
 
 .section-pw p{
-    position: relative;
-    top: 90px;
-    left: 10px;
+    text-align: center;
 }
 
 .section-pb{
     max-width: 1000px;
-    height: 200px;
     margin: 0 auto;
-    position: relative;
-    top: 350px;
     flex: 1;
 }
 
@@ -221,7 +207,6 @@ header a{
     height: 200px;
     margin: 0 auto;
     flex: 1;
-    background-color: aqua;
 }
 
 .footer .footer-about{
