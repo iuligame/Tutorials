@@ -204,9 +204,14 @@ header a{
 
 .footer{
     max-width: 1000px;
-    height: 200px;
     margin: 0 auto;
+    display: flex;
     flex: 1;
+}
+
+.footer a{
+    color: darkgrey;
+    text-decoration: none;
 }
 
 .footer .footer-about{
@@ -222,10 +227,13 @@ header a{
 
 .footer .footer-links{
     list-style: none;
+    justify-content: end;
     display: flex;
+    column-gap: 10px;
 }
 
 .footer .footer-links img{
     width: 40px;
     height: 40px;
+    
 }
