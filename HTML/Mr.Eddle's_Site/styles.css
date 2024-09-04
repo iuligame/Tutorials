@@ -202,38 +202,41 @@ header a{
     margin: 0 auto;
     display: block;
     flex: 1;
+    display: flex;
 }
 
-.section-pb .pb-title{
+.section-pb-docs .section-pb-doc{
+    list-style-type: none;
+    display: flex;
+}
+
+.section-pb .section-pb-docs .section-pb-doc .pb-title{
     color: #016A7D;
 }
 
-.section-pb a{
+.section-pb .section-pb-docs .section-pb-doc a{
     color: #016A7D;
 }
 
-.section-pb .button2{
+.section-pb .section-pb-docs .section-pb-doc .button2{
     color: #F1C232;
     border: 2px solid #F1C232;
     border-radius: 5%;
     text-decoration: none;
 }
 
-.section-pb .pb-image{
-    max-width: 600px;
-    margin: 0 auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 5%; 
-    padding: 20px 0;   
-    flex: 1;
+.section-pb .section-pb-docs .section-pb-doc .pb-image{
+    width: 400px;
+    height: 400px;
+    background-image: url(./Online_teaching.jpg);
+    border-radius: 5%;
 }
 
 .section-pi .pi-image{
     max-width: 1000px;
     height: 600px;
     margin: 0 auto;
-    background-image: url(Teachers.jpg);
+    background-image: url(./Teachers.jpg);
     background-position: center;
     padding: 20px 0;   
     flex: 1;
