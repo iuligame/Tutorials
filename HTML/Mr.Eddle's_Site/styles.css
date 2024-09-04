@@ -218,6 +218,10 @@ header a{
     color: #016A7D;
 }
 
+.section-pb .section-pb-docs .section-pb-doc .pb-options{
+    list-style: square;
+}
+
 .section-pb .section-pb-docs .section-pb-doc .button2{
     color: #F1C232;
     border: 2px solid #F1C232;
@@ -229,6 +233,7 @@ header a{
     width: 400px;
     height: 400px;
     background-image: url(./Online_teaching.jpg);
+    background-size: cover;
     border-radius: 5%;
 }
 
@@ -238,6 +243,7 @@ header a{
     margin: 0 auto;
     background-image: url(./Teachers.jpg);
     background-position: center;
+    background-size: cover;
     padding: 20px 0;   
     flex: 1;
 }
