@@ -39,7 +39,7 @@ header .nav-link{
 }
 
 header .nav-link:hover{
-    border-bottom: #F1C232 solid 5px; 
+    border-bottom: #F1C232 solid 4px; 
 }
 
 header .nav-links{
@@ -85,6 +85,7 @@ header a{
 
 .section-bh{
     max-width: 1000px;
+    height: 200px;
     margin: 0 auto;
     background-image: url(./5q92mjc5c51bjlwaj3rs9aa82.svg);
     background-repeat: no-repeat;
@@ -121,6 +122,19 @@ header a{
 .section-pa{
     max-width: 1000px;
     margin: 0 auto;
+    display: flex;
+    flex: 1;
+}
+
+.section-pa .pa-image img{
+    width: 500px;
+    height: 600px;
+    background-image: url(./Mr.Eddie.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 5%;
     flex: 1;
 }
 
@@ -138,10 +152,12 @@ header a{
 
 .section-pa .button1{
     width: 120px;
-    height: 40px;
+    height: 60px;
     background-color: #F1C232;
     text-decoration: none;
     justify-content: center;
+    border-radius: 5%;
+    flex: 1;
 }
 
 .section-ps{
@@ -184,6 +200,7 @@ header a{
 .section-pb{
     max-width: 1000px;
     margin: 0 auto;
+    display: block;
     flex: 1;
 }
 
@@ -200,6 +217,26 @@ header a{
     border: 2px solid #F1C232;
     border-radius: 5%;
     text-decoration: none;
+}
+
+.section-pb .pb-image{
+    max-width: 600px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5%; 
+    padding: 20px 0;   
+    flex: 1;
+}
+
+.section-pi .pi-image{
+    max-width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(Teachers.jpg);
+    background-position: center;
+    padding: 20px 0;   
+    flex: 1;
 }
 
 .footer{
