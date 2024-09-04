@@ -85,7 +85,7 @@ header a{
 
 .section-bh{
     max-width: 1000px;
-    height: 200px;
+    height: 300px;
     margin: 0 auto;
     background-image: url(./5q92mjc5c51bjlwaj3rs9aa82.svg);
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@ header a{
 }
 
 .section-bh .title-name{
-    font-size: xx-large;
+    font-size: 300%;
     color: white;
     text-align: center;
 }
@@ -123,6 +123,7 @@ header a{
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
+    background-color: white;
     flex: 1;
 }
 
@@ -162,6 +163,7 @@ header a{
 
 .section-ps{
     max-width: 1000px;
+    height: auto;
     margin: 0 auto;
     display: flex;
     flex: 1;
@@ -169,32 +171,39 @@ header a{
 
 .section-ps .score1{
     color: #F1C232;
+    font-size: 400%;
     list-style: none;
+    text-align: center;
 }
 
 .section-ps .score2{
     color: #016A7D;
+    font-size: 400%;
     list-style: none;
+    text-align: center;
 }
 
 .section-ps .info-score{
     list-style: none;
+    text-align: center;
 }
 
 .section-pw{
     max-width: 1000px;
+    height: auto;
     margin: 0 auto;
     background-image: url(./pngtree-simple-yellow-background-pasta-machine-psd-layered-master-map-background-material-image_128498.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    padding: 20px 0;   
+    padding: 20px 10px;   
     flex: 1;
 }
 
 .section-pw p{
     text-align: center;
+    font-size: 250%;
 }
 
 .section-pb{
@@ -203,6 +212,7 @@ header a{
     display: block;
     flex: 1;
     display: flex;
+    background-color: white;
 }
 
 .section-pb-docs .section-pb-doc{
