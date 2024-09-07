@@ -101,6 +101,7 @@ header a{
     list-style: none;
     align-items: center;
     justify-content: space-between;
+    line-height: 400%;
 }
 
 .section-bh .welcome{
@@ -166,6 +167,8 @@ header a{
     height: auto;
     margin: 0 auto;
     display: flex;
+    text-align: center;
+    line-height: 400%;
     flex: 1;
 }
 
@@ -213,6 +216,7 @@ header a{
     flex: 1;
     display: flex;
     background-color: white;
+    line-height: 200%;
 }
 
 .section-pb-docs .section-pb-doc{
