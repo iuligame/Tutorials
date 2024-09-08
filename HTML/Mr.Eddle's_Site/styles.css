@@ -168,6 +168,7 @@ header a{
     margin: 0 auto;
     display: flex;
     text-align: center;
+    justify-content: space-around;
     line-height: 400%;
     flex: 1;
 }
@@ -177,6 +178,8 @@ header a{
     font-size: 400%;
     list-style: none;
     text-align: center;
+    position: relative;
+    top: 10px;
 }
 
 .section-ps .score2{
@@ -184,11 +187,15 @@ header a{
     font-size: 400%;
     list-style: none;
     text-align: center;
+    position: relative;
+    top: 10px;
 }
 
 .section-ps .info-score{
     list-style: none;
     text-align: center;
+    position: relative;
+    top: 10px;
 }
 
 .section-pw{
@@ -217,6 +224,7 @@ header a{
     display: flex;
     background-color: white;
     line-height: 200%;
+    flex-direction: column;
 }
 
 .section-pb-docs .section-pb-doc{
@@ -244,10 +252,11 @@ header a{
 }
 
 .section-pb .section-pb-docs .section-pb-doc .pb-image{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     background-image: url(./Online_teaching.jpg);
     background-size: cover;
+    background-position: left;
     border-radius: 5%;
 }
 
@@ -267,6 +276,12 @@ header a{
     margin: 0 auto;
     display: flex;
     flex: 1;
+}
+
+.footer .span{
+    color: darkgray;
+    position: relative;
+    top: 20px;
 }
 
 .footer a{
