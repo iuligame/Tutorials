@@ -219,12 +219,21 @@ header a{
 .section-pb{
     max-width: 1000px;
     margin: 0 auto;
-    display: block;
+    display: flex;
     flex: 1;
     display: flex;
     background-color: white;
     line-height: 200%;
-    flex-direction: column;
+    list-style: none;
+}
+
+.section-pb-doc img{
+    width: 350px;
+    height: 350px;
+    border-radius: 5%;
+    position: relative;
+    top: 25px;
+    right: 20px;
 }
 
 .section-pb-docs .section-pb-doc{
