@@ -71,7 +71,7 @@ h1{
     font-size: 1rem;
 }
 
-/* Stilizarea pozitiilor: stilizarea, relative, absolute, fixe*/
+/* Stilizarea pozitiilor: stabilitate, relative, absolute, fixe, lipite*/
 .section_2{
     background-color: bisque;
     height: 100em;
@@ -94,8 +94,31 @@ h1{
 }
 
 .block3{
+    top: 1em;
+    left: 1em;
+    position: sticky;
     background-color: cadetblue;
     width: 10em;
     height: 10em;
 }
 
+#myBtn:hover{
+    background-color: aqua;
+}
+
+button:nth-child(3){
+    background-color: red;
+}
+
+#MyInput::placeholder{
+    color:red;
+    font-size: 0,7em;
+}
+
+#myTitle{
+    color: black;
+}
+
+#MyTitle::after{
+    content: "mama";
+}
