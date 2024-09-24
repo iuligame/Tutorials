@@ -1,0 +1,101 @@
+/* Acesta este un comentariu */
+
+/* Fiecare selector in parte au cate o specificare */
+/* selectia unui element */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    /* Modurile de stilzare a culorilor */
+
+    /*
+    R G B -  culorile de baza => Rosu, Verde, Albastru sau
+    0, 1, 2, ... 9 + a, b, c, d, e, f sau 0 ... 255 
+    
+    16 milioane de culori
+    256 x 256 x 256
+
+    sau
+
+    00 00 00
+
+    */
+    color: red;
+    color: #00FF00;
+    color: rgb(255, 255, 000);
+}
+/* selectia unei clasei */
+.title{
+    color: blue;
+}
+
+/* selactia unei id */
+#fourth-title{
+    color: green;
+    color: #3322ff;
+}
+
+#second-title{
+    color: aqua;
+}
+
+.container{
+    /* Marimea backaground-ului de culoare */
+    /* Unitatiile de masura pentru dimensiuni: px, em, rem, % */
+    /* 1rem = 16px */
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px;
+    font-size:  0.5em;
+}
+
+/*Stilizarea marimiilor textului si a formerlor*/
+.contained{
+    width: 50%;
+    height: 50px;
+    border: 3px solid black;
+}
+
+.main-title{
+    color: black;
+    font-size: 15px;
+}
+
+.secondary-title{
+    color: black;
+    font-size: 1rem;
+}
+
+/* Stilizarea pozitiilor: stilizarea, relative, absolute, fixe*/
+.section_2{
+    background-color: bisque;
+    height: 100em;
+}
+
+.block1{
+    position: relative;
+    background-color: aquamarine;
+    left: 10em;
+    width: 10em;
+    height: 10em;
+}
+
+.block2{
+    position: fixed;
+    background-color: brown;
+    left: 10em;
+    width: 10em;
+    height: 10em;
+}
+
+.block3{
+    background-color: cadetblue;
+    width: 10em;
+    height: 10em;
+}
+
