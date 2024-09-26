@@ -1,1 +1,1 @@
-alert('Acesta este fisierul script');
+alert('Scripul a rulat');
