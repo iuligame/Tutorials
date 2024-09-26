@@ -1,0 +1,1 @@
+alert('Acesta este fisierul script');
