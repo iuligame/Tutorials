@@ -85,11 +85,11 @@ hobbies.filter;
 const price = prices [3];
 console.log(prices[2]);
 
-const persons = [person1, person2];
-const people = [{id: 1, age: 35, email: "person@email.com"},
-    {id: 2, age: 25, email: "anotherpersons@email.com"}];
+// const persons = [person1, person2];
+// const people = [{id: 1, age: 35, email: "person@email.com"},
+//     {id: 2, age: 25, email: "anotherpersons@email.com"}];
 
-console.log(people);
+// console.log(people);
 
 // Operators
 
@@ -145,4 +145,83 @@ mySecondNumber *= 5;
 console.log("My Number: " + mySecondNumber);
 
 
+const age = 15;
 
+// conditii
+// if/else
+if(age < 18){
+    console.log("You are under aged.");
+} else {
+    console.log("You are an adult.");
+}
+
+// for loop
+const people = ["Bogdan", "Mihai", "Andreea", "Ovidiu"];
+
+for(i=people.length - 1; i>=0; i--){
+    console.log(people[i]);
+}
+
+// // while
+
+let number = 1000;
+
+// while(number <= 10){
+//     console.log(number);
+//     number++;
+// }
+
+// // do while
+
+// do {
+//     console.log(number);
+//     number++;
+// }while(number <= 10)
+
+// switch
+switch(number){
+    case 1:
+        console.log("Number este 1");
+        break;
+    case 2:
+        console.log("Number este 2");
+        break;
+    default:
+        console.log("Default este defapt: " + number);
+}
+
+// Catch Error
+try{
+    if(number === 1){
+        console.log("Number are valoarea 1");
+    }
+}catch(error){
+    console.log("Something happend: " + error.message);
+}finally{
+    console.log("Finally a fost executat.");
+}
+
+// Fuction
+function displayMyName(myName, age, email){
+    console.log("My name is: "+ myName);
+    console.log("My age is: " + age);
+    console.log("My email adress is: " + email);
+}
+
+function function1(anotherFunction){
+    anotherFunction();
+}
+
+// function1(function(){
+//     console.log("Functia a fost executata");
+// })
+
+displayMyName("Ovidiu");
+
+// Funtion Array
+
+function1(() => console.log("Funtia a fost executata"));
+
+((myName) => {
+    console.log(myName);
+})();
