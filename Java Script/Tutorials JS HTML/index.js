@@ -225,3 +225,19 @@ function1(() => console.log("Funtia a fost executata"));
 ((myName) => {
     console.log(myName);
 })();
+
+// Class and objects
+
+class Person{
+    constructor(firstName, lastName, dateOfBirth){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.dateOfBirth = dateOfBirth;
+    }
+    calculateAge(){
+        return new Date().getFullYear() - this.dateOfBirth.getFullYear();
+    }
+}
+
+var p = new Person("Mihai", "Popescu", new Date("11-11-1985"));
+console.log(p.calculateAge());
