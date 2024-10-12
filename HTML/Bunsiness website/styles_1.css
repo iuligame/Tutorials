@@ -1,0 +1,63 @@
+html{
+    background-color: #d9d9d9;
+}
+
+.nav-links{
+    padding: 5px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.nav-link{
+    margin: 5px;
+    width: 250px;
+    height: 50px;
+    background-color: #f2f2f2;
+    text-align: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 15px;
+}
+
+.section-titles-banner{
+    margin: 10px;
+    padding: 10px;
+    width: 800px;
+    height: 525px;
+    background-image: url(./download.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 1;
+}
+
+.section-title-banner{
+    position: relative;
+    top: 150px;
+    left: 75px;
+}
+
+.section-title-banner h1{
+    color: white;
+}
+
+.section-title-banner p{
+    color: white;
+    
+}
+
+.section-title-banner a{
+    width: 100px;
+    height: 50px;
+    background-color:#f2f2f2;
+    text-decoration: #f2f2f2;
+    border: solid, 2px, black;
+    color: black;
+}
