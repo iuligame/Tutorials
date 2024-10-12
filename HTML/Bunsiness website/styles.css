@@ -1,8 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #d9d9d9;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    background-color: #d9d9d9;
 }
 
 .nav-links{
@@ -22,6 +25,7 @@
     border: 0px;
     flex: 1;
 }
+
 
 .section-title-image{
     margin: 10px;
@@ -120,6 +124,10 @@
 
 .section-title-dev p{
     background-color: transparent;
+}
+
+.section-business{
+    flex: 1;
 }
 
 .section-business-texts{
