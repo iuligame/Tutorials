@@ -126,6 +126,11 @@ html{
     background-color: transparent;
 }
 
+.section-business-element{
+    display: flex;
+}
+
+
 .section-business{
     flex: 1;
 }
@@ -151,6 +156,7 @@ html{
 .section-business-text p{
     background-color: transparent;
 }
+
 
 .footer{
     width: 1000px;
