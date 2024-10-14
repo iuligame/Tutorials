@@ -17,7 +17,7 @@ html{
 
 .nav-link{
     margin: 5px;
-    background-color: #f2f2f2;
+    background-color: #dddddd;
     text-align: center;
     justify-content: center;
     box-shadow: 1px 1px 5px black;
@@ -27,6 +27,7 @@ html{
 .nav-link a{
     width: 100%;
     padding: 20px;
+    font-size: 30px;
     display: inline-block;
     text-decoration: none;
     color: black;
@@ -56,53 +57,68 @@ html{
 
 
 .section-title-banner h1{
+    font-size: 90px;
     color: white;
 }
 
 .section-title-banner p{
+    font-size: 30px;
     color: white;
     
 }
 
 .section-title-banner a{
-    width: 100px;
-    height: 50px;
-    background-color:#f2f2f2;
+    padding: 2px;
+    width: 200px;
+    height: 100px;
+    background-color: #333;
     text-decoration: #f2f2f2;
     border: solid, 2px, black;
-    color: black;
+    color: #f2f2f2;
+    font-size: 30px;
 }
 
-.section-boxs{
+.section-title-banner a.hover{
+    color: white;
+    background-color: #333;
+}
+
+.section-prices{
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
-.section-box{
+.section-price{
     margin: 8px;
     padding: 8px;
-    height: 200px;
-    background-color: white;
+    height: 300px;
+    background-color: #dddddd;
     justify-content: space-around;
     display: flex;
+    box-shadow: 1px 1px 5px black;
     flex-direction: column;
 }
 
-.section-box .text{
+.section-price .text{
     text-align: center;
     font-size: 20px;
     margin: 0;
+    font-size: 50px;
 }
 
-.section-box .text a{
+.section-price .text b{
+    font-size: 70px;
+}
+
+.section-price .text a{
     padding: 10px;
     text-decoration: none;
     background-color: #333;
     color: white;
 }
 
-.section-box .text a:hover{
+.section-price .text a.hover{
     background-color: #667;
 }
 
