@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    background-color: #d9d9d9;
+}
+
+.nav-links{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    flex: 1;
+}
+
+.nav-link{
+    background-color: #f2f2f2;
+    font-size: 25px;
+    width: 290px;
+    height: 50px;
+    border: 0px;
+    flex: 1;
+}
+
+
+.section-title-image{
+    margin: 10px;
+    padding: 10px;
+    width: 800px;
+    height: 525px;
+    background-image: url(./img/download.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 1;
+}
+
+.title{
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    top: 180px;
+    background-color: transparent;
+    color: white;
+}
+
+.slogan{
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    position: absolute;
+    top: 440px;
+    background-color: transparent;
+    color: white;
+}
+
+.info{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 490px;
+}
+
+.section-title{
+    display: flex;
+    flex: 1;
+}
+
+.section-title-block{
+    flex: 1;
+}
+
+.section-title-button{
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    list-style: none;
+    position: relative;
+    bottom: 200px;
+    flex: 1;
+}
+
+.section-title-button .title{
+    height: 100px;
+    background-color: white;
+    flex: 1;
+}
+
+.section-title-button .title p{
+    color: black;
+    background-color: white;
+}
+
+.section-title-button .title a{
+    color: black;
+    background-color: white;
+}
+
+.section-titles-dev{
+    list-style: none;
+    display: flex;
+}
+
+.section-title-dev{
+    margin: 2%;
+    padding: 2%;
+    width: 500px;
+    height: 200px;
+    background-color: #f2f2f2;
+    position: relative;
+    top: 0px;
+}
+
+.section-titles-dev h2{
+    font-size: 45px;
+    background-color: transparent;
+    position: relative;
+}
+
+.section-title-dev p{
+    background-color: transparent;
+}
+
+.section-business-element{
+    display: flex;
+}
+
+
+.section-business{
+    flex: 1;
+}
+
+.section-business-texts{
+    width: 100%;
+    height: 500px;
+    background-color: #f2f2f2;
+    flex: 1;
+}
+
+.section-business-text{
+    background-color: transparent;
+    position: relative;
+    top: 250px;
+    flex: 1;
+}
+
+.section-business-text h1{
+    background-color: transparent;
+}
+
+.section-business-text p{
+    background-color: transparent;
+}
+
+
+.footer{
+    width: 1000px;
+    height: 60px;
+    background-color: #333;
+    align-items: center;
+    position: relative;
+    left: 150px;
+    flex: 1;
+}
+
+.footer span{
+    background-color: transparent;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 500px;
+}
+
+
+
+
