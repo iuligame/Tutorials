@@ -24,7 +24,7 @@ html{
     flex: 1;
 }
 
-.nav-link a{
+.nav-link a {
     width: 100%;
     padding: 20px;
     display: inline-block;
