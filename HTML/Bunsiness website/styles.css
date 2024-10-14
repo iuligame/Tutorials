@@ -35,7 +35,7 @@ html{
 
 .nav-link a:hover{
     color: white;
-    background-color: #333;
+    background-color: #667;
 }
 
 .section-title{
@@ -68,14 +68,14 @@ html{
 }
 
 .section-title-banner a{
-    padding: 2px;
-    width: 200px;
-    height: 100px;
+    padding: 0.6rem 1.3rem;
+    width: 100px;
+    height: 200px;
     background-color: #333;
     text-decoration: #f2f2f2;
-    border: solid, 2px, black;
+    border: solid, 2px, #333;
     color: #f2f2f2;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .section-title-banner a.hover{
@@ -121,5 +121,7 @@ html{
 .section-price .text a.hover{
     background-color: #667;
 }
+
+
 
 
