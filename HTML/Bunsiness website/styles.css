@@ -122,6 +122,58 @@ html{
     background-color: #667;
 }
 
+.section-boxes{
+    display: flex;
+}
 
+.box{
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 350px;
+    box-shadow: 1px 1px 5px black;
+    background-color: #dddddd;
+    flex: 1;
+}
+
+.box img{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 70px;
+    
+}
+
+.box h2{
+    text-align: center;
+}
+
+.box p{
+    text-align: center;
+}
+
+.info-box{
+    width: 1000px;
+    height: 500px;
+    background-color: #d9d9d9;
+}
+
+.section-infos{
+    width: 1000px;
+    height: 500px;
+    background-color: #d9d9d9;
+}
+
+.section-info  a{
+    padding: 0.6rem 1.3rem;
+    width: 100px;
+    height: 200px;
+    background-color: #333;
+    text-decoration: #f2f2f2;
+    border: solid, 2px, #333;
+    color: #f2f2f2;
+    font-size: 40px;
+}
 
 
