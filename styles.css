@@ -103,13 +103,13 @@ p a{
 
 }
 
-.vertical_menu {
+.vertical_menu{
     width: 200px;
     display: inline-block;
     vertical-align: middle;
 }
 
-.vertical_menu a {
+.vertical_menu a{
     background-color:  #f9cc6e;
     color: #ea776a;
     display: block;
@@ -117,12 +117,12 @@ p a{
     text-decoration: none;
 }
 
-.vertical_menu a:hover {
+.vertical_menu a:hover{
     background-color: #ea776a;
     color:  #f9cc6e;
 }
 
-.vertical_menu a.active {
+.vertical_menu a.active{
     background-color: #ea776a;
     color:  #f9cc6e;
 }
