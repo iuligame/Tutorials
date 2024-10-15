@@ -160,6 +160,7 @@ html{
     width: 1000px;
     height: 500px;
     background-color: #d9d9d9;
+    flex: 1;
 }
 
 .section-infos{
