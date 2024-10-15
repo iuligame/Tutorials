@@ -139,6 +139,10 @@ html{
     flex: 1;
 }
 
+.box p{
+    text-align: center;
+}
+
 .box img{
     margin: 10px;
     width: 100px;
