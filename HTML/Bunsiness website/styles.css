@@ -43,8 +43,8 @@ html{
 }
 
 .section-titles-banners{
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
+    padding: 20px;
     background-image: url(./img/download.avif);
     background-position: center;
     background-repeat: no-repeat;
