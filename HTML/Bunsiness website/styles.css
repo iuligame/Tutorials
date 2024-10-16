@@ -182,6 +182,14 @@ html{
     justify-content: space-evenly;
 }
 
+.section-text h2{
+    font-size: 40px;
+}
+
+.section-text p{
+    font-size: 25px;
+}
+
 .section-text a{
     padding: 0.6rem 1.3rem;
     width: 100px;
@@ -193,5 +201,6 @@ html{
     font-size: 40px;
     box-shadow: 1px 1px 5px black;
 }
+
 
 
