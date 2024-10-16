@@ -83,7 +83,7 @@ header .header-right a {
   font-size: small;
 }
 
-header .header-right a:hover {
+header .header-right a:hover{
   background-color: blue;
 }
 
