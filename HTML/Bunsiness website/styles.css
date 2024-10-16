@@ -166,12 +166,20 @@ html{
     display: flex;
     background-color: #dddddd;
     box-shadow: 1px 1px 5px black;
+}
 
+.info-box{
+    display: flex;
 }
 
 .img-info{
     margin: 50px;
     height: 300px;
+}
+
+.sections-info-text{
+    margin: 10px;
+    justify-content: space-between;
 }
 
 .section-info-text a{
