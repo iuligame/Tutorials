@@ -177,12 +177,12 @@ html{
     height: 300px;
 }
 
-.sections-info-text{
+.sections-text{
     margin: 10px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-.section-info-text a{
+.section-text a{
     padding: 0.6rem 1.3rem;
     width: 100px;
     height: 200px;
