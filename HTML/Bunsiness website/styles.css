@@ -43,8 +43,7 @@ html{
 }
 
 .section-titles-banners{
-    margin: 10px;
-    padding: 10px;
+    margin: 20px;
     background-image: url(./img/download.avif);
     background-position: center;
     background-repeat: no-repeat;
@@ -94,7 +93,7 @@ html{
 .section-price{
     margin: 8px;
     padding: 8px;
-    height: 300px;
+    height: 260px;
     background-color: #ddd;
     justify-content: space-evenly;
     display: flex;
