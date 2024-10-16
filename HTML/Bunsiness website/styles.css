@@ -202,5 +202,25 @@ html{
     box-shadow: 1px 1px 5px black;
 }
 
+.footer{
+    margin: 20px;
+    padding: 20px;
+    width: 1000px;
+    height: 80px;
+    background-color: #333;
+    box-shadow: 1px 1px 5px black;
+    justify-content: center;
+    flex: 1;
+}
+
+.footer div{
+    text-align: center;
+    align-items: center;
+}
+
+.footer span{
+    background-color: transparent;
+    color: white;
+}
 
 
