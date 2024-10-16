@@ -216,10 +216,10 @@ html{
 .footer div{
     text-align: center;
     align-items: center;
+    box-shadow: 1px 1px 5px black;
 }
 
 .footer span{
-    background-color: transparent;
     color: white;
 }
 
