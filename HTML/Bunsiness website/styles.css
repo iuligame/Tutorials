@@ -138,6 +138,11 @@ html{
     flex: 1;
 }
 
+.box a{
+    text-decoration: none;
+    color: black;
+}
+
 .box p{
     text-align: center;
 }
@@ -146,7 +151,6 @@ html{
     margin: 10px;
     width: 100px;
     height: 100px;
-    
 }
 
 .box h2{
@@ -175,6 +179,7 @@ html{
 .img-info{
     margin: 50px;
     height: 300px;
+    box-shadow: 1px 1px 5px black;
 }
 
 .sections-text{
@@ -216,7 +221,10 @@ html{
 .footer div{
     text-align: center;
     align-items: center;
-    box-shadow: 1px 1px 5px black;
+}
+
+.footer a{
+    text-decoration: none;
 }
 
 .footer span{
