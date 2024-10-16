@@ -218,17 +218,16 @@ html{
     flex: 1;
 }
 
-.footer div{
+.footer .footer-span{
+    justify-content: center;
     text-align: center;
-    align-items: center;
 }
 
 .footer a{
     text-decoration: none;
-}
-
-.footer span{
     color: white;
 }
+
+
 
 
