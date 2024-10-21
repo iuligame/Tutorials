@@ -1,5 +1,5 @@
-header .logo{
-    width: 1000px;
-    height: 500px;
-    background-color: black;
+div{
+    background-image: url("minecraft.svg");
+    width: 500px;
+    height: 600px;
 }
