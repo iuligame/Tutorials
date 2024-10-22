@@ -1,5 +1,13 @@
-div{
-    background-image: url("minecraft.svg");
-    width: 500px;
-    height: 600px;
+.logo{
+    background-image: url("./img/minecraft_1.svg");
+}
+
+.navlinks{
+    list-style: none;
+    display: flex;
+}
+
+.navlink a{
+    text-decoration: none;
+    color: black;
 }
