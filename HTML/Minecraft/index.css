@@ -11,6 +11,7 @@
     background-color: black;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
 }
 
 .logo{
