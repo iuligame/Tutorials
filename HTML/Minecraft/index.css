@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
 }
 
 .header{
@@ -36,16 +38,42 @@
 
 .section-images{
     height: 1100px;
-    background-color: black;
-    color: white;
-    position: relative;
-    top: 100px;
 }
 
 .box{
-    margin: 20px;
-    padding: 20px;
-    Width: 200px;
-    height: 200px;
-    background-color: black;
+    Width: 100%;
+    height: 100%;
+    margin-left: 100px;
+}
+
+.image-1{
+    width: 100%;
+    height: 900px;
+    background-image: url("./Homepage_Hero-A-0_Fall-Game-Drop_1080x1080.avif");
+    background-repeat: no-repeat;
+    margin-left: 100px;
+}
+
+.image-2{
+    width: 100%;
+    height: 900px;
+    background-image: url("./Homepage_Hero-A-0_Marketplace-Pass_1080x1080_01.jpg");
+    background-repeat: no-repeat;
+    margin-left: 100px;
+}
+
+.image-3{
+    width: 100%;
+    height: 900px;
+    background-image: url("./Homepage_Hero_Realms_1080x1080_01.jpg");
+    background-repeat: no-repeat;
+    margin-left: 100px;
+}
+
+.image-4{
+    width: 100%;
+    height: 900px;
+    background-image: url("./Homepage_Hero_Tips-for-Beginners_1080x1080_01.avif");
+    background-repeat: no-repeat;
+    margin-left: 100px;
 }
