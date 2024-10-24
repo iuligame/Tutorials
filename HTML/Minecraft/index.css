@@ -31,6 +31,21 @@
 }
 
 .navlink a:hover{
-    color: green;
-    
+    color: green;   
+}
+
+.section-images{
+    height: 0px;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 100px;
+}
+
+.box{
+    margin: 20px;
+    padding: 20px;
+    Width: 200px;
+    height: 200px;
+    background-color: black;
 }
