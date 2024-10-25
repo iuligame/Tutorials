@@ -69,6 +69,8 @@
     background-image: url("./Homepage_Hero-A-0_Marketplace-Pass_1080x1080_01.jpg");
     background-repeat: no-repeat;
     margin-left: 100px;
+    position: relative;
+    bottom: 100px;
 }
 
 .image-3{
