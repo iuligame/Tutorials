@@ -41,21 +41,27 @@
 }
 
 .box{
-    Width: 100%;
-    height: 100%;
+    Width: 200px;
+    height: 200px;
     margin-left: 100px;
+    position: relative;
+    bottom: 50px;
+    left: 20px;
 }
 
 .box .images{
     list-style: none;
     display: flex;
+    position: relative;
+    left: 250px;
+    bottom: 110px;
 }
 
 .box .images .image:hover{
     border: solid, 5px, green;
 }
 
-.image-1{
+.announcement{
     width: 100%;
     height: 900px;
     background-image: url("./Homepage_Hero-A-0_Fall-Game-Drop_1080x1080.avif");
@@ -63,7 +69,7 @@
     margin-left: 100px;
 }
 
-.image-2{
+/* .image-2{
     width: 100%;
     height: 900px;
     background-image: url("./Homepage_Hero-A-0_Marketplace-Pass_1080x1080_01.jpg");
@@ -87,4 +93,4 @@
     background-image: url("./Homepage_Hero_Tips-for-Beginners_1080x1080_01.avif");
     background-repeat: no-repeat;
     margin-left: 100px;
-}
+} */
