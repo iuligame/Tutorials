@@ -46,6 +46,15 @@
     margin-left: 100px;
 }
 
+.box .images{
+    list-style: none;
+    display: flex;
+}
+
+.box .images .image:hover{
+    border: solid, 5px, green;
+}
+
 .image-1{
     width: 100%;
     height: 900px;
