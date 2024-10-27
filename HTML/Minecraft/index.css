@@ -62,7 +62,7 @@
 }
 
 .announcement{
-    width: 100%;
+    width: auto;
     height: 900px;
     background-image: url("./Homepage_Hero-A-0_Fall-Game-Drop_1080x1080.avif");
     background-repeat: no-repeat;
