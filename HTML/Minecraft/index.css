@@ -69,7 +69,20 @@
     margin-left: 100px;
 }
 
+.card-game{
+    margin: 20px;
+    width: 1000px;
+    border: 2px, solid, white;
+    display: flex;
+}
+
 .card-game ul{
     display: flex;
     list-style: none;
 }
+
+.card-game img{
+    justify-content: center;
+}
+
+.game-elements
