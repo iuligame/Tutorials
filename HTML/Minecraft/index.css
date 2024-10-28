@@ -69,20 +69,13 @@
     margin-left: 100px;
 }
 
-.card-game{
-    margin: 20px;
-    width: 1000px;
-    border: 2px, solid, white;
-    display: flex;
-}
-
-.card-game ul{
-    display: flex;
-    list-style: none;
-}
-
-.card-game img{
+.game-elements{
     justify-content: center;
+    width: 500px;
+    border: white solid 2px;
 }
 
-.game-elements
+.game-icons{
+    list-style: none;
+    display: flex;
+}
