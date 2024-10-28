@@ -71,9 +71,10 @@
 
 
 .game-elements{
+    margin: 20px;
     justify-content: center;
+    list-style: none;
     width: 500px;
-    border: white solid 2px;
 }
 
 .game-icons{
