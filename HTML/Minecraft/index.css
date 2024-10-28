@@ -68,3 +68,8 @@
     background-repeat: no-repeat;
     margin-left: 100px;
 }
+
+.card-game ul{
+    display: flex;
+    list-style: none;
+}
