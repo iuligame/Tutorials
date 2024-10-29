@@ -62,24 +62,53 @@
 }
 
 .announcement{
-    width: auto;
+    width: 100%;
     height: 900px;
+    margin: 20px;
     background-image: url("./Homepage_Hero-A-0_Fall-Game-Drop_1080x1080.avif");
     background-repeat: no-repeat;
     margin-left: 100px;
 }
 
-
-.game-elements{
+.section-games{
     margin: 20px;
     justify-content: center;
-    list-style: none;
-    width: 500px;
+}
+
+.games-boxes{
+    display: flex;
+}
+
+.game-image{
+    justify-content: center;
+}
+
+.game-image .poster{
+    justify-content: center;
+    margin: 10px;
+}
+
+.section-games h1{
+    text-align: center;
+}
+
+.game-details{
+    margin: 10px;
+}
+
+.game-details h2{
+    text-decoration: none;
+}
+
+.game-details p{
+    text-decoration: none;
 }
 
 .game-icons{
-    list-style: none;
     display: flex;
-    margin: 20px;
-    border-top: gray solid 2px;
+    margin: 10px;
+}
+
+.game-icon{
+    list-style: none;
 }
