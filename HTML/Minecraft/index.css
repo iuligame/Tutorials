@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: #171615;
     color: white;
 }
 
@@ -10,7 +10,7 @@
     display: flex;
     width: 100%;
     height: 100px;
-    background-color: black;
+    background-color: rgba(38, 36, 35, .9);
     justify-content: space-around;
     align-items: center;
     position: fixed;
@@ -23,11 +23,10 @@
 .navlinks{
     list-style: none;
     display: flex;
+    justify-content: space-around;
 }
 
 .navlink a{
-    margin: 10px;
-    padding: 20px;
     text-decoration: none;
     color: white;
 }
@@ -71,7 +70,6 @@
 }
 
 .section-games{
-    margin: 20px;
     justify-content: center;
 }
 
@@ -94,10 +92,12 @@
 
 .game-details{
     margin: 10px;
+    justify-content: center;
 }
 
 .game-details h2{
     text-decoration: none;
+    j
 }
 
 .game-details p{
