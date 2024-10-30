@@ -27,6 +27,7 @@
 }
 
 .navlink a{
+    margin: 20px;
     text-decoration: none;
     color: white;
 }
@@ -63,7 +64,6 @@
 .announcement{
     width: 100%;
     height: 900px;
-    margin: 20px;
     background-image: url("./Homepage_Hero-A-0_Fall-Game-Drop_1080x1080.avif");
     background-repeat: no-repeat;
     margin-left: 100px;
