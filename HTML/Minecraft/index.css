@@ -16,6 +16,10 @@
     position: fixed;
 }
 
+.logo a{
+    background-color: rgba(38, 36, 35, .9);
+}
+
 .logo{
     background-image: url("./img/minecraft_1.svg");
 }
