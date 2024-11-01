@@ -6,6 +6,7 @@
     color: white;
 }
 
+
 .header{
     display: flex;
     width: 100%;
@@ -14,6 +15,11 @@
     justify-content: space-around;
     align-items: center;
     position: fixed;
+    top: 0px;
+}
+
+.header .link .img{
+    background-color: bisque;
 }
 
 .logo a{
@@ -21,7 +27,7 @@
 }
 
 .logo{
-    background-image: url("./img/minecraft_1.svg");
+    background-image: url("/img/minecraft_1.svg");
 }
 
 .navlinks{
@@ -30,23 +36,40 @@
     justify-content: space-around;
 }
 
+.navlink button{
+    width: 100px;
+    height: 50px;
+    background-color: rgba(38, 36, 35, .9);
+    border: none;
+}
+
+span{
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+}
+
 .navlink a{
     margin: 20px;
     text-decoration: none;
     color: white;
 }
 
-.navlink a:hover{
+.navlink button span:hover{
     color: green;   
 }
 
 .section-announcement{
-    height: 1100px;
+    margin: 100px;
+    justify-content: center;
+    width: 100%;
+    height: 1200px;
 }
 
 .box{
     Width: 200px;
     height: 200px;
+    margin: 20px;
     margin-left: 100px;
     position: relative;
     bottom: 50px;
@@ -65,16 +88,25 @@
     border: solid, 5px, green;
 }
 
-.announcement{
+.section-announcement-box{
     width: 100%;
+    height: 100%;
+    justify-content: center; 
+}
+
+.announcement{
+    width: 1000vw;
     height: 900px;
-    background-image: url("./Homepage_Hero-A-0_Fall-Game-Drop_1080x1080.avif");
+    background-image: url("img/Homepage_Hero-A-0_Fall-Game-Drop_1080x1080.avif");
     background-repeat: no-repeat;
+    background-position: left;
     margin-left: 100px;
+    justify-content: center;
 }
 
 .section-games{
     justify-content: center;
+
 }
 
 .games-boxes{
@@ -87,10 +119,11 @@
 
 .game-image .poster{
     justify-content: center;
-    margin: 10px;
+    margin: 20px;
 }
 
 .section-games h1{
+    margin: 40px;
     text-align: center;
 }
 
