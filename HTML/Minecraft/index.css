@@ -53,6 +53,7 @@ span{
     margin: 20px;
     text-decoration: none;
     color: white;
+    text-align: center;
 }
 
 .navlink button span:hover{
@@ -138,6 +139,7 @@ span{
 
 .game-details p{
     text-decoration: none;
+    border-bottom: 2px, solid, #171615;
 }
 
 .game-icons{
