@@ -6,17 +6,10 @@
     color: white;
 }
 
-
-
-@media screen and (max-width: 1200px){
-    body {
-        background-color: #171615;
-        flex: 1;
-    }    
-}
   
 .header {
     display: flex;
+    max-width: 200;
     width: 100%;
     height: 100px;
     justify-content: space-around;
@@ -117,6 +110,7 @@ span{
 
 .section-games{
     justify-content: center;
+    flex: 1;
 
 }
 
