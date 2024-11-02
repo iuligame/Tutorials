@@ -8,12 +8,13 @@
 
 
 
-body {
-    max-width: 1100px;
-    background-color: #171615;
-}    
-
-
+@media screen and (max-width: 1200px){
+    body {
+        background-color: #171615;
+        flex: 1;
+    }    
+}
+  
 .header {
     display: flex;
     width: 100%;
