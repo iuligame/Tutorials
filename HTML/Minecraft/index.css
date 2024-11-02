@@ -2,14 +2,14 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #171615;
+    background-color: rgba(38, 36, 35, .9);
     color: white;
 }
+
 
   
 .header {
     display: flex;
-    max-width: 200;
     width: 100%;
     height: 100px;
     justify-content: space-around;
@@ -23,11 +23,12 @@
 }
 
 .logo a{
-    background-color: rgba(38, 36, 35, .9);
+    background-color: #171615;
 }
 
 .logo{
-    background-image: url("/img/minecraft_1.svg");
+    background-image: url("img/minecraft_1.svg");
+    justify-content: center;
 }
 
 .navlinks{
@@ -41,7 +42,7 @@
     height: 50px;
     background-color: rgba(38, 36, 35, .9);
     border: none;
-    margin: 20px;
+    margin: 10px;
 }
 
 span{
