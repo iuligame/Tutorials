@@ -6,8 +6,6 @@
     color: white;
 }
 
-
-  
 .header {
     display: flex;
     width: 100%;
@@ -68,7 +66,6 @@ span{
     justify-content: center;
     width: 100%;
     height: 1200px;
-    
 }
 
 .box{
@@ -112,7 +109,6 @@ span{
 .section-games{
     justify-content: center;
     flex: 1;
-
 }
 
 .games-boxes{
@@ -160,4 +156,21 @@ span{
 
 .game-icon{
     list-style: none;
+}
+
+.gameplay-trialer h1{
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 50px;
+    margin: 40px;
+    text-align: center;
+} 
+
+.game-trailer-lists{
+   width: 100px;
+   height: 100px;
+}
+
+.game-trailer-lists button{
+    width: 100px;
+    height: 100px;
 }
