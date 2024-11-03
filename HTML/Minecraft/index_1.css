@@ -1,5 +1,7 @@
-header{
-    width: 100%;
-    height: 50px;
-    background-color: #171615;
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(38, 36, 35, .9);
 }
+
+
