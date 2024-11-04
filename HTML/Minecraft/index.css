@@ -175,4 +175,12 @@ span{
     height: 100px;
 }
 
+.news{
+    width: 100px;
+    height: 100px;
+    background-color: ;
+    display: flex;
+    list-style: none;    
+}
+
 
