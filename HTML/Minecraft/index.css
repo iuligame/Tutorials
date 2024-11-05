@@ -166,8 +166,8 @@ span{
 } 
 
 .game-trailer-lists{
-   width: 100px;
-   height: 100px;
+    width: 100px;
+    height: 100px;
 }
 
 .game-trailer-lists button{
@@ -175,12 +175,26 @@ span{
     height: 100px;
 }
 
+.section-news{
+    background-color: #262423;
+}
+
+.section-news h2{
+    text-align: center;
+    font-size: 100%;
+
+}
+
+.section-news a{
+    text-align: center;
+    text-decoration: none;
+    color: green;
+    
+}
+
 .news{
-    width: 100px;
-    height: 100px;
-    background-color: ;
     display: flex;
-    list-style: none;    
+    list-style: none;
 }
 
 
