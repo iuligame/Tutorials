@@ -36,6 +36,7 @@
 }
 
 .navlink button{
+    font-family: "Pixelify Sans", sans-serif;
     width: 100px;
     height: 50px;
     background-color: rgba(38, 36, 35, .9);
@@ -196,5 +197,7 @@ span{
     display: flex;
     list-style: none;
 }
+
+
 
 
