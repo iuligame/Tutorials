@@ -36,7 +36,7 @@
 }
 
 .navlink button{
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: 'Pixelify Sans'; 
     width: 100px;
     height: 50px;
     background-color: rgba(38, 36, 35, .9);
@@ -193,11 +193,18 @@ span{
     
 }
 
+.news-news{
+    width: 1000px;
+    height: 1000px;
+
+}
+
 .news{
     display: flex;
     list-style: none;
 }
 
-
-
-
+.new-box{
+    margin: 10px;
+    
+}
