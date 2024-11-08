@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Pixelify Sans';
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     background-color: rgba(38, 36, 35, .9);
     color: white;
 }
@@ -9,7 +9,6 @@
 body{
     margin: 0;
     padding: 0;
-    overflow-y: left;
 }
 
 .header{
@@ -27,11 +26,10 @@ body{
 }
 
 .logo a{
-    background-color: #171615;
+    background-color: rgba(38, 36, 35, .9);
 }
 
-.logo{
-    background-image: url("img/minecraft_1.svg");  
+.logo{ 
     justify-content: center;
 }
 
@@ -39,10 +37,11 @@ body{
     list-style: none;
     display: flex;
     justify-content: space-around;
+    
 }
 
 .navlink button{
-    font-family: 'Pixelify Sans'; 
+    font-family: 'Pixelify Sans';
     width: 100px;
     height: 50px;
     background-color: rgba(38, 36, 35, .9);
@@ -51,6 +50,7 @@ body{
 }
 
 span{
+    font-family: 'Pixelify Sans';
     width: 100px;
     height: 50px;
     background-color: transparent;
@@ -76,25 +76,26 @@ span{
 }
 
 .box{
-    Width: 400px;
-    height: 200px;
-    margin: 20px;
+    Width: 350px;
+    height: 350px;
+    margin: 25px;
     margin-left: 100px;
+    bottom: 70px;
+    right: 50px;
     position: relative;
-    bottom: 50px;
-    left: 20px;
 }
 
 .box h1{
     font-family: 'Pixelify Sans';
     font-size: 22px;
+
 }
 
 .box .images{
     list-style: none;
     display: flex;
     position: relative;
-    left: 250px;
+    left: 400px;
     bottom: 110px;
 }
 
