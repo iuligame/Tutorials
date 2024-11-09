@@ -74,29 +74,25 @@ span{
 }
 
 .navlink button span:hover{
-    color: green;   
+    color: #52A535;  
 }
 
 .section-announcement{
     width: 100%;
-    margin: 100px;
     justify-content: center;
-    height: 1200px;
 }
 
 .box{
     Width: 350px;
-    height: 350px;
-    margin: 25px;
     margin-left: 100px;
-    bottom: 70px;
-    right: 50px;
     position: relative;
+    right: 200px;
 }
 
 .box h1{
     font-family: 'Pixelify Sans';
     font-size: 22px;
+    text-decoration: none;
 
 }
 
@@ -109,7 +105,7 @@ span{
 }
 
 .box .images .image:hover{
-    border: solid, 5px, green;
+    border: solid, 5px, #52A535;
 }
 
 .section-announcement-box{
@@ -117,23 +113,34 @@ span{
     width: 100%;
     height: 100%;
     text-align: center;
+    position: relative;
 }
 
 .section-announcement-box button{
     width: 150px;
-    height: 50px;
-    background-color: green;
+    height: 40px;
+    background-color: #3C8527;
+    border-top: 5px solid #52A535;
+    border-bottom: 5px solid #2A641C;
+    border-left: 0;
+    border-right: 0;
+    position: relative;
+    right: 10px;
     
 }
 
 .announcement{
-    width: 1000vw;
+    width: 100%;
     height: 900px;
     background-image: url("img/Homepage_Hero-A-0_Fall-Game-Drop_1080x1080.avif");
     background-repeat: no-repeat;
     background-position: left;
+    max-width: 1080px;
+    max-height: 720px;
     margin-left: 100px;
     justify-content: center;
+    position: relative;
+    right: 180px;
 }
 
 .section-games{
