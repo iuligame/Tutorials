@@ -6,6 +6,15 @@
     color: white;
 }
 
+@font-face{
+    font-family: 'Pixelify Sans';
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/pixelifysans/v1/CHylV-3HFUT7aC4iv1TxGDR9JnkEi1lR.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -36,8 +45,7 @@ body{
 .navlinks{
     list-style: none;
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around;   
 }
 
 .navlink button{
@@ -56,6 +64,7 @@ span{
     background-color: transparent;
     justify-content: space-between;
 }
+
 
 .navlink a{
     margin: 20px;
@@ -150,7 +159,7 @@ span{
 }
 
 .section-games h1{
-    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-family: 'Pixelify Sans';
     font-size: 50px;
     margin: 40px;
     text-align: center;
@@ -180,7 +189,7 @@ span{
 }
 
 .gameplay-trialer h1{
-    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-family: 'Pixelify Sans';
     font-size: 50px;
     margin: 40px;
     text-align: center;
