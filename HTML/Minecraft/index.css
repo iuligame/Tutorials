@@ -1,8 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-    background-color: rgba(38, 36, 35, .9);
+}
+
+html{
+    background-color: #111;
     color: white;
 }
 
@@ -20,14 +24,27 @@ body{
     padding: 0;
 }
 
+a{
+    color: white;
+}
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
 .header{
-    display: flex;
     width: 100%;
     height: 100px;
-    justify-content: space-around;
-    align-items: center;
     position: fixed;
     top: 0px;
+    background-color: rgba(38,36,35,.9);
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header .link .img{
@@ -73,77 +90,78 @@ span{
     text-align: center;
 }
 
-.navlink button span:hover{
+.navlink a span:hover{
     color: #52A535;  
 }
 
 .section-announcement{
+    margin-top: 100px;
     width: 100%;
     justify-content: center;
 }
 
-.box{
-    Width: 400px;
-    margin-left: 100px;
-    position: relative;
-    right: 60px;
-}
-
-.box h1{
-    font-family: 'Pixelify Sans';
-    font-size: 22px;
-    text-decoration: none;
-
-}
-
-.box .images{
-    list-style: none;
-    display: flex;
-    position: relative;
-    left: 490px;
-    bottom: 110px;
-}
-
-.box .images .image:hover{
-    border: solid, 5px, #52A535;
-}
-
-.section-announcement-box{
-    margin: 100px;
+.announcement-image{
     width: 100%;
-    height: 100%;
-    text-align: center;
-    position: relative;
-    right: 40px;
+    height: 900px;
+    background-image: url("img/Homepage_Hero-A-1920_Fall-Game-Drop_2560x932.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
 }
 
-.section-announcement-box button{
-    width: 150px;
-    height: 40px;
-    margin-top: 10px;
+.announcement-box{
+    display: flex;
+}
+
+.announcement-box-main {
+    padding: 20px;
+    flex: 1;
+}
+
+.announcement-box p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+} 
+
+.announcement-box h1{
+    font-family: 'Pixelify Sans';
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.announcement-box .play-button, 
+.announcement-box .get-button {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.announcement-box .play-button{
     background-color: #3C8527;
     border-top: 5px solid #52A535;
     border-bottom: 5px solid #2A641C;
     border-left: 0;
     border-right: 0;
-    position: relative;
-    right: 20px;
-    
 }
 
-.announcement{
-    width: 100%;
-    height: 900px;
-    background-image: url("img/Homepage_Hero-A-0_Fall-Game-Drop_1080x1080.avif");
-    background-repeat: no-repeat;
-    background-position: left;
-    max-width: 1080px;
-    max-height: 720px;
-    margin-left: 100px;
-    justify-content: center;
-    position: relative;
-    left: 10px;
+
+.announcement-box-images {
+    flex: 2;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
+
+
+.announcement-box .image:hover img{
+    border: solid 5px #52A535;
+}
+
+.announcement-box .image a {
+    display: block;
+}
+
 
 .section-games{
     justify-content: center;
@@ -197,6 +215,10 @@ span{
     list-style: none;
 }
 
+.game-icon i {
+    font-size: 50px;
+}
+
 .gameplay-trialer h1{
     font-family: 'Pixelify Sans';
     font-size: 50px;
@@ -232,17 +254,19 @@ span{
 }
 
 .news-news{
-    width: 1000px;
-    height: 1000px;
 
 }
 
 .news{
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 .new-box{
     margin: 10px;
+}
 
+.new-box a {
+    display: block;
 }

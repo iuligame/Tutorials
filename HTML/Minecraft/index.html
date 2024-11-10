@@ -6,42 +6,45 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link  rel="stylesheet" href="./index.css">
         <title>Minecraft</title>
     </head>
     <body>
         <header class="header">
+            <div class="container">
                 <div class="logo">
                     <a href="#"><img src="img/download.svg" alt="Minecraft" height="90px" width="350px"></a>
                 </div>
                 <nav class="navbar">
                     <ul class="navlinks">
-                        <li class="navlink"><button href="#"><span>GAMES v</span></button></li>
-                        <li class="navlink"><button href="#"><span>SHOP v</span></button></li>
-                        <li class="navlink"><button href="#"><span>COMMUNITY v</span></button></li>
-                        <li class="navlink"><button href="#"><span>SUPPORT v</span></button></li>
+                        <li class="navlink"><a href="#"><span>GAMES v</span></a></li>
+                        <li class="navlink"><a href="#"><span>SHOP v</span></a></li>
+                        <li class="navlink"><a href="#"><span>COMMUNITY v</span></a></li>
+                        <li class="navlink"><a href="#"><span>SUPPORT v</span></a></li>
                     </ul>
                 </nav>
                 <ul class="navlinks">
-                    <li class="navlink"><button href="#"><span><img src="./img/download.jpg" width="20px" height="20px">SEARCH V</span></button></li>
-                    <li class="navlink"><button href="#"><span><img src="./img/lock.png" width="20px" hefght="20px">ACCOUNT V</span></button></li>
+                    <li class="navlink"><a href="#"><span><img src="./img/download.jpg" width="20px" height="20px">SEARCH V</span></a></li>
+                    <li class="navlink"><a href="#"><span><img src="./img/lock.png" width="20px" hefght="20px">ACCOUNT V</span></a></li>
                 </ul>
+            </div>
         </header>
         <section class="section-announcement">
-            <div class="section-announcement-box">
-                <div class="announcement"></div>
-                <div class="box">
+            <div class="announcement-image"></div>
+            <div class="announcement-box container">
+                <div class="announcement-box-main">
                     <h1>Bundles of Bravery</h1>
                     <p>Get ready to muster your courage and remaster your inventory, because bundles and Hardcore mode are finally here!</p>
-                    <button href="#">PLAY TODAY  ></button>
-                    <a href="#">GET MINECRAFT  -></a>
-                    <ul class="images">
-                        <li class="image"><a href="#"><img src="img/Homepage_Hero-A-0_Fall-Game-Drop_1080x1080.avif" alt="image-1" height="100px" width="200px"></a></li>
-                        <li class="image"><a href="#"><img src="img/Homepage_Hero-A-0_Marketplace-Pass_1080x1080_01.jpg" alt="image-2" height="100px" width="200px"></a></li>
-                        <li class="image"><a href="#"><img src="img/Homepage_Hero_Realms_1080x1080_01.jpg" alt="image-3" height="100px" width="200px"></a></li>
-                        <li class="image"><a href="#"><img src="img/Homepage_Hero_Tips-for-Beginners_1080x1080_01.avif" alt="image-4" height="100px" width="200px"></a></li>
-                    </ul>
+                    <a class="play-button" href="#">PLAY TODAY  ></a>
+                    <a class="get-button" href="#">GET MINECRAFT  -></a>
                 </div>
+                <ul class="announcement-box-images">
+                    <li class="image"><a href="#"><img src="img/Homepage_Hero-A-0_Fall-Game-Drop_1080x1080.avif" alt="image-1" height="100px" width="200px"></a></li>
+                    <li class="image"><a href="#"><img src="img/Homepage_Hero-A-0_Marketplace-Pass_1080x1080_01.jpg" alt="image-2" height="100px" width="200px"></a></li>
+                    <li class="image"><a href="#"><img src="img/Homepage_Hero_Realms_1080x1080_01.jpg" alt="image-3" height="100px" width="200px"></a></li>
+                    <li class="image"><a href="#"><img src="img/Homepage_Hero_Tips-for-Beginners_1080x1080_01.avif" alt="image-4" height="100px" width="200px"></a></li>
+                </ul>
             </div>
         </section>
         <section class="section-games">
@@ -55,15 +58,15 @@
                         <h2>MINECRAFT</h2>
                         <p>Sandbox Survival, Adventure Single Player + Multiplayer</p>
                         <ul class="game-icons">
-                            <li class="game-icon"><img src="img/windows.png" width="50px" height="50px"></li>
-                            <li class="game-icon"><img src="img/linux.png" width="50px" height="50px"></li>
-                            <li class="game-icon"><img src="img/xbox.png" width="50px" height="50px"></li>
-                            <li class="game-icon"><img src="img/playstation.png" width="50px" height="50px"></li>
+                            <li class="game-icon"><i class="fa-brands fa-windows" width="50px" height="50px"></i></li>
+                            <li class="game-icon"><i class="fa-brands fa-linux" width="50px" height="50px"></i></li>
+                            <li class="game-icon"><i class="fa-brands fa-xbox" width="50px" height="50px"></i></li>
+                            <li class="game-icon"><i class="fa-brands fa-playstation" width="50px" height="50px"></i></li>
                             <li class="game-icon"><img src="img/nintentdo-switch.png" width="50px" height="50px"></li>
-                            <li class="game-icon"><img src="img/apple.png" width="50px" height="50px"></li>
-                            <li class="game-icon"><img src="img/andruid.png" width="50px" height="50px"></li>
-                            <li class="game-icon"><img src="img/crome.png" width="50px" height="50px"></li>
-                            <li class="game-icon"><img src="img/Amazon-fire.webp" width="50px" height="50px"></li>
+                            <li class="game-icon"><i class="fa-brands fa-apple" width="50px" height="50px"></i></li>
+                            <li class="game-icon"><i class="fa-brands fa-android" width="50px" height="50px"></i></li>
+                            <li class="game-icon"><i class="fa-brands fa-chrome" width="50px" height="50px"></i></li>
+                            <li class="game-icon"><i class="fa-brands fa-amazon" width="50px" height="50px"></i></li>
                         </ul>
                     </div>
                 </a>
@@ -75,11 +78,11 @@
                         <h2>MINECRAFT DUNGEONS</h2>
                         <p>Dungeon Carwl, Action RPG Single-Player + Multiplayer</p>
                         <ul class="game-icons">
-                            <li class="game-icon"><img src="img/windows.png" width="50px" height="50px"></li>
-                            <li class="game-icon"><img src="img/xbox.png" width="50px" height="50px"></li>
-                            <li class="game-icon"><img src="img/playstation.png" width="50px" height="50px"></li>
+                            <li class="game-icon"><i class="fa-brands fa-windows" width="50px" height="50px"></i></li>
+                            <li class="game-icon"><i class="fa-brands fa-xbox" width="50px" height="50px"></i></li>
+                            <li class="game-icon"><i class="fa-brands fa-playstation" width="50px" height="50px"></i></li>
                             <li class="game-icon"><img src="img/nintentdo-switch.png" width="50px" height="50px"></li>
-                            <li class="game-icon"><img src="img/steam.png" width="50px" height="50px"></li>
+                            <li class="game-icon"><i class="fa-brands fa-steam" width="50px" height="50px"></i></li>
                         </ul>
                     </div>
                 </a>
@@ -91,11 +94,11 @@
                         <h2>MINECRAFT LEGENDS</h2>
                         <p>Action RPG, Strategy Single Player + Multiplayer</p>
                         <ul class="game-icons">
-                            <li class="game-icon"><img src="img/windows.png" width="50px" height="50px"></li>
-                            <li class="game-icon"><img src="img/xbox.png" width="50px" height="50px"></li>
-                            <li class="game-icon"><img src="img/playstation.png" width="50px" height="50px"></li>
-                            <li class="game-icon"><img src="img/nintentdo-switch.png" width="50px" height="50px"></li>
-                            <li class="game-icon"><img src="img/steam.png" width="50px" height="50px"></li>
+                            <li class="game-icon"><i class="fa-brands fa-windows" width="50px" height="50px"></i></li>
+                            <li class="game-icon"><i class="fa-brands fa-xbox" width="50px" height="50px"></i></li>
+                            <li class="game-icon"><i class="fa-brands fa-apple" width="50px" height="50px"></i></li>
+                            <li class="game-icon"><i class="fa-brands fa-android" width="50px" height="50px"></i></li>
+                            <li class="game-icon"><i class="fa-brands fa-steam" width="50px" height="50px"></i></li>
                         </ul>
                     </div>
                 </a>
@@ -107,10 +110,10 @@
                         <h2>MINECRAFT EDUCATION</h2>
                         <p>Education, Sandbox Survival, Adventure Single-player + Multiplayer</p>
                         <ul class="game-icons">
-                            <li class="game-icon"><img src="img/windows.png" width="50px" height="50px"></li>
-                            <li class="game-icon"><img src="img/apple.png" width="50px" height="50px"></li>
-                            <li class="game-icon"><img src="img/andruid.png" width="50px" height="50px"></li>
-                            <li class="game-icon"><img src="img/crome.png" width="50px" height="50px"></li>
+                            <li class="game-icon"><i class="fa-brands fa-windows" width="50px" height="50px"></i></li>
+                            <li class="game-icon"><i class="fa-brands fa-apple" width="50px" height="50px"></i></li>
+                            <li class="game-icon"><i class="fa-brands fa-android" width="50px" height="50px"></i></li>
+                            <li class="game-icon"><i class="fa-brands fa-chrome"></i>
                         </ul>
                     </div>
                 </a>
@@ -120,43 +123,43 @@
             <h1>GAMEPLAY TRAILERS</h1>
             <ul class="game-trialer-lists">
                 <li class="game-trialer-list">
-                    <button>Minecraft</button>
+                    <a>Minecraft</a>
                         <p>Explore your own unique worlds, survive the night, and create anything you can imagine!
                             Watch the sample video of Minecraft gameplay above, or select "watch the trailer" to see
                             the full video on Youtube
                         </p> 
                         
-                        <button>Learn More ></button>
+                        <a>Learn More ></a>
                 </li>
                 <li class="game-trialer-list">
-                    <button>Minecraft Dungeons</button>
+                    <a>Minecraft Dungeons</a>
                         <p>Discover an action-adventure game inpired by classic dungeon carwlers Watch the sample video
                             Minecraft Dungeons gameplay above, or select "watch the trailer" to see the full video on
                             Youtube
                         </p>
                         
-                        <button>Learn More ></button>
+                        <a>Learn More ></a>
                 </li>
                 <li class="game-trialer-list">
-                    <button>Minecraft Legends</button>
+                    <a>Minecraft Legends</a>
                     <div>
                         <p>Lead your alleis in herotic battles in the action-strategy game Minecraft Legends.
                             Watch the sample video of Minecraft Lagends gameplay above, or select "watch the tailer"
                             to see the full video on Youtube.
                         </p>
                         
-                        <button>Learn More ></button>
+                        <a>Learn More ></a>
                     </div>
                 </li>
                 <li class="game-trialer-list">
-                    <button>Minecraft Education</button>
+                    <a>Minecraft Education</a>
                     <div>
                         <p>A game-based learning platform supporting thousands of educators in over 100 countries.
                             Watch the simple video of Minecraft Education gameplay above, or select "watch the trailer"
                             to see the full video on Youtube
                         </p>
                         
-                        <button>Learn More ></button>
+                        <a>Learn More ></a>
                     </div>
                 </li>
             </ul>
@@ -168,7 +171,7 @@
                     <li class="new">
                         <div class="new-box">
                             <a href="#"><img src="./img/download 1.avif" width="200px" heght="200px"></a>
-                            <button>Deep Dives</button>
+                            <a>Deep Dives</a>
                             <p>
                                 Taking Inventory:
                                 Beetroot
@@ -178,7 +181,7 @@
                     <li class="new">
                         <div class="new-box">
                             <a href="#"><img src="./img/download 1.webp" width="200px" heght="200px"></a>
-                            <button>News</button>
+                            <a>News</a>
                             <p>
                                 The Minecraft National Park
                             </p>
@@ -187,7 +190,7 @@
                     <li class="new">
                         <div class="new-box">
                             <a href="#"><img src="./img/download 2.avif" width="200px" heght="200px"></a>
-                            <button>News</button>
+                            <a>News</a>
                             <p>
                                 Minecraft Shapshot 24w44a
                             </p>
@@ -196,7 +199,7 @@
                     <li class="new">
                         <div class="new-box">
                             <a href="#"><img src="./img/download 3.avif" width="200px" heght="200px"></a>
-                            <button>News</button>
+                            <a>News</a>
                             <p>
                                 A hardcore challenge
                             </p>
@@ -205,7 +208,7 @@
                     <li class="new">
                         <div class="new-box">
                             <a href="#"><img src="./img/download 4.avif" width="200px" heght="200px"></a>
-                            <button>News</button>
+                            <a>News</a>
                             <p>
                                 New on Realms: Phobiaphobia
                             </p>
@@ -214,7 +217,7 @@
                     <li class="new">
                         <div class="new-box">
                             <a href="#"><img src="./img/download 5.avif" width="200px" heght="200px"></a>
-                            <button>News</button>
+                            <a>News</a>
                             <p>
                                 Back of the Month: 
                                 Block of Lapis Lazuli
@@ -224,7 +227,7 @@
                     <li class="new">
                         <div class="new-box">
                             <a href="#"><img src="./img/download 6.avif" width="200px" heght="200px"></a>
-                            <button>News</button>
+                            <a>News</a>
                             <p>
                                 Minecraft Java Edition 1.21.3
                             </p>
@@ -233,7 +236,7 @@
                     <li class="new">
                         <div class="new-box">
                             <a href="#"><img src="./img/download 7.avif" width="200px" heght="200px"></a>
-                            <button>News</button>
+                            <a>News</a>
                             <p>
                                 Test new drop features
                             </p>
@@ -242,7 +245,7 @@
                     <li class="new">
                         <div class="new-box">
                             <a href="#"><img src="./img/download 8.avif" width="200px" heght="200px"></a>
-                            <button>News</button>
+                            <a>News</a>
                             <p>
                                 Minecraft Preview 1.21.50.25
                             </p>
@@ -251,7 +254,7 @@
                     <li class="new">
                         <div class="new-box">
                             <a href="#"><img src="./img/download 2.webp" width="200px" heght="200px">
-                            <button>News</button>
+                            <a>News</a>
                             <p>
                                 Bundles of Bravery
                             </p>
