@@ -11,7 +11,7 @@ html{
 }
 
 @font-face{
-    font-family: 'Pixelify Sans';
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     font-style: normal;
     font-weight: 400 700;
     font-display: swap;
@@ -49,10 +49,6 @@ a{
 
 .header .link .img{
     background-color: bisque;
-}
-
-.logo a{
-    background-color: rgba(38, 36, 35, .9);
 }
 
 .logo{ 
@@ -154,7 +150,7 @@ span{
 }
 
 
-.announcement-box .image:hover img{
+.announcement-box .image:hover img {
     border: solid 5px #52A535;
 }
 
@@ -170,6 +166,7 @@ span{
 
 .games-boxes{
     display: flex;
+    justify-content: center;
 }
 
 .game-box img{
@@ -215,8 +212,8 @@ span{
     list-style: none;
 }
 
-.game-icon i {
-    font-size: 50px;
+.game-icon i{
+    font-size: 30px;
 }
 
 .gameplay-trialer h1{
