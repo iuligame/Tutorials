@@ -166,6 +166,7 @@ span{
 }
 
 .games-boxes{
+    max-width: 1960;
     display: flex;
     justify-content: center;
 }
@@ -188,11 +189,13 @@ span{
     font-size: 50px;
     margin: 40px;
     text-align: center;
+    text-decoration: none;
 }
 
 .game-details{
     margin: 10px;
     justify-content: center;
+    text-decoration: none;
 }
 
 .game-details h2{
@@ -201,10 +204,11 @@ span{
 
 .game-details p{
     text-decoration: none;
-    border-bottom: 4px, solid, darkgray;
+    border-bottom: 4px, solid,
 }
 
 .game-icons{
+    border-top: 2px solid darkgray;
     display: flex;
     margin: 10px;
 }
