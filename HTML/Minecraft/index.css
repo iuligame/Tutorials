@@ -166,8 +166,6 @@ span{
 }
 
 .games-boxes{
-    width: 257.4px;
-    height: 454px;
     display: flex;
     justify-content: center;
 }
