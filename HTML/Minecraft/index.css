@@ -150,7 +150,6 @@ span{
     justify-content: space-between;
 }
 
-
 .announcement-box .image:hover img{
     border: solid 5px #52A535;
 }
@@ -158,7 +157,6 @@ span{
 .announcement-box .image a{
     display: block;
 }
-
 
 .section-games{
     justify-content: center;
@@ -220,25 +218,27 @@ span{
     font-size: 30px;
 }
 
-.gameplay-trialer h1{
+.gameplay-trailer{
+    width: 100%;
+    height: 100%;
+}
+
+.gameplay-trailer h1{
     font-family: 'Pixelify Sans';
     font-size: 50px;
     margin: 40px;
     text-align: center;
 } 
 
-.game-trailer-lists{
-    width: 100px;
-    height: 100px;
-}
-
-.game-trailer-lists button{
-    width: 100px;
-    height: 100px;
-}
-
 .section-news{
     background-color: #262423;
+}
+
+.section-news h1{
+    font-family: 'Pixelify Sans';
+    font-size: 50px;
+    margin: 40px;
+    text-align: center;
 }
 
 .section-news h2{
@@ -250,12 +250,9 @@ span{
 .section-news a{
     text-align: center;
     text-decoration: none;
-    color: green;
-    
 }
 
 .news-news{
-
 }
 
 .news{
