@@ -121,7 +121,7 @@ span{
 } 
 
 .announcement-box h1{
-    font-family: 'Pixelify Sans';
+    font-family: "MinecraftTen", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     font-size: 2em;
     text-decoration: none;
 }
@@ -182,7 +182,7 @@ span{
 }
 
 .section-games h1{
-    font-family: 'Pixelify Sans';
+    font-family: "MinecraftTen", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     font-size: 50px;
     margin: 40px;
     text-align: center;
@@ -224,7 +224,7 @@ span{
 }
 
 .gameplay-trailer h1{
-    font-family: 'Pixelify Sans';
+    font-family: "MinecraftTen", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     font-size: 50px;
     margin: 40px;
     text-align: center;
@@ -235,7 +235,7 @@ span{
 }
 
 .section-news h1{
-    font-family: 'Pixelify Sans';
+    font-family: "MinecraftTen", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     font-size: 50px;
     margin: 40px;
     text-align: center;
