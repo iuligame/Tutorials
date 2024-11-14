@@ -268,3 +268,57 @@ span{
 .new-box a{
     display: block;
 }
+
+.section-downloads{
+    background-color: #313131;
+}
+
+.section-download{
+    display: flex;
+}
+
+.section-download-image{
+    margin: 20px;
+}
+
+.section-download-redownload{
+    margin: 20px;
+}
+
+.section-download-redownload-button{
+    border: solid 2px white;
+    text-align: center;
+    text-decoration: none;
+    width: 250px;
+    height: 50px;
+    position: relative;
+    top: 30px
+}
+
+.section-download-explore-button{
+    background-color: #3C8527;
+    border-top: 5px solid #52A535;
+    border-bottom: 5px solid #2A641C;
+    border-left: 0;
+    border-right: 0;
+    text-decoration: none;
+}
+
+.section-download-texts{
+    margin: 20px;
+}
+
+.section-download-title{
+    font-size: 400%;
+    margin: 20px;
+}
+
+.section-download-text{
+    margin: 20px;
+}
+
+.section-download-explore-button{
+    margin: 20px;
+}
+
+
