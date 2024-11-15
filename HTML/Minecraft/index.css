@@ -302,6 +302,11 @@ span{
     top: 30px
 }
 
+.section-download-redownload-button:hover{
+    background-color: white;
+    color:#111;
+}
+
 .section-download-texts{
     margin: 20px;
 }
@@ -331,6 +336,10 @@ span{
     border-right: 0;
     text-decoration: none;
     margin: 10px;
+}
+
+.green-button:hover{
+    background-color: #2a641c;
 }
 
 
