@@ -133,6 +133,10 @@ span{
     font-weight: bold;
 }
 
+.announcement-box .link-button:hover{
+    text-decoration: underline;
+}
+
 .announcement-box-images{
     flex: 2;
     list-style: none;
@@ -243,6 +247,11 @@ span{
     color: #52A535;
     position: relative;
     top: 60px
+}
+
+.section-news .section-new-link:hover{
+    text-decoration: underline;
+    color:white;
 }
 
 .news{
