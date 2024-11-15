@@ -134,15 +134,6 @@ span{
     font-weight: bold;
 }
 
-.announcement-box .play-button{
-    background-color: #3C8527;
-    border-top: 5px solid #52A535;
-    border-bottom: 5px solid #2A641C;
-    border-left: 0;
-    border-right: 0;
-}
-
-
 .announcement-box-images{
     flex: 2;
     list-style: none;
@@ -312,16 +303,6 @@ span{
     top: 30px
 }
 
-.section-download-explore-button{
-    background-color: #3C8527;
-    border-top: 5px solid #52A535;
-    border-bottom: 5px solid #2A641C;
-    border-left: 0;
-    border-right: 0;
-    text-decoration: none;
-    margin: 10px;
-}
-
 .section-download-texts{
     margin: 20px;
 }
@@ -337,6 +318,17 @@ span{
 
 .section-download-explore-button{
     margin: 20px;
+}
+
+.green-button{
+    background-color: #3C8527;
+    border-top: 5px solid #52A535;
+    border-bottom: 5px solid #2A641C;
+    border-left: 0;
+    border-right: 0;
+    width: 120px;
+    height: 20px;
+    text-decoration: none;
 }
 
 
