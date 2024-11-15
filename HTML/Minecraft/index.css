@@ -321,13 +321,13 @@ span{
 }
 
 .green-button{
+    width: 120px;
+    height: 20px;
     background-color: #3C8527;
     border-top: 5px solid #52A535;
     border-bottom: 5px solid #2A641C;
     border-left: 0;
     border-right: 0;
-    width: 120px;
-    height: 20px;
     text-decoration: none;
     margin: 10px;
 }
