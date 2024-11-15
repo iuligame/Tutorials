@@ -321,8 +321,10 @@ span{
 }
 
 .green-button{
-    width: 120px;
-    height: 20px;
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
     background-color: #3C8527;
     border-top: 5px solid #52A535;
     border-bottom: 5px solid #2A641C;
