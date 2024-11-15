@@ -126,8 +126,7 @@ span{
     text-decoration: none;
 }
 
-.announcement-box .play-button, 
-.announcement-box .get-button{
+.announcement-box .link-button{
     display: inline-block;
     padding: 5px 10px;
     text-decoration: none;
