@@ -236,8 +236,8 @@ span{
 
 .section-news h1{
     font-family: "MinecraftTen", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-    font-size: 50px;
-    margin: 40px;
+    font-size: 60px;
+    margin-top: 60px;
     text-align: center;
 }
 
@@ -247,12 +247,12 @@ span{
 
 }
 
-.section-news a{
+.section-news .section-new-link{
     text-align: center;
     text-decoration: none;
-}
-
-.news-news{
+    color: #52A535;
+    position: relative;
+    top: 60px
 }
 
 .news{
@@ -261,12 +261,29 @@ span{
     flex-wrap: wrap;
 }
 
-.new-box{
+
+.new-box .new-box-border{
     margin: 10px;
+    width: 200px;
+    height: 60px;
+    background-color: rgba(38,36,35,.9);
+    position: relative;
+    top: 210px;
+    right: 10px;
 }
 
-.new-box a{
+.new-box .new-box-title{
     display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.new-box .new-box-details{
+    text-align: center;
+}
+
+.game-trailer-list-video{
+    position: relative;
 }
 
 .section-downloads{
