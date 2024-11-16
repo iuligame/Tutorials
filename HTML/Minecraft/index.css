@@ -138,7 +138,7 @@ span{
 }
 
 .announcement-box-images{
-    flex: 2;
+    flex: 1;
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -223,6 +223,10 @@ span{
     margin: 40px;
     text-align: center;
 } 
+
+.gameplay-trailer-lists{
+    list-style: none;
+}
 
 .section-news{
     background-color: #262423;
@@ -351,4 +355,59 @@ span{
     background-color: #2a641c;
 }
 
+.section-collectibles-boxes{
+    display: flex;
+}
 
+.section-collectible-box_1{
+    margin: 10px;
+}
+
+.section-collectible-title{
+    margin: 10px;
+}
+
+.section-collectible-text{
+    margin: 10px;
+}
+
+.section-collectible-link{
+    margin: 10px;
+    color: #3C8527;
+    text-decoration: none;
+}
+
+.section-collectible-link:hover{
+    color:white;
+}
+
+.section-collectible-box_2{
+    display: flex;
+}
+
+.section-collectible-download-details{
+    width: 300px;
+    height: 100px;
+    background-color: rgba(38,36,35,.9);
+    position: relative;
+    bottom: 100px;
+}
+
+
+.section-collectible-download-title{
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+
+.section-collectible-download-detail{
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+
+.section-collectible-box_3{
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
