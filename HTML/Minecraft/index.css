@@ -462,3 +462,30 @@ span{
     background-color: #ff3c00;
 }
 
+.footer{
+    display: flex;
+    margin: 10px;
+}
+
+.footer-box{
+    margin: 10px;
+}
+
+.footer-images{
+    margin: 10px;
+    display: flex;
+}
+
+.footer-title{
+    color:white;
+}
+
+.footer-span{
+    color: #6CC349;
+    flex-direction: column;
+}
+
+.footer-span:hover{
+    text-decoration: underline;
+}
+
