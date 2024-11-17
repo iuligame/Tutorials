@@ -112,7 +112,7 @@ span{
 
 .announcement-box-main{
     padding: 20px;
-    flex: 1;
+    flex: 2;
 }
 
 .announcement-box p{
@@ -411,3 +411,54 @@ span{
     position: relative;
     bottom: 50px;
 }
+
+.section-collectibles-follows{
+    flex: 2;
+}
+
+.section-collectible-follow{
+    font-family: "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 10%;
+}
+
+.fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    justify-content: space-around;
+    background-color: #262423;
+}
+
+.fa-youtube:hover{
+    background-color: #fa0020;
+}
+
+.fa-square-instagram:hover{
+    background-color: #f1437a;
+}
+
+.fa-facebook:hover{
+    background-color: #046ae4;
+}
+
+.fa-x-twitter:hover{
+    background-color: #1891ee;
+}
+
+.fa-tiktok:hover{
+    background-color: #E53D4F;
+}
+
+.fa-whatsapp:hover{
+    background-color: #25D366;
+}
+
+.fa-discord:hover{
+    background-color: #5865F2;
+}
+
+.fa-reddit:hover{
+    background-color: #ff3c00;
+}
+
