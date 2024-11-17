@@ -465,6 +465,7 @@ span{
 .footer{
     display: flex;
     margin: 10px;
+    background-color: #262423;
 }
 
 .footer-box{
@@ -476,11 +477,20 @@ span{
     display: flex;
 }
 
+.footer-image{
+    margin: 10px;
+}
+
 .footer-title{
     color:white;
 }
 
+.footer-texts{
+    margin: 5px;
+}
+
 .footer-span{
+    margin: 5px;
     color: #6CC349;
     flex-direction: column;
 }
