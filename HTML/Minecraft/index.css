@@ -354,6 +354,30 @@ a{
     background-color: #2a641c;
 }
 
+/* Section content component */
+
+.section-content-component .container{
+    padding: 64px;
+}
+
+.section-content-component{
+    height: 400px;
+}
+
+.content-component-box{
+    width: 500px;
+    height: 100px;
+    background-color: #313131;
+}
+
+.content-component-title{
+    text-align: center;
+}
+
+.content-component-text{
+    text-align: center; 
+}
+
 .section-collectibles-boxes{
     display: flex;
 }
@@ -405,6 +429,7 @@ a{
 .section-collectible-download-detail{
     text-align: center;
 }
+
 
 .section-collectible-box_3{
     text-align: center;
