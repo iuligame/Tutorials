@@ -356,26 +356,20 @@ a{
 
 /* Section content component */
 
-.section-content-component .container{
-    padding: 64px;
-}
-
 .section-content-component{
-    height: 400px;
+    width: 700px;
+    height: 300px;
+    background-color: rgba(38,36,35,.9);
+
 }
 
-.content-component-box{
-    width: 500px;
-    height: 100px;
-    background-color: #313131;
-}
-
-.content-component-title{
+.conntent-component-title{
     text-align: center;
+    font-weight: bold;
 }
 
-.content-component-text{
-    text-align: center; 
+.content-component-account{
+    display: flex;
 }
 
 .section-collectibles-boxes{
@@ -514,7 +508,7 @@ a{
 }
 
 .footer-title{
-    color:white;
+    color: white;
 }
 
 .footer-texts{
