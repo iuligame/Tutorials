@@ -354,6 +354,24 @@ a{
     background-color: #2a641c;
 }
 
+/* Section content component */
+
+.section-content-component{
+    width: 700px;
+    height: 300px;
+    background-color: rgba(38,36,35,.9);
+
+}
+
+.conntent-component-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-component-account{
+    display: flex;
+}
+
 .section-collectibles-boxes{
     display: flex;
 }
@@ -405,6 +423,7 @@ a{
 .section-collectible-download-detail{
     text-align: center;
 }
+
 
 .section-collectible-box_3{
     text-align: center;
@@ -489,7 +508,7 @@ a{
 }
 
 .footer-title{
-    color:white;
+    color: white;
 }
 
 .footer-texts{
