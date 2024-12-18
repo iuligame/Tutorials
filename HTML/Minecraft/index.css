@@ -40,6 +40,7 @@ a{
     position: fixed;
     top: 0px;
     background-color: rgba(38,36,35,.9);
+    z-index: 1;
 }
 
 .header .container{
@@ -62,21 +63,8 @@ a{
     justify-content: space-around;   
 }
 
-.navlink button{
+.navlink span{
     font-family: 'Pixelify Sans';
-    width: 100px;
-    height: 50px;
-    background-color: rgba(38, 36, 35, .9);
-    border: none;
-    margin: 10px;
-}
-
-span{
-    font-family: 'Pixelify Sans';
-    width: 100px;
-    height: 50px;
-    background-color: transparent;
-    justify-content: space-between;
 }
 
 
@@ -108,9 +96,12 @@ span{
 
 .announcement-box{
     display: flex;
+    position: relative;
+    bottom: 150px;
 }
 
 .announcement-box-main{
+    background-color: #111;
     padding: 20px;
     flex: 2;
 }
@@ -121,7 +112,7 @@ span{
 } 
 
 .announcement-box h1{
-    font-family: "MinecraftTen", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-family: "Pixelify Sans", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     font-size: 2em;
     text-decoration: none;
 }
@@ -142,6 +133,7 @@ span{
     list-style: none;
     display: flex;
     justify-content: space-between;
+    align-items: end;
 }
 
 .announcement-box .image:hover img{
@@ -176,7 +168,7 @@ span{
 }
 
 .section-games h1{
-    font-family: "MinecraftTen", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-family: "Pixelify Sans", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     font-size: 50px;
     margin: 40px;
     text-align: center;
@@ -218,7 +210,7 @@ span{
 }
 
 .gameplay-trailer h1{
-    font-family: "MinecraftTen", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-family: "Pixelify Sans", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     font-size: 50px;
     margin: 40px;
     text-align: center;
@@ -233,7 +225,7 @@ span{
 }
 
 .section-news h1{
-    font-family: "MinecraftTen", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-family: "Pixelify Sans", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     font-size: 60px;
     margin-top: 60px;
     text-align: center;
@@ -294,6 +286,12 @@ span{
 }
 
 .section-download{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.section-download-left{
     display: flex;
 }
 
@@ -307,12 +305,12 @@ span{
 
 .section-download-redownload-button{
     border: solid 2px white;
+    font-weight: bold;
     text-align: center;
     text-decoration: none;
-    width: 250px;
-    height: 50px;
-    position: relative;
-    top: 30px
+    margin: 20px;
+    padding: 10px;
+    justify-self: end;
 }
 
 .section-download-redownload-button:hover{
@@ -325,8 +323,9 @@ span{
 }
 
 .section-download-title{
-    font-size: 400%;
     margin: 20px;
+    font-family: "Pixelify Sans", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 60px;
 }
 
 .section-download-text{
@@ -385,35 +384,38 @@ span{
     display: flex;
 }
 
-.section-collectible-download-details{
-    width: 300px;
-    height: 100px;
-    background-color: rgba(38,36,35,.9);
+.section-collectible-download{
     position: relative;
-    bottom: 100px;
+}
+
+.section-collectible-download-details{
+    padding: 10px;
+    background-color: rgba(38,36,35,.9);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 
 .section-collectible-download-title{
     text-align: center;
-    position: relative;
-    top: 25px;
 }
 
 .section-collectible-download-detail{
     text-align: center;
-    position: relative;
-    top: 25px;
 }
 
 .section-collectible-box_3{
     text-align: center;
-    position: relative;
-    bottom: 50px;
+    margin-top: 20px;
+    background-color: #000;
 }
 
 .section-collectibles-follows{
     flex: 2;
+    display: flex;
+    justify-content: center;
 }
 
 .section-collectible-follow{
@@ -421,12 +423,18 @@ span{
     font-size: 10%;
 }
 
-.fa-brands{
+.section-collectible-follow-link{
+    text-decoration: none;
+}
+
+.section-collectible-follow-link .fa-brands{
     width: 40px;
     height: 40px;
     border-radius: 50%;
     margin: 10px;
     justify-content: space-around;
+    display: flex;
+    align-items: center;
     background-color: #262423;
 }
 
@@ -464,8 +472,7 @@ span{
 
 .footer{
     display: flex;
-    margin: 10px;
-    background-color: #262423;
+    background-color: #111;
 }
 
 .footer-box{
@@ -497,5 +504,15 @@ span{
 
 .footer-span:hover{
     text-decoration: underline;
+}
+
+.sub-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(49, 49, 49);
+}
+
+.sub-footer-span{
+    padding: 5px;
 }
 
