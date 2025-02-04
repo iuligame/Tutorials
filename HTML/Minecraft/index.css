@@ -1,3 +1,5 @@
+/* General */
+
 *{
     margin: 0;
     padding: 0;
@@ -29,11 +31,32 @@ a{
     color: white;
 }
 
+/* Clase reutilizabile */
+
 .container{
     max-width: 1920px;
     margin: 0 auto;
 }
 
+.green-button{
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #3C8527;
+    border-top: 5px solid #52A535;
+    border-bottom: 5px solid #2A641C;
+    border-left: 0;
+    border-right: 0;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.green-button:hover{
+    background-color: #2a641c;
+}
+
+/* Header  */
 .header{                
     width: 100%;
     height: 100px;
@@ -84,6 +107,9 @@ a{
     width: 100%;
     justify-content: center;
 }
+
+
+/* Announcement section */
 
 .announcement-image{
     width: 100%;
@@ -144,6 +170,9 @@ a{
     display: block;
 }
 
+
+/* Games section */
+
 .section-games{
     justify-content: center;
     flex: 1;
@@ -193,10 +222,11 @@ a{
 .game-icons{
     border-top: 2px solid darkgray;
     display: flex;
-    margin: 10px;
+    
 }
 
 .game-icon{
+    margin: 5px;
     list-style: none;
 }
 
@@ -204,9 +234,11 @@ a{
     font-size: 30px;
 }
 
+
+/* Trailers section */
+
 .gameplay-trailer{
-    width: 100%;
-    height: 100%;
+
 }
 
 .gameplay-trailer h1{
@@ -216,9 +248,33 @@ a{
     text-align: center;
 } 
 
+.gameplay-trailer-inner {
+    display: flex;
+    margin: 0 auto;
+}
+
 .gameplay-trailer-lists{
     list-style: none;
 }
+
+.gameplay-trailer-list-title {
+    background-color: rgb(61, 57, 56);
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.gameplay-trailer-list-title:hover {
+    background-color: rgb(38, 36, 35);
+}
+
+.gameplay-trailer-content {
+    background-color: rgb(61, 57, 56);
+    padding: 20px;
+}
+
+
+/* News section */
 
 .section-news{
     background-color: #262423;
@@ -281,6 +337,9 @@ a{
     position: relative;
 }
 
+
+/* Download section */
+
 .section-downloads{
     background-color: #313131;
 }
@@ -336,41 +395,53 @@ a{
     margin: 20px;
 }
 
-.green-button{
-    display: inline-block;
-    padding: 5px 10px;
-    text-decoration: none;
-    font-weight: bold;
-    background-color: #3C8527;
-    border-top: 5px solid #52A535;
-    border-bottom: 5px solid #2A641C;
-    border-left: 0;
-    border-right: 0;
-    text-decoration: none;
-    margin: 10px;
-}
-
-.green-button:hover{
-    background-color: #2a641c;
-}
 
 /* Section content component */
 
 .section-content-component{
     width: 700px;
-    height: 300px;
-    background-color: rgba(38,36,35,.9);
-
+    background-color: rgba(38,36,35);
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.conntent-component-title{
+.section-content-component p {
+    margin-bottom: .5em;
+}
+
+.section-content-component .asterisk {
+    color: rgb(255, 96, 94);
+}
+
+.section-content-component input,
+.section-content-component select {
+    padding: 10px;
+    background-color: rgb(38, 36, 35);
+    color: rgb(237, 229, 226);
+    border: 1px solid white;
+}
+
+.content-component-title{
+    font-family: "Pixelify Sans", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     text-align: center;
     font-weight: bold;
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+.content-component-accounts {
+    display: flex;
 }
 
 .content-component-account{
+    flex: 1;
     display: flex;
+    flex-direction: column;
 }
+
+
+/* Section collectibles */
 
 .section-collectibles-boxes{
     display: flex;
@@ -457,37 +528,40 @@ a{
     background-color: #262423;
 }
 
-.fa-youtube:hover{
+.section-collectible-follow-link .fa-youtube:hover{
     background-color: #fa0020;
 }
 
-.fa-square-instagram:hover{
+.section-collectible-follow-link .fa-square-instagram:hover{
     background-color: #f1437a;
 }
 
-.fa-facebook:hover{
+.section-collectible-follow-link .fa-facebook:hover{
     background-color: #046ae4;
 }
 
-.fa-x-twitter:hover{
+.section-collectible-follow-link .fa-x-twitter:hover{
     background-color: #1891ee;
 }
 
-.fa-tiktok:hover{
+.section-collectible-follow-link .fa-tiktok:hover{
     background-color: #E53D4F;
 }
 
-.fa-whatsapp:hover{
+.section-collectible-follow-link .fa-whatsapp:hover{
     background-color: #25D366;
 }
 
-.fa-discord:hover{
+.section-collectible-follow-link .fa-discord:hover{
     background-color: #5865F2;
 }
 
-.fa-reddit:hover{
+.section-collectible-follow-link .fa-reddit:hover{
     background-color: #ff3c00;
 }
+
+
+/* Footer */
 
 .footer{
     display: flex;
