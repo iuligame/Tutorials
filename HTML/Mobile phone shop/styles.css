@@ -21,7 +21,7 @@
     color: white;
 }
 
-.section-images{
+.section-boxes{
     margin: 20px;
     display: flex;
 }
@@ -29,64 +29,48 @@
 .section-image{
     margin: 10px;
     width: 300px;
-    height: 400px;
     background-color: white;
     border-radius: 5%;
-    box-shadow: 20px, 20px, 20px, black;
-}
-
-.section-image .image{
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    box-shadow: 20px 20px 20px black;
 }
 
 .section-image h2{
     text-align: center;
-    background-color: white;
-    border-radius: 5%;
-    box-shadow: 20px, 20px, 20px, black;
 }
 
 .section-image p{
     text-align: center;
-    background-color: white;
-    border-radius: 5%;
-    box-shadow: 20px, 20px, 20px, black;
 }
 
-.footer{
-    background-color: white;
-    width: 300px;
-    height: 300px;
+.footer-box .box{
     border-radius: 5%;
-    box-shadow: 20px, 20px, 20px, black;
-}
-
-.footer .footer-image{
     display: flex;
+    justify-content: center;
 }
 
-.footer .footer-image h2{
-    text-align: center;
+.footer .footer-box{
+    margin: 10px;
     background-color: white;
+    width: 700px;
+    box-shadow: 20px 20px 20px black;
     border-radius: 5%;
-    box-shadow: 20px, 20px, 20px, black;
 }
 
-.footer .footer-image p{
+.footer .footer-box h2{
+    margin: 10px;
     text-align: center;
-    background-color: white;
-    border-radius: 5%;
-    box-shadow: 20px, 20px, 20px, black;
 }
 
-.footer-image-button{
+.footer .footer-box p{
+    margin: 10px;
+    text-align: center;
+}
+
+.footer .box .image-button{
+    margin: 10px;
     text-decoration: none;
 }
 
-.footer-image-button:hover{
+.footer .box .image-button:hover{
     background-color: white;
-    border-radius: 5%;
-    box-shadow: 20px, 20px, 20px, black;
 }
