@@ -39,12 +39,14 @@
     justify-content: center;
     align-items: center;
     border-radius: 5%;
+    position: relative;
+    left: 35px;
+    top: 10px;
 }
 
 .section-image .title{
     text-align: center;
     position: relative;
-    left: 40px;
 }
 
 .section-image p{
@@ -67,11 +69,13 @@
 
 .footer .footer-box .image{
     border-radius: 5%;
+    
 }
 
 .footer .footer-box h2{
-    margin: 10px;
     text-align: center;
+    position: relative;
+     
 }
 
 .footer .footer-box p{
