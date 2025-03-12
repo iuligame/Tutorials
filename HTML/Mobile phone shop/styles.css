@@ -35,13 +35,24 @@
     box-shadow: 20px 20px 20px black;
 }
 
-.section-image img{
+.section-image .icon img{
     justify-content: center;
     align-items: center;
     border-radius: 5%;
     position: relative;
     left: 35px;
     top: 10px;
+}
+
+.section-image .icon .fa-brands-fa-gratipay{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 100px;
+}
+
+.section-image .icon .fa-brands-fa-gratipay:hover{
+    background-color: white;
 }
 
 .section-image .title{
