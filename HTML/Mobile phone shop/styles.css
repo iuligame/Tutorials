@@ -40,7 +40,7 @@
     align-items: center;
     border-radius: 5%;
     position: relative;
-    left: 35px;
+    left: 20px;
     top: 10px;
 }
 
@@ -48,7 +48,7 @@
     width: 20px;
     height: 20px;
     position: relative;
-    bottom: 100px;
+    left: 20px;
 }
 
 .section-image .icon .fa-brands-fa-gratipay:hover{
@@ -64,22 +64,31 @@
     text-align: center;
 }
 
-.footer-box .box{
-    border-radius: 5%;
+.footer-box{
     display: flex;
+}
+
+.footer-box .box{
+    display: flex;
+    border-radius: 5%;
     justify-content: center;
 }
 
 .footer .footer-box{
-    margin: 10px;
+    margin: 20px;
     background-color: white;
-    width: 700px;
+    width: 400px;
     box-shadow: 20px 20px 20px black;
     border-radius: 5%;
 }
 
 .footer .footer-box .image{
     border-radius: 5%;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 10px;
     
 }
 
@@ -94,11 +103,19 @@
     text-align: center;
 }
 
-.footer .box .image-button{
+.footer .text{
+    color: lightgray;
+}
+
+.footer .footer-box .image-button{
     margin: 10px;
+    padding: 10px;
+    border-radius: 5%;
     text-decoration: none;
 }
 
-.footer .box .image-button:hover{
-    background-color: white;
+.fa-solid .footer-box .image-button .fa-square-caret-right{
+    width: 25px;
+    height: 25px;
 }
+
