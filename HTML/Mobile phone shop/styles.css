@@ -64,6 +64,10 @@
     text-align: center;
 }
 
+.section-image .text{
+    color: lightgray;
+}
+
 .footer-box{
     display: flex;
 }
