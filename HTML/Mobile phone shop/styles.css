@@ -6,18 +6,14 @@
     display: flex;
 }
 
-.nav-icon{
-    
-}
-
 .nav-icon-img{
     width: 25px;
     height: 25px;
 }
 
-.nav-icon-img:hover{
-    background-color: #22273b;
-    color: white;
+.fa-fa-search{
+    width: 25px;
+    height: 25px;
 }
 
 .section-boxes{
