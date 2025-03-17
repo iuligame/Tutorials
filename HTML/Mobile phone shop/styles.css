@@ -1,5 +1,4 @@
 *{
-    background-color: #f5f6fa;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -35,9 +34,12 @@
     box-shadow: 20px 20px 20px black;
 }
 
-.section-image .icon img{
+.section-image .icon{
     justify-content: center;
     align-items: center;
+}
+
+.section-image .icon img{  
     border-radius: 5%;
     position: relative;
     left: 20px;
@@ -47,8 +49,6 @@
 .section-image .icon .fa-brands-fa-gratipay{
     width: 20px;
     height: 20px;
-    position: relative;
-    left: 20px;
 }
 
 .section-image .icon .fa-brands-fa-gratipay:hover{
@@ -57,7 +57,6 @@
 
 .section-image .title{
     text-align: center;
-    position: relative;
 }
 
 .section-image p{
