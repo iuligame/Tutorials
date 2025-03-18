@@ -2,6 +2,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .nav{
     display: flex;
 }
@@ -24,31 +29,38 @@
 .section-image{
     margin: 10px;
     width: 300px;
-    
     background-color: white;
     border-radius: 5%;
     box-shadow: 20px 20px 20px black;
 }
 
 .section-image .icon{
-    justify-content: center;
-    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
-.section-image .icon img{  
+.section-image .image{  
     border-radius: 5%;
-    position: relative;
-    left: 20px;
-    top: 10px;
 }
 
-.section-image .icon .fa-brands-fa-gratipay{
+.section-image .fa-brands fa-gratipay{
     width: 20px;
     height: 20px;
 }
 
-.section-image .icon .fa-brands-fa-gratipay:hover{
+.section-image .fa-brands fa-gratipay:hover{
     background-color: white;
+}
+
+.section-image .fa-solid fa-circle-plus{
+    width: 20px;
+    height: 20px;
+    justify-content: end;
+}
+
+.section-image .fa-solid fa-circle-plus:hover{
+    background-color: white;
+    color: black;
 }
 
 .section-image .title{
@@ -113,7 +125,7 @@
     text-decoration: none;
 }
 
-.fa-solid .footer-box .image-button .fa-square-caret-right{
+.fa-solid .footer-box .image-button .fa-square caret-right{
     width: 25px;
     height: 25px;
 }
