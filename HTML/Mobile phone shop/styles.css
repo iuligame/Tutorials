@@ -2,6 +2,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html{
+    background-color: #b3c1d9;
+}
+
 .title{
     font-size: 30px;
     font-weight: bold;
@@ -31,7 +35,7 @@
     width: 300px;
     background-color: white;
     border-radius: 5%;
-    box-shadow: 20px 20px 20px black;
+    box-shadow: 20px 20px 50px lightgray;
 }
 
 .section-image .icon{
@@ -39,17 +43,21 @@
     padding: 0;
 }
 
-.section-image .image{  
+.section-image .picture{  
     border-radius: 5%;
 }
 
 .section-image .fa-brands fa-gratipay{
     width: 20px;
     height: 20px;
+    margin: 20px;
+    padding: 20px;
+    position: absolute;
+    left: 20px;
 }
 
 .section-image .fa-brands fa-gratipay:hover{
-    background-color: white;
+    background-color: red;
 }
 
 .section-image .fa-solid fa-circle-plus{
@@ -89,7 +97,7 @@
     margin: 20px;
     background-color: white;
     width: 400px;
-    box-shadow: 20px 20px 20px black;
+    box-shadow: 20px 20px 50px lightgray;
     border-radius: 5%;
 }
 
