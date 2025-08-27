@@ -1,0 +1,190 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    background-color: #b3c1d9;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav{
+    display: block;
+}
+
+.nav-icon-1{
+    margin: 800px;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.nav-icon-1:hover{
+    color: white;
+}
+
+.nav-icon-img-1{
+    width: 25px;
+    height: 25px;
+}
+
+.nav-icon-img-2{
+    width: 25px;
+    height: 25px;
+    
+}
+
+.nav-icon-2{
+    margin: 10px;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.nav-icon-2:hover{
+    color:white;
+}
+
+.nav-icon-img-3{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    bottom: 30px;
+    flex: 1;
+}
+
+.search-bar{
+    box-shadow: 5px 5px 10px lightgray;
+    position: absolute;
+    left: 40px;
+    flex: 1;
+}
+
+.fa-fa-search{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    flex: 1;
+}
+
+.section-boxes{
+    margin: 20px;
+    display: flex;
+}
+
+.section-image{
+    margin: 20px;
+    width: 300px;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px lightgray;
+}
+
+.section-image .icon{
+    margin: 0;
+    padding: 0;
+}
+
+.section-image .picture{  
+    border-radius: 5%;
+}
+
+.section-image .fa-brands fa-gratipay{
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    bottom: 20px;
+
+}
+
+.icon-1 .fa-brands fa-gratipay{
+    position: absolute;
+}
+
+.section-image .fa-brands fa-gratipay:hover{
+    background-color: red;
+}
+
+.section-image .fa-solid fa-circle-plus{
+    width: 20px;
+    height: 20px;
+    justify-content: end;
+}
+
+.section-image .fa-solid fa-circle-plus:hover{
+    background-color: white;
+    color: black;
+}
+
+.section-image .title{
+    text-align: center;
+}
+
+.section-image p{
+    text-align: center;
+}
+
+.section-image .text{
+    color: lightgray;
+}
+
+.footer-box{
+    display: flex;
+}
+
+.footer-box .box{
+    display: flex;
+    border-radius: 5%;
+    justify-content: center;
+}
+
+.footer .footer-box{
+    margin: 20px;
+    background-color: white;
+    width: 400px;
+    box-shadow: 20px 20px 50px lightgray;
+    border-radius: 5%;
+}
+
+.footer .footer-box .image{
+    border-radius: 5%;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 10px;
+    
+}
+
+.footer .footer-box h2{
+    text-align: center;
+    position: relative;
+     
+}
+
+.footer .footer-box p{
+    margin: 10px;
+    text-align: center;
+}
+
+.footer .text{
+    color: lightgray;
+}
+
+.footer .footer-box .image-button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5%;
+    text-decoration: none;
+}
+
+.fa-solid .footer-box .image-button .fa-square caret-right{
+    width: 25px;
+    height: 25px;
+}
+
