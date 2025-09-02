@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8>
+    <title>Meniu</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+
+    <style>
+
+      *{
+         box-sizing: border-box;
+         margin:0px;
+         padding:0px;
+         text-decoration: none;
+      }
+
+      #meniu,
+
+      #meniu ul {
+      	list-style: none;
+        margin: 0px;
+      	padding: 0px;
+      	text-align: center;
+      }
+
+      #meniu > li {
+      	vertical-align: center;
+      	display: inline-block;
+      	position: relative;
+      	width: 150px;
+        text-align: top;
+      }
+
+      #meniu > li > p {
+      	margin: 0;
+      	padding: 4px;
+      	background-color: #F0F0F0;
+      }
+
+      #meniu .submeniu {
+      	display: none;
+      	position: absolute;
+      	top: 100%;
+      	left: 50%;
+      	width: 200px;
+      	padding: 4px;
+      	background-color: lightgray;
+      	transform: translateX(-50%);
+      }
+
+      #meniu > li:hover .submeniu {
+      	display: block;
+      }
+
+      #meniu .submeniu li {
+      	margin-bottom: 4px;
+      }
+
+      .produse {
+      	width: 960px;
+      	margin: 0 auto;
+      }
+
+      .produse img {
+      	width: 33%;
+      	height: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul id="meniu">
+          <li>
+            <p>PC</p>
+            <ul class="submeniu">
+              <li>Actiune</li>
+              <li>Aventura</li>
+              <li>Curse Auto Moto</li>
+              <li>Diverse</li>
+              <li>Flinting</li>
+              <li>First Person Shooter</li>
+              <li>Real Strategy Game</li>
+              <li>Role Play Game</li>
+              <li>Simulator</li>
+              <li>Sport</li>
+              <li>Educative</li>
+              <li>Muzicale & Party</li>
+              <li>Oldies but Goldies</li>
+            </ul>
+          </li>
+          <li>XBOXONE</li>
+          <li>XBOX360</li>
+          <li>XBOX</li>
+          <li>PS</li>
+          <li>PS2</li>
+          <li>PS3</li>
+          <li>PS4</li>
+          <li>WII</li>
+          <li>WII U</li>
+          <li>3DS</li>
+          <li>DS</li>
+          <li>DIVERSE</li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+    </section>
+
+    <footer>
+    </footer>
+  </body>
+</html>

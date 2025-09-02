@@ -1,0 +1,3790 @@
+﻿
+@media only screen and (max-width: 340px) {
+     #container,
+    .container {
+        width: 300px;
+    }
+    .LastAdded .prodListItem {
+        margin-bottom: 0px;
+        height: 190px;
+        width: 300px !important;
+        /*min-width: 300px;
+    max-width: 420px;*/
+    }
+   
+
+   
+}
+@media only screen and (min-width: 341px) and (max-width: 379px) {
+ #container,
+    .container {
+        width: 320px;
+    }
+  .LastAdded .prodListItem {
+        margin-bottom: 0px;
+        height: 190px;
+        width: 320px !important;
+        /*min-width: 300px;
+    max-width: 420px;*/
+    }
+
+  
+
+}
+@media only screen and (min-width: 380px) and (max-width: 420px) {
+ #container,
+    .container {
+        width: 360px;
+    }
+  .LastAdded .prodListItem {
+        margin-bottom: 0px;
+        height: 190px;
+        width: 360px !important;
+        /*min-width: 300px;
+    max-width: 420px;*/
+    }
+
+    
+
+}
+@media only screen and (min-width: 421px) and (max-width: 479px) {
+ #container,
+    .container {
+        width: 410px;
+    }
+  .LastAdded .prodListItem {
+        margin-bottom: 0px;
+        height: 190px;
+        width: 410px !important;
+        /*min-width: 300px;
+    max-width: 420px;*/
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 479px) {
+    /*#container,
+    .container {
+        width: 94%;
+    }*/
+    .content {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 10px
+    }
+    .HResp {
+        display: block;
+        width: 100%;
+        background: #333;
+        box-sizing: border-box;
+        padding-top: 15px;
+        height: 50px
+    }
+    .slicknav_menu {
+        display: block
+    }
+    #slides {
+        display: none
+    }
+    .responsiveH {
+        display: block
+    }
+    #navigation {
+        display: none
+    }
+    .dropMenuLeft .MenuCatL1 {
+        width: 100% !important;
+        border-right: 0px;
+        border-left: 0px;
+        border-bottom: 1px solid rgba(217, 217, 217, 0.88)
+    }
+    .dropMenuLeft .MenuCatL1:first-child {
+        border-left: 0px solid rgba(217, 217, 217, 0.88)
+    }
+    .ImgMenu {
+        display: none
+    }
+    .Reduceri {
+        display: none
+    }
+    .ReduceriContent {
+        display: none
+    }
+    .DivCategoryBest {
+        display: none
+    }
+    .DivCategoryLast {
+        width: 100% !important;
+        float: left
+    }
+    .LastAdded .prodListItem .subtext {
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin-top: -10px
+    }
+    .LastAdded .prodListItem .price {
+        line-height: 22px;
+        font-weight: 400;
+        float: left;
+        text-align: center;
+        position: relative;
+        padding-right: 20px;
+        width: 100%;
+        top: 3px
+    }
+    .LastAdded .DivDetaliiStoc {
+        margin-top: 3px
+    }
+    .LastAdded .ButtonAdauga {
+        width: 60%;
+        position: relative
+    }
+    .LastAdded .prodListItem .title {
+        width: 100%;
+        padding-top: 11px;
+        line-height: 19px;
+        height: 55px;
+        padding-top: 10px
+    }
+    .prodListItem .title {
+        text-align: left;
+        padding: 0px 5px 0px 0px
+    }
+    .prodListItem .titleIn {
+        text-align: center
+    }
+    .prodListItem .subtext {
+        text-align: center
+    }
+    .prodListItem .price {
+        text-align: center
+    }
+    .LastAdded .marginAuto {
+        margin: 0
+    }
+    .InCurand {
+        display: none
+    }
+    .InFuture {
+        display: none
+    }
+    .Bestseller .prodListItem {
+        width: 300px !important
+    }
+    .Noutati table td {
+        width: 100%
+    }
+    .Noutati .prodListItem {
+        width: 100%
+    }
+    .InFuture .prodListItem {
+        width: 100%;
+        height: 243px
+    }
+    .InFuture .gradient {
+        margin-top: -69px;
+        width: 100%
+    }
+    .InFuture .ButonPrecomanda {
+        margin-top: -38px;
+        margin-left: 130px
+    }
+    .CategoryTitle {
+        width: 100% !important;
+        float: left
+    }
+    .ImgConsole {
+        width: 30%;
+        float: left
+    }
+    .ConsoleContent .prodListItem {
+        width: 100% !important;
+        margin: 0px 0px 20px 0px !important;
+        float: left;
+        position: relative;
+        background-color: #ffffff;
+        height: 410px;
+        overflow: hidden
+    }
+    .ConsoleContent .prodListItem .clipImg {
+        position: relative;
+        width: 100%;
+        height: 230px;
+        overflow: hidden;
+        box-sizing: border-box;
+        padding: 25px 35px;
+        text-align: center
+    }
+    .ConsoleContent .prodListItem .clipImg img {
+        height: auto;
+        max-width: 100%;
+        width: auto
+    }
+    .ConsoleContent .prodListItem .ButtonAdauga {
+        width: 100%
+    }
+    .ConsoleContent .prodListItem .gradient {
+        width: 100%;
+        padding: 0px
+    }
+    .Consola1 {
+        width: 100%;
+        height: 410px;
+        margin-bottom: 20px
+    }
+    .Consola2 {
+        width: 100%;
+        height: 410px;
+        margin-bottom: 20px
+    }
+    .Consola3 {
+        width: 100%;
+        height: 410px;
+        margin-bottom: 20px
+    }
+    .Consola4 {
+        width: 100%;
+        height: 410px;
+        margin-bottom: 20px
+    }
+    .Consola5 {
+        width: 100%;
+        height: 410px;
+        margin-bottom: 20px
+    }
+    .Consola1 img {
+        padding: 170px 0px 0px 20px
+    }
+    .Consola2 img {
+        padding: 170px 0px 0px 15px
+    }
+    .Consola3 img {
+        padding: 170px 0px 0px 15px
+    }
+    .Consola4 img {
+        padding: 170px 0px 0px 8px
+    }
+    .Consola5 img {
+        padding: 170px 0px 0px 15px
+    }
+    .ConsoleContent {
+        width: 70%;
+        float: left
+    }
+    .ConsoleContent .subtext {
+        box-sizing: border-box;
+        padding-left: 10px
+    }
+    .ConsoleContent .price {
+        box-sizing: border-box;
+        padding-left: 10px
+    }
+    .ImgBanner {
+        display: none
+    }
+    .ButtonVeziToate {
+        display: none
+    }
+    #header {
+        height: auto;
+        padding-top: 0px;
+        padding-bottom: 20px
+    }
+    .HomeHeader {
+        display: none
+    }
+    .CumCumpar {
+        display: none
+    }
+    .TermeniConditii {
+        display: none
+    }
+    .InfoUtile {
+        display: none
+    }
+    .ProductField {
+        padding: 25px 10px
+    }
+    .ProductField img {
+        width: 90% !important;
+        float: left;
+        height: auto
+    }
+    .ProductField iframe {
+        height: 250px
+    }
+    .PreorderPopUp .PopUp {
+        margin-top: 10px
+    }
+    .PreorderPopUp .PopUp .ButtonDefault {
+        top: 0px;
+        position: relative;
+        width: 115px
+    }
+    .PreorderPopUp .ButtonCart {
+        width: 115px
+    }
+    .ContactHeader {
+        display: none
+    }
+    .VerticalLine {
+        display: none
+    }
+    .MailHeaderTxt {
+        display: none
+    }
+    .CumCumparTxt {
+        display: none
+    }
+    .TermeniTxt {
+        display: none
+    }
+    .InfoTxt {
+        display: none
+    }
+    .BlogHeader {
+        display: block
+    }
+    .ImgProduct img {
+        max-width: 150px;
+        max-height: 120px;
+        padding-top: 30px
+    }
+    .DivLoginPage {
+        width: 100%
+    }
+    .DivLoginPage table {
+        width: 100%
+    }
+    .DivLoginPage table td {
+        width: 100%;
+        float: left
+    }
+    .ClientVechi {
+        margin-bottom: 40px;
+        padding: 10px
+    }
+    .ClientNou {
+        margin-bottom: 40px
+    }
+    .ContactTxt {
+        display: none
+    }
+    #SearchBox select {
+        width: 115px !important
+    }
+    #SearchBox .TxtBoxSearch,
+    .TxtBoxSearchW {
+        width: 110px !important
+    }
+    #SearchBox .ButtonSearch {
+        width: 80px
+    }
+    #subCat {
+        width: 100%;
+        float: left
+    }
+    #subCat table {
+        width: 100%;
+        float: left
+    }
+    #subCat table td {
+        width: 100%;
+        float: left
+    }
+    .subCatItem {
+        position: relative;
+        width: 100%;
+        overflow: initial;
+        margin: 0 0px 15px 0;
+        border: 1px solid #DBDBDB;
+        float: left;
+        display: block;
+        box-sizing: border-box
+    }
+    .subCatItem table {
+        width: 100% !important;
+        float: left
+    }
+    .subCatItem table td {
+        width: 100% !important;
+        float: left
+    }
+    .subCatClip img {
+        position: relative;
+        width: 298px;
+        height: 100%
+    }
+    .subCatItem .title {
+        width: 100%
+    }
+    .subCatItem .title a {
+        line-height: 50px
+    }
+    .hvr-shutter-out-vertical:before {
+        width: 300px
+    }
+    .BannerJos {
+        display: none
+    }
+    .LogoFooter {
+        display: none
+    }
+    .InformatiiFooter {
+        width: 100%;
+        float: left;
+        padding-left: 0px
+    }
+    .titleFooter {
+        padding-left: 0px
+    }
+    .bottomContent {
+        width: 100%;
+        text-align: center
+    }
+    .bottomContent1 {
+        width: 100%;
+        text-align: center
+    }
+    .bottomContent2 {
+        width: 100%;
+        text-align: center
+    }
+    .LinieFooter img {
+        width: 100%;
+        height: 1px
+    }
+    .ContactFooter {
+        width: 100%
+    }
+    .FacebookFooter {
+        display: none
+    }
+    .sidebar {
+        width: 100% !important;
+        float: left
+    }
+    .CategoryContentAll .prodListItem {
+        width: 100%;
+        height: 190px
+    }
+    .prodListItem {
+        width: 100%;
+        height: 190px
+    }
+    .prodListItem .subtext{
+        font-size:12px;
+    }
+    .CategoryContent table {
+        width: 100%;
+        float: left
+    }
+    .CategoryContent table td {
+        width: 100%;
+        float: left
+    }
+    .ConsoleContent .prodListItem td {
+        width: 195px;
+        text-align: center
+    }
+    .prodListItem .clipImg {
+        width: 40%;
+        padding: 15px 15px;
+        float: left
+    }
+    .LastAdded {
+        height: auto;
+            overflow: initial;
+                margin-bottom: 20px;
+    }
+    .LastAdded .prodListItem .clipImg {
+        width: 40%;
+        height: 180px;
+        box-sizing: border-box;
+        padding: 10px
+    }
+    .LastAdded .prodListItem .clipImg img {
+        max-height: 150px;
+        width: auto;
+        max-width: 100%;
+        height: 145px
+    }
+    /*.LastAdded .prodListItem {
+      margin-bottom: 0px;
+    height: 190px;
+    width: 300px!important;
+    
+      
+    }
+    .carouselSlick{
+ height: 190px;
+     width: 300px!important; 
+     float:none!important;
+     margin:0 auto;
+   
+    }*/
+    .LastAdded .prodListItem .gradient {
+        width: 60%;
+        padding: 0px
+    }
+    .stocLinieLeft {
+        display: none
+    }
+    .stocLinieRight {
+        display: none
+    }
+    .prodListItem .gradient {
+        width: 60%;
+        float: left;
+        display: block;
+        padding-top: 10px;
+        padding-right: 10px;
+        box-sizing: border-box
+    }
+    .prodListItem .clipImg {
+        position: relative;
+        height: 160px
+    }
+    .prodListItem .ButtonAdauga {
+        width: 60%;
+        float: left
+    }
+    .TbPager {
+        text-align: center;
+        height: 50px;
+        margin-top: 25px
+    }
+    .GaleriaTb {
+        width: 100% !important;
+        float: left
+    }
+    #galleria {
+        width: 100% !important
+    }
+    .DivProducts table {
+        width: 100% !important;
+        float: left;
+        overflow: hidden
+    }
+    .DivProducts table td {
+        width: 100% !important;
+        float: left
+    }
+    .DivProducts {
+        overflow: initial
+    }
+    .DivProducts .icon-shopping-cart {
+        position: relative;
+        top: 10px;
+        left: 10px;
+        padding: 0px
+    }
+    #tabs h2 {
+        width: 100%
+    }
+    .PopUp {
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box
+    }
+    .PopUp .ButtonDefault {
+        top: 10px;
+        position: relative
+    }
+    .PopUp .TextBox {
+        width: 245px !important
+    }
+    .DivDetaliiComanda .ButtonDefault {
+        margin-top: 15px;
+        margin-left: -25px
+    }
+    .reveal-modal {
+        left: 0%;
+        width: 295px;
+        box-sizing: border-box;
+        padding: 50px 3px
+    }
+    .contentCos table {
+        width: 100%;
+        float: left
+    }
+    .contentCos table td {
+        width: 100%;
+        float: left;
+        text-align: left
+    }
+    .AdminListHeader {
+        display: none
+    }
+    .PriceAdmin {
+        width: 33% !important;
+        float: left;
+        position: relative;
+        top: 15px
+    }
+    .QuantityAdmin {
+        top: 0px !important;
+        text-align: right !important
+    }
+    .DeleteImg {
+        top: 10px !important;
+        text-align: right !important;
+        right: 8px
+    }
+    .SubtotalTitle {
+        width: 70%
+    }
+    .SubtotalPrice {
+        width: 30%
+    }
+    .TbDate .TextBox {
+        width: 250px !important
+    }
+    .Voucher .ButtonDefault {
+        margin-top: 20px;
+        margin-left: -21px
+    }
+    .ImgProduct {
+        text-align: center !important
+    }
+    .TbDate .JudetTextBox {
+        width: 265px !important
+    }
+    .TotalTitle {
+        width: 60%
+    }
+    .PriceTotal {
+        width: 40%
+    }
+    .DivButonTrimite .ButtonFinal {
+        margin-top: -142px;
+        margin-left: 20px
+    }
+    .CartPageDetails {
+        width: 98% !important
+    }
+    .DivDetaliiComanda {
+        height: auto !important;
+        padding: 5px 0px 160px 20px;
+        margin-bottom: 25px
+    }
+    .ProductMoreDetails {
+        border-top: 0px;
+        border-bottom: 1px solid #ccc
+    }
+    .Voucher {
+        padding: 20px 20px !important;
+        border-top: 0px !important;
+        float: left;
+        width: 100%;
+        box-sizing: border-box
+    }
+    .Voucher .TextBox {
+        width: 240px !important
+    }
+    .LivrareComanda h2 {
+        float: left
+    }
+    .DivContactLeft {
+        width: 100%
+    }
+    .DivContactRight {
+        width: 100%
+    }
+    .ContactLeft {
+        width: 100%
+    }
+    .ContactRight {
+        width: 100%;
+        padding-left: 0px
+    }
+    .formWrap .TextBox {
+        width: 280px !important
+    }
+    .ContactRight .TextBox {
+        margin-top: 15px;
+        margin-left: 0px
+    }
+    .captchaWrap {
+        width: 300px
+    }
+    .DivCreareCont table {
+        width: 100%;
+        float: left
+    }
+    .DivCreareCont table td {
+        width: 100%;
+        float: left
+    }
+    .DivCreareCont .TextBox {
+        width: 260px !important
+    }
+    .TbCreazaCont .ContJudet {
+        width: 275px !important
+    }
+    .Tab .ajax__tab_active .ajax__tab_tab,
+    .Tab .ajax__tab_hover .ajax__tab_tab,
+    .Tab .ajax__tab_tab {
+        height: 50px;
+        padding: 5px 15px;
+        width: 70px;
+        float: left;
+        top: -15px;
+        position: relative
+    }
+    .DivDetaliiStoc {
+        width: 100%
+    }
+    .TbDate {
+        width: 100%
+    }
+
+    .ContactLeft {
+        width: 100%;
+      
+        padding-right: 0px;
+     
+    }
+
+    .ContactRight {
+        width: 100%;     
+        padding-left: 0px;
+       
+    }
+
+
+
+
+    .TbDate td {
+        width: 100%;
+        float: left
+    }
+    .TbDate .AdminTextBoxJudet {
+        width: 265px !important
+    }
+    .pager {
+        margin-bottom: 20px;
+        height: 50px;
+        margin-top: 50px
+    }
+    .DivChangePassword {
+        width: 100%;
+        padding-left: 10px
+    }
+    .DivChangePassword td {
+        width: 100%;
+        float: left
+    }
+    .DivChangePassword .TextBox {
+        width: 260px !important
+    }
+    .ButtonPasswordSave {
+        float: left;
+        margin-top: 20px
+    }
+    .ButtonPasswordCancel {
+        margin-left: 0px;
+        margin-top: 15px
+    }
+    .DivChangePassword table {
+        width: 295px !important
+    }
+    .TbArticoleBlog {
+        width: 300px !important
+    }
+    .ClipArticole {
+        width: 100% !important;
+        float: left
+    }
+    .TitluArticol {
+        width: 100% !important
+    }
+    .DataComment {
+        width: 30% !important
+    }
+    .GalleryInsideArticle {
+        width: 100% !important
+    }
+    .InsideArticle {
+        width: 100% !important
+    }
+    #dComments {
+        width: 100% !important;
+        float: left
+    }
+    .CommentSection .hrProfileS {
+        width: 250px
+    }
+    #ArticlePage .comment {
+        width: 240px
+    }
+    #guestbook .comment {
+        width: 100%
+    }
+    .DataComentariu {
+        width: 200px
+    }
+    .ImgHomeBanner {
+        display: none
+    }
+    #dComment {
+        width: 100% !important;
+        float: left
+    }
+    #dComment table {
+        width: 100% !important;
+        float: left
+    }
+    #dComment table td {
+        width: 100% !important;
+        float: left
+    }
+    #dComment .TextBox {
+        width: 245px !important
+    }
+    .CommentProdRight {
+        float: left;
+        width: 100%
+    }
+    .CommentProdLeft {
+        float: left;
+        width: 100%;
+        margin-right: 0%
+    }
+    .ParteneriBottom {
+        display: block;
+        width: 100%;
+        float: left;
+        position: relative;
+        margin: 20px 0px
+    }
+    .BottomFooter {
+        display: none
+    }
+    .BottomFooterToogle {
+        display: none
+    }
+    .ParteneriBottom img {
+        position: relative;
+        top: 5px
+    }
+    .PanelFilterForResp {
+        display: none
+    }
+    .PanelToogle {
+        display: none
+    }
+    .FilterToogle {
+        position: relative;
+        font-size: 21px;
+        background-color: #007dd0;
+        color: #fff;
+        line-height: 45px;
+        font-weight: 400;
+        text-indent: 10px;
+        border-left: solid 5px #007dd0;
+        width: 100%;
+        height: 45px;
+        display: block;
+        box-sizing: border-box
+    }
+    .FilterToogleList {
+        position: relative;
+        margin: 20px 0px 0px 0px;
+        font-size: 21px;
+        background-color: #282929;
+        color: #fff;
+        line-height: 45px;
+        font-weight: 400;
+        text-indent: 10px;
+        border-left: solid 5px #282929;
+        width: 100%;
+        height: 45px;
+        display: block;
+        box-sizing: border-box
+    }
+    .sidebar1Header {
+        display: none
+    }
+    .CategoryListMenu {
+        display: none
+    }
+    .CategoryToogle {
+        display: block;
+        font-size: 20px;
+        background-color: #545454;
+        line-height: 45px;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-indent: 10px;
+        border-left: solid 5px #545454;
+        float: left;
+        width: 100%;
+        box-sizing: border-box;
+        color: #fff
+    }
+    .sidebar .MenuSideL2 a {
+        width: 300px !important;
+        box-sizing: border-box;
+        text-transform: none
+    }
+    .sidebar .MenuSideL1 a {
+        width: 300px !important;
+        box-sizing: border-box
+    }
+    .archiveListMenu {
+        display: none
+    }
+    .ArchiveHeader {
+        font-size: 20px;
+        background-color: #ee4a42;
+        line-height: 45px;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-indent: 10px;
+        border-left: solid 5px #ee4a42;
+        float: left;
+        width: 100%;
+        box-sizing: border-box;
+        color: #fff
+    }
+    .FilterToogle img {
+        float: right;
+        width: 23px;
+        position: relative;
+        top: 10px;
+        left: -15px
+    }
+    .FilterToogleList img {
+        float: right;
+        width: 23px;
+        position: relative;
+        top: 10px;
+        left: -15px
+    }
+    .ArchiveHeader img {
+        display: block;
+        float: right;
+        width: 27px;
+        position: relative;
+        top: 8px;
+        left: -12px
+    }
+    .CategoryToogle img {
+        display: block;
+        float: right;
+        width: 32px;
+        position: relative;
+        top: 8px;
+        left: -12px
+    }
+    .CategoryFilter table {
+        width: 100%;
+        float: left !important
+    }
+    .CategoryFilter table td {
+        width: 50% !important;
+        float: left !important;
+        text-align: left !important
+    }
+    #ctl00_RecentlyVisitedProducts1_PanelAroundControl {
+        display: none
+    }
+    .NavResponsive {
+        display: block
+    }
+    .headerLeft {
+        position: absolute
+    }
+    .headerRight {
+        margin-top: -21px
+    }
+    .TitluCos {
+        display: none
+    }
+    #shoppingCartBox {
+        width: 59px;
+        padding: 11px 0px 0px 13px;
+        position: absolute;
+        float: right;
+        top: 10px;
+        right: 8px
+    }
+    .ProductsCount {
+        left: 60%
+    }
+    .LinieHeader {
+        display: none
+    }
+    .MenuSideL2 a {
+        background-color: #000 !important;
+        color: #333333;
+        margin-left: 0px;
+        line-height: 30px;
+        box-sizing: border-box;
+        display: block;
+        white-space: normal;
+        border-bottom: 0px solid rgba(217, 217, 217, 0.88) !important;
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 14px !important;
+        text-indent: 15px
+    }
+    #SearchBox {
+        float: left;
+        padding: 7px 6px 0 0;
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+        top: -73px;
+        z-index: 9
+    }
+    .SearchResponsive {
+        display: block;
+        position: absolute;
+        top: -45px;
+        width: 10%;
+        float: right;
+        right: 0px;
+        color: #fff;
+        z-index: 999
+    }
+    .icon-search {
+        color: #fff;
+        font-size: 28px;
+        position: absolute;
+        z-index: 1
+    }
+    #SearchBox {
+        display: none
+    }
+    .logo img {
+        width: 200px
+    }
+    .icon-mail-envelope-closed {
+        display: block !important
+    }
+    .mailHeader img {
+        display: none
+    }
+    .loginResponsive {
+        display: block;
+        width: 70%;
+        float: left
+    }
+    #loginViewMaster {
+        display: none;
+        width: 180px;
+        top: 10px;
+        position: relative;
+        background-color: #007dd0;
+        border-radius: 6px;
+        left: 120px
+    }
+    .Blogtxt {
+        display: none
+    }
+    .icon-document-edit2 {
+        position: absolute;
+        top: -41px;
+        font-size: 23px;
+        z-index: 1;
+        /*left: 215px;*/
+        right:-42%;
+    }
+    .icon-user-check {
+        color: #fff;
+        color: #fff;
+        font-size: 24px;
+        position: absolute;
+        top: -21px;
+        left: 40px
+    }
+    .icon-people2 {
+        color: #fff;
+        font-size: 28px;
+        position: absolute;
+        top: -21px;
+        /*left: 145px*/
+            right: -60%;
+    }
+    .icon-mail-envelope-open {
+        display: block !important;
+        color: #fff;
+        font-size: 24px;
+        position: absolute;
+        top: -21px;
+        /*left: 85px*/
+         right:0%;
+    }
+    .LastAdded .ButtonDefault {
+        width: 130px !important;
+        font-size: 10px;
+        position: relative;
+        left: 7%;
+    }
+    #ShoppingCartDiv,
+    .DivProductAdd {
+        position: absolute;
+        right: 0;
+        background: #eee;
+        z-index: 100;
+        padding: 15px;
+        width: 246px;
+        color: #000;
+        border: 4px solid #ee4a42;
+        left: -214px;
+        float: left;
+        top: 69px
+    }
+    .LabelPrice {
+        text-align: center;
+        margin-bottom: 15px
+    }
+    .DivPriceProduct {
+        width: 100%;
+        position: relative
+    }
+    .ButtonCart {
+        width: 100%
+    }
+    .DivPriceProduct .icon-shopping-cart {
+        position: relative;
+        top: 10px;
+        left: 60px;
+        padding: 0px
+    }
+    .BorderProduct {
+        border-bottom: 0px !important
+    }
+    .OriginalProduct {
+        margin-bottom: 10px;
+        text-align: center
+    }
+    .TbRecomand {
+        width: 300px !important;
+        padding: 20px 10px 20px 25px;
+        right: 0px
+    }
+    .TdSocialDetails {
+        margin-top: 20px;
+        margin-left: -60px
+    }
+    .galleria-container {
+        box-sizing: border-box
+    }
+    .DivDetaliiComanda .TextBoxClientVechi {
+        width: 245px !important
+    }
+    .CategoryFilter {
+        height: auto
+    }
+    .StocOrder {
+        width: 100%
+    }
+    .StocOrderTxt {
+        width: 12%
+    }
+    .StocOrderBox {
+        width: 88%
+    }
+    .StocOrder2 {
+        width: 100%
+    }
+    .StocOrderTxt2 {
+        width: 35%
+    }
+    .StocOrderBox2 {
+        width: 65%
+    }
+    .FooterData {
+        font-size: 13px
+    }
+    .ButtonNormal {
+        color: #007dd0;
+        font-size: 13px;
+        width: 100%
+    }
+    .ArticlePageContent table {
+        width: 100% !important
+    }
+    .ArticlePageContent table td {
+        width: 100% !important;
+        float: left
+    }
+    .ArticlePager {
+        text-align: center
+    }
+    .CategoriiArticolePg table {
+        width: 100% !important
+    }
+    .CategoriiArticolePg table td {
+        width: 100% !important;
+        float: left
+    }
+    .PagerTb {
+        text-align: center
+    }
+    .AdminRightCell .TextBox {
+        text-align: center;
+        margin-bottom: 15px
+    }
+    h1 {
+        font-size: 23px
+    }
+    .DivCategoryLast .CategoryHead {
+        margin-top: 0px
+    }
+    .Social1 img {
+        width: 100%
+    }
+    #guestbook {
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+        padding-right: 0px
+    }
+    .TbCommentsG {
+        width: 100%
+    }
+    .TbCommentsG table {
+        width: 100% !important;
+        float: left
+    }
+    .TbCommentsG table td {
+        width: 100% !important;
+        float: left
+    }
+    .TbCommentsG .TextBox {
+        width: 240px !important
+    }
+    .commentWrap .icon-people2 {
+        display: none
+    }
+    .SuccesOrderDetail .TextBox {
+        width: 240px !important
+    }
+    .TbSucces {
+        width: 100% !important;
+        float: left
+    }
+    .TbSucces td {
+        width: 100% !important;
+        float: left
+    }
+    .HeaderD {
+        display: none
+    }
+    .LoginTop table {
+        width: 100% !important;
+        float: left
+    }
+    .LoginTop table td {
+        width: 100% !important;
+        float: left
+    }
+    .DetaliiProdus td {
+        width: 100% !important;
+        float: left
+    }
+    .logo{
+        top:-6px;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 520px) {
+    .icon-user-check{
+        left:40px!important;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 769px) {
+    #container,
+    .container {
+        width: 470px
+    }
+    .HResp {
+        display: block;
+        width: 100%;
+        background: #333;
+        box-sizing: border-box;
+        padding-top: 15px
+    }
+    .TbSucces {
+        width: 100% !important;
+        float: left
+    }
+    .TbSucces td {
+        width: 100% !important;
+        float: left
+    }
+    .SuccesOrderDetail .TextBox {
+        width: 320px !important
+    }
+    .LoginTop table {
+        width: 100% !important;
+        float: left
+    }
+    .LoginTop table td {
+        width: 100% !important;
+        float: left
+    }
+      .logo{
+        top:-6px;
+    }
+    .HeaderD {
+        display: none
+    }
+    .content {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 10px
+    }
+    .slicknav_menu {
+        display: block
+    }
+    #slides {
+        display: none
+    }
+    #navigation {
+        display: none
+    }
+    .dropMenuLeft .MenuCatL1 {
+        width: 100% !important;
+        border-right: 0px;
+        border-left: 0px;
+        border-bottom: 1px solid rgba(217, 217, 217, 0.88)
+    }
+    .dropMenuLeft .MenuCatL1:first-child {
+        border-left: 0px solid rgba(217, 217, 217, 0.88)
+    }
+    .ProductField iframe {
+        height: 250px
+    }
+    .Reduceri {
+        display: none
+    }
+    .ReduceriContent {
+        display: none
+    }
+    .DivCategoryBest {
+        display: none
+    }
+    .DivCategoryLast {
+        width: 100% !important;
+        float: left
+    }
+    .LastAdded .prodListItem .subtext {
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin-top: -14px;
+            height: 22px;
+    }
+    .LastAdded .prodListItem .price {
+        line-height: 22px;
+        font-weight: 400;
+        float: left;
+        text-align: center;
+        position: relative;
+        padding-right: 20px;
+        width: 100%
+    }
+    .LastAdded .ButtonAdauga {
+        width: 60% !important;
+        position: relative
+    }
+    .LastAdded .prodListItem .title {
+        width: 100%;
+        padding-top: 11px;
+        line-height: 19px;
+        height: 75px;
+        padding-top: 10px
+    }
+    .LastAdded .marginAuto {
+        margin: 0
+    }
+    .DivCategoryLast .CategoryHead {
+        margin-top: 10px
+    }
+    .ImgHomeBanner {
+        display: none
+    }
+    .InCurand {
+        display: none
+    }
+    .DivDetaliiStoc {
+        width: 100%;
+        text-align: center
+    }
+    .InFuture {
+        display: none
+    }
+    .Bestseller .prodListItem {
+        width: 300px !important
+    }
+    .Noutati table td {
+        width: 100%
+    }
+    .Noutati .prodListItem {
+        width: 100%
+    }
+    .InFuture .prodListItem {
+        width: 100%;
+        height: 243px
+    }
+    .InFuture .gradient {
+        margin-top: -69px;
+        width: 100%
+    }
+    .InFuture .ButonPrecomanda {
+        margin-top: -38px;
+        margin-left: 130px
+    }
+    .ButtonVeziToate {
+        display: none
+    }
+    .CategoryTitle {
+        width: 100% !important;
+        float: left
+    }
+    .ProductField img {
+        max-width: 100% !important;
+        float: left;
+        height: auto
+    }
+    .PreorderPopUp .PopUp {
+        margin-top: 10px
+    }
+    .PreorderPopUp .PopUp .ButtonDefault {
+        top: 0px;
+        position: relative;
+        width: 115px
+    }
+    .PreorderPopUp .ButtonCart {
+        width: 115px
+    }
+    .ImgConsole {
+        width: 30%;
+        float: left
+    }
+    .CategoryContentAll .prodListItem:nth-child(2n) {
+        margin-right: 0
+    }
+    .CategoryContentAll .prodListItem {
+        width: 215px;
+        height: 380px
+    }
+    .ConsoleContent .prodListItem {
+        width: 100% !important;
+        margin: 0px 0px 20px 0px !important;
+        float: left;
+        position: relative;
+        background-color: #ffffff;
+        height: 410px !important;
+        overflow: hidden
+    }
+    .ConsoleContent .prodListItem .clipImg {
+        position: relative;
+        width: 100%;
+        height: 230px;
+        overflow: hidden;
+        box-sizing: border-box;
+        padding: 25px 35px;
+        text-align: center
+    }
+    .ConsoleContent .prodListItem .clipImg img {
+        height: auto;
+        max-width: 100%;
+        width: auto
+    }
+    .CommentProdRight {
+        float: left;
+        width: 100%
+    }
+    .CommentProdLeft {
+        float: left;
+        width: 100%;
+        margin-right: 0%
+    }
+    .ConsoleContent .prodListItem .ButtonAdauga {
+        width: 100%
+    }
+    .ConsoleContent .prodListItem .gradient {
+        width: 100%;
+        padding: 0px
+    }
+    .Consola1 {
+        width: 100%;
+        height: 410px;
+        margin-bottom: 20px
+    }
+    .Consola2 {
+        width: 100%;
+        height: 410px;
+        margin-bottom: 20px
+    }
+    .Consola3 {
+        width: 100%;
+        height: 410px;
+        margin-bottom: 20px
+    }
+    .Consola4 {
+        width: 100%;
+        height: 410px;
+        margin-bottom: 20px
+    }
+    .Consola5 {
+        width: 100%;
+        height: 410px;
+        margin-bottom: 20px
+    }
+    .Consola1 img {
+        padding: 150px 0px 0px 40px
+    }
+    .Consola2 img {
+        padding: 150px 0px 0px 40px
+    }
+    .Consola3 img {
+        padding: 150px 0px 0px 40px
+    }
+    .Consola4 img {
+        padding: 150px 0px 0px 40px
+    }
+    .Consola5 img {
+        padding: 150px 0px 0px 40px
+    }
+    .ConsoleContent {
+        width: 70%;
+        float: left
+    }
+    .ImgBanner {
+        display: none
+    }
+    #header {
+        height: auto;
+        padding-top: 0px;
+        padding-bottom: 20px
+    }
+    .HomeHeader {
+        display: none
+    }
+    .CumCumpar {
+        display: none
+    }
+    .TermeniConditii {
+        display: none
+    }
+    .InfoUtile {
+        display: none
+    }
+    .ContactHeader {
+        display: none
+    }
+    .VerticalLine {
+        display: none
+    }
+    .MailHeaderTxt {
+        display: none
+    }
+    .CumCumparTxt {
+        display: none
+    }
+    .TermeniTxt {
+        display: none
+    }
+    .InfoTxt {
+        display: none
+    }
+    .BlogHeader {
+        display: block
+    }
+    .ContactTxt {
+        display: none
+    }
+    #SearchBox select {
+        width: 115px !important
+    }
+    #SearchBox .TxtBoxSearch,
+    .TxtBoxSearchW {
+        width: 170px !important
+    }
+    #SearchBox .ButtonSearch {
+        width: 80px
+    }
+    #subCat {
+        width: 100%;
+        float: left
+    }
+    #subCat table {
+        width: 100%;
+        float: left
+    }
+    #subCat table td {
+        width: 450px;
+        float: left
+    }
+    .subCatItem {
+        width: 100%
+    }
+    .subCatItem .title a {
+        line-height: 50px
+    }
+    .hvr-shutter-out-vertical:before {
+        width: 450px;
+        height: 275px
+    }
+    .ImgProduct img {
+        max-width: 200px;
+        max-height: 140px;
+        padding-top: 35px;
+        padding-bottom: 10px
+    }
+    .BannerJos {
+        display: none
+    }
+    .LogoFooter {
+        display: none
+    }
+    .InformatiiFooter {
+        width: 50%;
+        float: left;
+        padding-left: 0px
+    }
+    .bottomContent {
+        width: 100%;
+        text-align: center
+    }
+    .bottomContent1 {
+        width: 100%;
+        text-align: center
+    }
+    .bottomContent2 {
+        width: 100%;
+        text-align: center
+    }
+    .LinieFooter img {
+        width: 100%;
+        height: 1px
+    }
+    .ContactFooter {
+        width: 50%
+    }
+    .FacebookFooter {
+        display: none
+    }
+    .sidebar {
+        width: 100% !important;
+        float: left
+    }
+    .prodListItem tr {
+        width: 100% !important
+    }
+    .CategoryContent table {
+        width: 100%;
+        float: left
+    }
+    .CategoryContent table td {
+        width: 100%;
+        float: left
+    }
+    .CategoryContent table tr {
+        width: 50%;
+        float: left
+    }
+    .LastAdded {
+        height: auto;
+            overflow: initial;
+            margin-bottom:0px;
+    }
+    .LastAdded .prodListItem .clipImg {
+        width: 40%;
+        height: 160px;
+        box-sizing: border-box;
+        padding: 10px
+    }
+    .CategoryContent .prodListItem:nth-child(2n+0),
+    .content .prodListItem:nth-child(2n+0) {
+        margin: 15px 0px 20px 0px
+    }
+    .LastAdded .prodListItem .clipImg img {
+        max-height: 150px;
+        width: auto;
+        max-width: 100%;
+        height: 145px
+    }
+    .ProduseCategorie .prodListItem {
+        margin: 16px 25px 20px 0px
+    }
+    .ProduseCategorie .prodListItem {
+        width: 210px
+    }
+    .ProduseCategorie .prodListItem:nth-child(5n) {
+        margin-right: 25px
+    }
+    .ProduseCategorie .prodListItem:nth-child(2n) {
+        margin-right: 0px
+    }
+    .titleIn td {
+        width: 100% !important
+    }
+    .LastAdded .prodListItem {
+        margin-bottom: 0px;
+        height: 175px;
+        width: 470px !important
+    }
+    .CategoryContent .prodListItem td {
+        /*width: 260px;*/
+        text-align: center
+    }
+    .CategoryContent .prodListItem {
+        height: auto;
+        width: 208px;
+        padding-bottom: 10px
+    }
+    .prodListItem .clipImg {
+        padding: 1px 35px;
+        height: 189px
+    }
+    .LastAdded .prodListItem .gradient {
+        width: 60%;
+        padding: 0px
+    }
+    .stocLinieLeft {
+        display: none
+    }
+    .stocLinieRight {
+        display: none
+    }
+    .prodListItem .gradient {
+        width: 100%;
+        float: left;
+        display: block;
+        padding-top: 10px;
+        box-sizing: border-box
+    }
+    .prodListItem .ButtonAdauga {
+        width: 100%;
+        float: left
+    }
+    .TbPager {
+        text-align: center;
+        height: 50px;
+        margin-top: 25px
+    }
+    .GaleriaTb {
+        width: 100% !important;
+        float: left
+    }
+    #galleria {
+        width: 100% !important
+    }
+    .DivSocial {
+        width: 226px;
+        left: 80px;
+        position: relative
+    }
+    .DivProducts table {
+        width: 100% !important;
+        float: left;
+        overflow: hidden
+    }
+    .DivProducts table td {
+        float: left
+    }
+    .DivProducts {
+        overflow: initial
+    }
+    .DivProducts .icon-shopping-cart {
+        position: relative;
+        top: 10px;
+        left: 10px;
+        padding: 0px
+    }
+    #tabs h2 {
+        width: 100%
+    }
+    .sidebar .MenuSideL2 a {
+        width: 450px !important;
+        box-sizing: border-box;
+        text-transform: none
+    }
+    .sidebar .MenuSideL1 a {
+        width: 450px !important;
+        box-sizing: border-box
+    }
+    .PopUp {
+        padding: 35px;
+        width: 100%;
+        box-sizing: border-box
+    }
+    .PopUp .ButtonDefault {
+        position: relative;
+        top: 20px
+    }
+    .PopUp .TextBox {
+        width: 365px !important
+    }
+    .DivDetaliiComanda .ButtonDefault {
+        margin-top: 15px;
+        margin-left: -25px
+    }
+    .DivDetaliiComanda h2 {
+        float: left
+    }
+    .reveal-modal {
+        left: 0%;
+        width: 365px;
+        box-sizing: border-box;
+        padding: 50px 3px
+    }
+    .contentCos table {
+        width: 100%;
+        float: left
+    }
+    .contentCos table td {
+        width: 100%;
+        float: left;
+        text-align: left
+    }
+    .AdminListHeader {
+        display: none
+    }
+    .PriceAdmin {
+        width: 33% !important;
+        float: left;
+        position: relative;
+        top: 15px
+    }
+    .QuantityAdmin {
+        top: 0px !important;
+        text-align: right !important
+    }
+    .DeleteImg {
+        top: 10px !important;
+        text-align: right !important;
+        right: 8px
+    }
+    .SubtotalTitle {
+        width: 70%
+    }
+    .SubtotalPrice {
+        width: 30%
+    }
+    .TbDate .TextBox {
+        width: 400px !important
+    }
+    .Voucher .ButtonDefault {
+        margin-top: 20px;
+        margin-left: -21px
+    }
+    .DivButonTrimite .ButtonFinal {
+        margin-top: -142px;
+        margin-left: 20px
+    }
+    .CartPageDetails {
+        width: 98% !important
+    }
+    .DivDetaliiComanda {
+        height: auto !important;
+        padding: 5px 0px 140px 20px;
+        margin-bottom: 25px
+    }
+    .ImgProduct {
+        text-align: center !important
+    }
+    .TbDate .JudetTextBox {
+        width: 415px !important
+    }
+    .TotalTitle {
+        width: 70%
+    }
+    .PriceTotal {
+        width: 30%
+    }
+    .DivDetaliiComanda {
+        height: auto !important
+    }
+    .ProductMoreDetails {
+        border-top: 0px;
+        border-bottom: 1px solid #ccc
+    }
+    .AdminRightCell .TextBox {
+        width: 95px !important;
+        margin-bottom: 15px
+    }
+    .Voucher {
+        padding: 20px 20px !important;
+        border-top: 0px !important;
+        float: left;
+        width: 100%;
+        box-sizing: border-box
+    }
+    .Voucher .TextBox {
+        width: 240px !important
+    }
+    .DivContactLeft {
+        width: 100%
+    }
+    .DivContactRight {
+        width: 100%
+    }
+    .ContactLeft {
+        width: 100%
+    }
+    .ContactRight {
+        width: 100%;
+        padding-left: 0px
+    }
+    .formWrap .TextBox {
+        width: 430px !important
+    }
+    .ContactRight .TextBox {
+        margin-top: 15px;
+        margin-left: 0px
+    }
+    .captchaWrap {
+        width: 300px
+    }
+    .DivCreareCont table {
+        width: 100%;
+        float: left
+    }
+    .DivCreareCont table td {
+        width: 100%;
+        float: left
+    }
+    .DivCreareCont .TextBox {
+        width: 400px !important
+    }
+    .TbCreazaCont .ContJudet {
+        width: 415px !important
+    }
+    .Tab .ajax__tab_active .ajax__tab_tab,
+    .Tab .ajax__tab_hover .ajax__tab_tab,
+    .Tab .ajax__tab_tab {
+        height: 30px;
+        padding: 10px 15px;
+        width: 120px;
+        float: left;
+        top: -5px;
+        position: relative
+    }
+    .TbDate {
+        width: 100%
+    }
+    .TbDate td {
+        width: 100%;
+        float: left
+    }
+    .TbDate .AdminTextBoxJudet {
+        width: 415px !important
+    }
+    .pager {
+        margin-bottom: 20px;
+        height: 50px;
+        margin-top: 50px
+    }
+    .DivChangePassword {
+        width: 100%;
+        padding-left: 10px
+    }
+    .DivChangePassword td {
+        width: 100%;
+        float: left
+    }
+    .DivChangePassword .TextBox {
+        width: 260px !important
+    }
+    .ButtonPasswordSave {
+        float: left;
+        margin-top: 20px
+    }
+    .ButtonPasswordCancel {
+        margin-left: 0px;
+        margin-top: 15px
+    }
+    .DivChangePassword table {
+        width: 295px !important
+    }
+    .TbArticoleBlog {
+        width: 450px !important
+    }
+    .ClipArticole {
+        width: 100% !important;
+        float: left
+    }
+    .DataComment {
+        width: 20% !important
+    }
+    .TitluArticol {
+        width: 100% !important
+    }
+    .GalleryInsideArticle {
+        width: 100% !important;
+        text-align: center
+    }
+    .InsideArticle {
+        width: 100% !important
+    }
+    #dComments {
+        width: 100% !important;
+        float: left
+    }
+    .CommentSection .hrProfileS {
+        width: 400px
+    }
+    #ArticlePage .comment {
+        width: 380px
+    }
+    #guestbook .comment {
+        width: 100%
+    }
+    .DataComentariu {
+        width: 340px
+    }
+    #dComment {
+        width: 100% !important;
+        float: left
+    }
+    #dComment table {
+        width: 100% !important;
+        float: left
+    }
+    #dComment table td {
+        width: 100% !important;
+        float: left
+    }
+    #dComment .TextBox {
+        width: 390px !important
+    }
+    .ParteneriBottom {
+        display: block;
+        width: 100%;
+        float: left;
+        position: relative;
+        margin: 20px 0px
+    }
+    .BottomFooter {
+        display: none
+    }
+    .BottomFooterToogle {
+        display: none
+    }
+    .ParteneriBottom img {
+        position: relative;
+        top: 5px
+    }
+    .PanelFilterForResp {
+        display: none
+    }
+    .PanelToogle {
+        display: none
+    }
+    .FilterToogleList {
+        position: relative;
+        margin: 20px 0px 0px 0px;
+        font-size: 21px;
+        background-color: #282929;
+        color: #fff;
+        line-height: 45px;
+        font-weight: 400;
+        text-indent: 10px;
+        border-left: solid 5px #282929;
+        width: 100%;
+        height: 45px;
+        display: block;
+        box-sizing: border-box
+    }
+    .FilterToogleList img {
+        float: right;
+        width: 23px;
+        position: relative;
+        top: 10px;
+        left: -15px
+    }
+    .FilterToogle {
+        position: relative;
+        font-size: 21px;
+        background-color: #007dd0;
+        color: #fff;
+        line-height: 45px;
+        font-weight: 400;
+        text-indent: 10px;
+        border-left: solid 5px #007dd0;
+        width: 100%;
+        height: 45px;
+        display: block;
+        box-sizing: border-box
+    }
+    .sidebar1Header {
+        display: none
+    }
+    .CategoryListMenu {
+        display: none
+    }
+    .CategoryToogle {
+        display: block;
+        font-size: 20px;
+        background-color: #545454;
+        line-height: 45px;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-indent: 10px;
+        border-left: solid 5px #545454;
+        float: left;
+        width: 100%;
+        box-sizing: border-box;
+        color: #fff
+    }
+    .archiveListMenu {
+        display: none
+    }
+    .ArchiveHeader {
+        font-size: 20px;
+        background-color: #ee4a42;
+        line-height: 45px;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-indent: 10px;
+        border-left: solid 5px #ee4a42;
+        float: left;
+        width: 100%;
+        box-sizing: border-box;
+        color: #fff
+    }
+    .FilterToogle img {
+        float: right;
+        width: 23px;
+        position: relative;
+        top: 10px;
+        left: -15px
+    }
+    .ArchiveHeader img {
+        display: block;
+        float: right;
+        width: 27px;
+        position: relative;
+        top: 8px;
+        left: -12px
+    }
+    .CategoryToogle img {
+        display: block;
+        float: right;
+        width: 32px;
+        position: relative;
+        top: 8px;
+        left: -12px
+    }
+    .CategoryFilter table {
+        width: 100%;
+        float: left !important
+    }
+    .CategoryFilter table td {
+        width: 50% !important;
+        float: left !important;
+        text-align: left !important
+    }
+    #ctl00_RecentlyVisitedProducts1_PanelAroundControl {
+        display: none
+    }
+    .NavResponsive {
+        display: block
+    }
+    .headerLeft {
+        position: absolute
+    }
+    .headerRight {
+        margin-top: -21px
+    }
+    .TitluCos {
+        display: none
+    }
+    #shoppingCartBox {
+        width: 59px;
+        padding: 11px 0px 0px 13px;
+        position: absolute;
+        float: right;
+        top: 25px;
+        right: 8px
+    }
+    .ProductsCount {
+        left: 66%
+    }
+    .LinieHeader {
+        display: none
+    }
+    .MenuSideL2 a {
+        background-color: #000 !important;
+        color: #333333;
+        margin-left: 0px;
+        line-height: 30px;
+        box-sizing: border-box;
+        display: block;
+        white-space: normal;
+        border-bottom: 0px solid rgba(217, 217, 217, 0.88) !important;
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 14px !important;
+        text-indent: 15px
+    }
+    #SearchBox {
+        float: left;
+        padding: 7px 6px 0 0;
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+        top: -95px;
+        left: 15px;
+        z-index: 1
+    }
+    .SearchResponsive {
+        display: block;
+        position: absolute;
+        top: -45px;
+        width: 10%;
+        float: right;
+        right: 0px;
+        color: #fff;
+        z-index: 999
+    }
+    .icon-search {
+        color: #fff;
+        font-size: 28px;
+        position: absolute;
+        z-index: 1
+    }
+    #SearchBox {
+        display: none
+    }
+    .icon-mail-envelope-closed {
+        display: block !important
+    }
+    .mailHeader img {
+        display: none
+    }
+    .loginResponsive {
+        display: block;
+        width: 70%;
+        float: left
+    }
+    #loginViewMaster {
+        display: none;
+        width: 180px;
+        top: 10px;
+        position: relative;
+        background-color: #007dd0;
+        border-radius: 6px
+    }
+    .Blogtxt {
+        display: none
+    }
+    .icon-document-edit2 {
+        position: absolute;
+        top: -41px;
+        font-size: 23px;
+        z-index: 1;
+        left: 315px
+    }
+    .icon-user-check {
+        color: #fff;
+        color: #fff;
+        font-size: 24px;
+        position: absolute;
+        top: -21px;
+        left: 20px
+    }
+    .icon-mail-envelope-open {
+        display: block !important;
+        color: #fff;
+        font-size: 24px;
+        position: absolute;
+        top: -21px;
+        left: 120px
+    }
+    .icon-people2 {
+        color: #fff;
+        font-size: 28px;
+        position: absolute;
+        top: -21px;
+        left: 210px
+    }
+    .responsiveH {
+        display: block
+    }
+    .LastAdded .ButtonDefault {
+        width: 130px !important;
+        font-size: 10px;
+        left: 60px;
+        position: relative
+    }
+    #ShoppingCartDiv,
+    .DivProductAdd {
+        position: absolute;
+        right: 0;
+        background: #eee;
+        z-index: 100;
+        padding: 15px;
+        width: 246px;
+        color: #000;
+        border: 4px solid #ee4a42;
+        left: -214px;
+        float: left;
+        top: 69px
+    }
+    .DivPriceProduct {
+        left: -15px;
+        position: relative
+    }
+    .BorderProduct {
+        border-bottom: 0px !important
+    }
+    .OriginalProduct {
+        margin-bottom: 10px;
+        margin-top: 10px
+    }
+    .DivPriceProduct td {
+        width: 100% !important
+    }
+    .TbRecomand {
+        width: 450px !important;
+        padding: 20px 10px 20px 25px;
+        right: 0px
+    }
+    .TdSocialDetails {
+        margin-top: 10px;
+        margin-left: -13px
+    }
+    .galleria-container {
+        box-sizing: border-box
+    }
+    .DivDetaliiComanda .TextBoxClientVechi {
+        width: 245px !important
+    }
+    .CategoryFilter {
+        height: auto
+    }
+    .FooterData {
+        font-size: 13px
+    }
+    .ButtonNormal {
+        color: #007dd0;
+        font-size: 13px;
+        width: 100%
+    }
+    .StocOrder {
+        width: 50%
+    }
+    .StocOrderTxt {
+        width: 100%;
+        text-align: left;
+        height: 33px
+    }
+    .StocOrderBox {
+        width: 100%;
+        padding: 0px
+    }
+    .StocOrder2 {
+        width: 50%
+    }
+    .StocOrderTxt2 {
+        width: 100%;
+        text-align: left;
+        height: 33px
+    }
+    .StocOrderBox2 {
+        width: 100%;
+        padding: 0px
+    }
+    .ArticlePageContent table {
+        width: 100% !important
+    }
+    .ArticlePageContent table td {
+        width: 100% !important;
+        float: left
+    }
+    .ArticlePager {
+        text-align: center
+    }
+    .CategoriiArticolePg table {
+        width: 100% !important
+    }
+    .CategoriiArticolePg table td {
+        width: 100% !important;
+        float: left
+    }
+    .PagerTb {
+        text-align: center
+    }
+    .ImgDivUtile img {
+        float: right;
+        margin-left: 20px;
+        width: 30%;
+        height: auto
+    }
+    .ImgInfo img {
+        float: right;
+        margin-left: 20px;
+        width: 30%
+    }
+    h1 {
+        font-size: 23px
+    }
+    .DivLoginPage {
+        width: 100%
+    }
+    .DivLoginPage table {
+        width: 100%
+    }
+    .DivLoginPage table td {
+        width: 100%;
+        float: left
+    }
+    .ClientVechi {
+        margin-bottom: 40px;
+        padding: 10px
+    }
+    .ClientNou {
+        margin-bottom: 40px
+    }
+    .ImgMenu {
+        display: none
+    }
+    #guestbook {
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+        padding-right: 0px
+    }
+    .TbCommentsG {
+        width: 100%
+    }
+    .TbCommentsG table {
+        width: 100% !important;
+        float: left
+    }
+    .TbCommentsG table td {
+        width: 100% !important;
+        float: left
+    }
+    .TbCommentsG .TextBox {
+        width: 380px !important
+    }
+    .commentWrap .icon-people2 {
+        display: none
+    }
+    .SearchContent .prodListItem {
+        margin: 15px 26px 20px 0px
+    }
+}
+@media only screen and (min-width: 770px) and (max-width: 956px) {
+    #container,
+    .container {
+        width: 750px
+    }
+    .content {
+        width: 540px;
+        margin-left: 0px;
+        margin-bottom: 8px
+    }
+    .HResp {
+        display: block;
+        width: 100%;
+        background: #333;
+        box-sizing: border-box;
+        padding-top: 15px
+    }
+    .header1 {
+        margin-top: -50px
+    }
+    .LinieHeader {
+        display: none
+    }
+    #navigation {
+        display: none
+    }
+    .slicknav_menu {
+        display: block
+    }
+    #slides {
+        display: block;
+        height: auto !important
+    }
+    #slides img {
+        height: auto
+    }
+    .rslides,
+    .rslides img {
+        width: 100%;
+        height: auto
+    }
+    .XboxButton {
+        display: none
+    }
+    .Sageata {
+        display: none
+    }
+    .BannerTxt {
+        display: none
+    }
+    .ButtonPriceBanner {
+        display: none
+    }
+    .ButtonAdaugaBanner {
+        display: none
+    }
+    .BannerTxt1 {
+        top: 59px;
+        display: none
+    }
+    .ImgHomeBanner img {
+        width: 48% !important;
+        float: left;
+        height: auto !important;
+        margin-top: 30px
+    }
+    #header {
+        height: auto
+    }
+    .headerLeft {
+        width: 47%
+    }
+    .headerRight {
+        width: 53%
+    }
+    .CumCumparTxt {
+        display: none
+    }
+    .InfoTxt {
+        display: none
+    }
+    .sidebar {
+        width: 190px;
+        margin-right: 20px;
+        margin-top: 10px
+    }
+    .PopUp table {
+        width: 100%
+    }
+    .PopUp table td {
+        width: 100% !important;
+        float: left
+    }
+    .PopUp .TextBox {
+        width: 315px !important
+    }
+    .sidebar .MenuSideL1 a {
+        width: 190px !important;
+        box-sizing: border-box
+    }
+    .sidebar .MenuSideL2 a {
+        width: 190px !important
+    }
+    .TxtBoxSearch,
+    .TxtBoxSearchW {
+        width: 145px !important
+    }
+    .ButtonSearch {
+        width: 75px
+    }
+    .logo img {
+        width: 240px
+    }
+    .PreorderPopUp .PopUp {
+        margin-top: 0px
+    }
+    .SearchToogle {
+        width: 50%;
+        float: left
+    }
+    .DivDetaliiStoc {
+        width: 100%
+    }
+    .dropMenuLeft .MenuCatL1 {
+        width: 57px !important
+    }
+    .dropMenuLeft .MenuCatL1 span {
+        font-weight: 400;
+        font-size: 13px !important
+    }
+    .LogoFooter {
+        display: none
+    }
+    .InformatiiFooter {
+        width: 33%;
+        padding-left: 0px
+    }
+    .ContactFooter {
+        width: 33%
+    }
+    .FacebookFooter {
+        width: 33%;
+        float: left
+    }
+    .ImgBanner {
+        display: none
+    }
+    .LinieFooter img {
+        width: 100%;
+        height: 1px
+    }
+    .LinieHeader img {
+        width: 100%
+    }
+    .Consola1 {
+        width: 20%;
+        height: 110px
+    }
+    .Consola2 {
+        width: 20%;
+        height: 110px
+    }
+    .Consola3 {
+        width: 20%;
+        height: 110px
+    }
+    .Consola4 {
+        width: 20%;
+        height: 110px
+    }
+    .Consola5 {
+        width: 20%;
+        height: 110px
+    }
+    .Consola1 img {
+        box-sizing: border-box;
+        padding: 17px 0px 0px 50px
+    }
+    .Consola2 img {
+        box-sizing: border-box;
+        padding: 17px 0px 0px 50px
+    }
+    .Consola3 img {
+        box-sizing: border-box;
+        padding: 17px 0px 0px 50px
+    }
+    .Consola4 img {
+        box-sizing: border-box;
+        padding: 17px 0px 0px 50px
+    }
+    .Consola5 img {
+        box-sizing: border-box;
+        padding: 17px 0px 0px 50px
+    }
+    .ConsoleContent .prodListItem .clipImg {
+        height: 170px
+    }
+    .ConsoleContent .prodListItem {
+        height: 360px;
+        width: 150px !important
+    }
+    .stocLinieLeft {
+        display: none
+    }
+    .stocLinieRight {
+        display: none
+    }
+    .ConsoleContent .subtext {
+        height: 42px
+    }
+    .ConsoleContent .InfoStoc {
+        width: 100%;
+        float: left;
+        position: relative;
+        box-sizing: border-box;
+        padding: 0px 8px
+    }
+    .ConsoleContent .ButtonDefault {
+        width: 125px;
+        font-size: 11px
+    }
+    .ProductField img {
+        max-width: 100% !important;
+        float: left;
+        height: auto
+    }
+    .DivCategoryBest {
+        width: 50% !important
+    }
+    .DivCategoryLast {
+        width: 50% !important
+    }
+    .Noutati table td {
+        width: 100%
+    }
+    .NoutatiContent {
+        overflow: hidden;
+        height: 405px
+    }
+    .LastAdded .InfoStoc {
+        width: 100%;
+        float: right;
+        position: relative;
+        text-align: right
+    }
+    .InFuture .prodListItem {
+        width: 373px !important
+    }
+    .InFuture .gradient {
+        width: 373px
+    }
+    .InFuture .ButonPrecomanda {
+        margin-top: -40px;
+        margin-left: 215px
+    }
+    #galleria {
+        width: 330px !important
+    }
+    #tabs h2 {
+        width: 25%
+    }
+    .ButtonCart {
+        margin-bottom: 20px
+    }
+    .ProduseCategorie .prodListItem:nth-child(5n) {
+        margin-right: 30px
+    }
+    .ProduseCategorie .prodListItem:nth-child(3n) {
+        margin-right: 0px
+    }
+    .ProduseCategorie .prodListItem {
+        width: 230px
+    }
+    .TotalTitle {
+        width: 85%
+    }
+    .PriceTotal {
+        width: 15%
+    }
+    .TextBox {
+        width: 275px !important
+    }
+    .TbDate .TextBox {
+        width: 240px !important
+    }
+    .TbDate .JudetTextBox {
+        width: 255px !important
+    }
+    .DivDetaliiComanda .TextBoxClientVechi {
+        width: 180px !important
+    }
+    .PopUp table {
+        width: 100% !important
+    }
+    .PopUp table td {
+        width: 100% !important
+    }
+    .TbCreazaCont .ContJudet {
+        width: 255px !important
+    }
+    .Tab .ajax__tab_active .ajax__tab_tab,
+    .Tab .ajax__tab_hover .ajax__tab_tab,
+    .Tab .ajax__tab_tab {
+        width: 220px
+    }
+    .TbDate .AdminTextBoxJudet {
+        width: 255px !important
+    }
+    .formWrap .TextBox {
+        width: 340px !important
+    }
+    #subCat table {
+        width: 540px !important;
+        float: left
+    }
+    #subCat td {
+        width: 270px !important;
+        float: left
+    }
+    .subCatItem {
+        width: 224px
+    }
+    .LastAdded .prodListItem {
+        width: 100% !important
+    }
+    .Noutati .prodListItem {
+        width: 338px !important
+    }
+    .LastAdded .prodListItem .subtext {
+        width: 40%
+    }
+    .CategoryContent .prodListItem:nth-child(2n) {
+        margin-right: 0
+    }
+    .prodListItem td {
+        width: 230px !important
+    }
+    .TitluCos {
+        display: none
+    }
+    .logo {
+        float: left;
+        width: 36%
+    }
+    .TbPager {
+        margin-bottom: 20px;
+        text-align: center
+    }
+    #subCat {
+        width: 540px
+    }
+    .Social1 img {
+        width: 350px !important
+    }
+    #shoppingCartBox {
+        width: 80px;
+        padding: 11px 0px 0px 35px;
+        position: relative;
+        margin-left: 10px;
+        float: left;
+        box-sizing: border-box
+    }
+    .ProductsCount {
+        left: 88%
+    }
+    .StocOrder {
+        width: 40%
+    }
+    .StocOrderTxt {
+        width: 30%;
+        text-align: left
+    }
+    .StocOrderBox {
+        width: 70%;
+        padding: 0px
+    }
+    .StocOrder2 {
+        width: 60%
+    }
+    .StocOrderTxt2 {
+        width: 40%;
+        text-align: left
+    }
+    .StocOrderBox2 {
+        width: 60%;
+        padding: 0px
+    }
+    .ArticlePageContent table {
+        width: 540px !important
+    }
+    .ArticlePageContent table td {
+        width: 540px !important;
+        float: left
+    }
+    .ArticlePager {
+        text-align: center
+    }
+    .CategoriiArticolePg table {
+        width: 540px !important
+    }
+    .CategoriiArticolePg table td {
+        width: 540px !important;
+        float: left
+    }
+    .PagerTb {
+        text-align: center
+    }
+    .TbArticoleBlog {
+        width: 540px !important
+    }
+    .TitluArticol {
+        width: 100% !important
+    }
+    .DataComment {
+        width: 15% !important
+    }
+    .ClipArticole {
+        width: 100% !important;
+        height: 250px;
+        overflow: hidden
+    }
+    .ArticlePageContent {
+        width: 540px !important
+    }
+    .GalleryInsideArticle {
+        width: 100% !important;
+        text-align: center
+    }
+    .InsideArticle {
+        width: 100% !important
+    }
+    .CommentSection .hrProfileS {
+        width: 510px !important
+    }
+    #dComments {
+        width: 100% !important;
+        float: left
+    }
+    .CommentSection .hrProfileS {
+        width: 400px
+    }
+    #ArticlePage .comment {
+        width: 480px
+    }
+    #guestbook .comment {
+        width: 100%
+    }
+    .DataComentariu {
+        width: 440px
+    }
+    #dComment {
+        width: 100% !important;
+        float: left
+    }
+    #dComment table {
+        width: 100% !important;
+        float: left
+    }
+    #dComment table td {
+        width: 100% !important;
+        float: left
+    }
+    #dComment .TextBox {
+        width: 490px !important
+    }
+    .BannerJos {
+        height: auto !important;
+        margin-bottom: -20px
+    }
+    .BannerJos img {
+        height: auto !important
+    }
+    .InFuture .prodListItem .clipImg {
+        height: 392px
+    }
+    .MenuButtons {
+        width: 90%
+    }
+    .MenuSideL1 {
+        color: #484848;
+        width: 33%
+    }
+    .TermeniConditii {
+        display: none
+    }
+    .SubtotalTitle {
+        width: 85%
+    }
+    .SubtotalPrice {
+        width: 15%
+    }
+    .bottomContent {
+        width: 20%
+    }
+    .bottomContent1 {
+        width: 40%
+    }
+    #guestbook {
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+        padding-right: 0px
+    }
+    .CategoryHead {
+        font-size: 17px
+    }
+    .TbCommentsG {
+        width: 100%
+    }
+    .TbCommentsG .TextBox {
+        width: 380px !important
+    }
+}
+@media only screen and (min-width: 957px) and (max-width: 1024px) {
+    #container,
+    .container {
+        width: 950px
+    }
+    .content {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 45px
+    }
+    .slicknav_menu {
+        display: none
+    }
+    #slides {
+        display: block
+    }
+    #navigation {
+        display: block
+    }
+    #header {
+        height: auto
+    }
+    .headerLeft {
+        width: 51%
+    }
+    .headerRight {
+        width: 49%;
+        margin-top: 4px
+    }
+    .CumCumparTxt {
+        display: none
+    }
+    .InfoTxt {
+        display: none
+    }
+    .TxtBoxSearch,
+    .TxtBoxSearchW {
+        width: 170px !important
+    }
+    .logo img {
+        width: 270px
+    }
+    .SearchToogle {
+        width: 50%;
+        float: left
+    }
+    .dropMenuLeft .MenuCatL1 {
+        width: 67px !important
+    }
+    .dropMenuLeft .MenuCatL1 span {
+        font-size: 13px !important
+    }
+    .LogoFooter {
+        display: none
+    }
+    .InformatiiFooter {
+        width: 33%;
+        padding-left: 0px
+    }
+    .PreorderPopUp .PopUp {
+        margin-top: 270px
+    }
+    .ContactFooter {
+        width: 33%
+    }
+    .FacebookFooter {
+        width: 33%;
+        float: left
+    }
+    .ImgBanner {
+        display: none
+    }
+    .LinieFooter img {
+        width: 100%;
+        height: 1px
+    }
+    .LinieHeader img {
+        width: 100%
+    }
+    .Consola1 {
+        width: 20%
+    }
+    .Consola2 {
+        width: 20%
+    }
+    .Consola3 {
+        width: 20%
+    }
+    .Consola4 {
+        width: 20%
+    }
+    .Consola5 {
+        width: 20%
+    }
+    .Consola1 img {
+        box-sizing: border-box;
+        padding: 30px 0px 0px 50px
+    }
+    .ImgHomeBanner img {
+        width: 48% !important;
+        float: left;
+        height: auto !important;
+        margin-top: 15px
+    }
+    .Consola2 img {
+        box-sizing: border-box;
+        padding: 30px 0px 0px 50px
+    }
+    .Consola3 img {
+        box-sizing: border-box;
+        padding: 30px 0px 0px 50px
+    }
+    .Consola4 img {
+        box-sizing: border-box;
+        padding: 30px 0px 0px 50px
+    }
+    .Consola5 img {
+        box-sizing: border-box;
+        padding: 30px 0px 0px 50px
+    }
+    .DivDetaliiStoc {
+        width: 100%
+    }
+    .ConsoleContent .ButtonDefault {
+        width: 125px;
+        font-size: 11px
+    }
+    .DivCategoryBest {
+        width: 50% !important
+    }
+    .DivCategoryLast {
+        width: 50% !important
+    }
+    .Noutati table td {
+        width: 100%
+    }
+    .NoutatiContent {
+        overflow: hidden;
+        height: 405px
+    }
+    .LastAdded .InfoStoc {
+        width: 100%;
+        float: right;
+        position: relative;
+        text-align: right
+    }
+    .InFuture .prodListItem {
+        width: 473px
+    }
+    .InFuture .gradient {
+        width: 473px;
+        margin-top: -10px
+    }
+    .PopUp .TextBox {
+        width: 250px !important
+    }
+    .InFuture .ButonPrecomanda {
+        margin-top: -40px;
+        margin-left: 215px
+    }
+    #galleria {
+        width: 400px !important
+    }
+    #tabs h2 {
+        width: 25%
+    }
+    .ButtonCart {
+        margin-bottom: 20px
+    }
+    .ProduseCategorie .prodListItem:nth-child(5n) {
+        margin-right: 30px
+    }
+    .ProduseCategorie .prodListItem:nth-child(3n) {
+        margin-right: 30px
+    }
+    .ProduseCategorie .prodListItem:nth-child(4n) {
+        margin-right: 0px
+    }
+    .ProduseCategorie .prodListItem {
+        width: 215px
+    }
+    .CategoryContent .prodListItem:nth-child(4n),
+    .content .prodListItem:nth-child(4n) {
+        margin-right: 24px
+    }
+    .CategoryContent .prodListItem,
+    .content .prodListItem {
+        margin-right: 24px
+    }
+    .CategoryContentAll .prodListItem {
+        width: 219px
+    }
+    .subCatItem {
+        width: 220px
+    }
+    .TotalTitle {
+        width: 85%
+    }
+    .PriceTotal {
+        width: 15%
+    }
+    .TextBox {
+        width: 275px !important
+    }
+    .TbDate .TextBox {
+        width: 290px !important
+    }
+    .TbDate .JudetTextBox {
+        width: 305px !important
+    }
+    .DivDetaliiComanda .TextBoxClientVechi {
+        width: 180px !important
+    }
+    .TbCreazaCont .ContJudet {
+        width: 305px !important
+    }
+    .Tab .ajax__tab_active .ajax__tab_tab,
+    .Tab .ajax__tab_hover .ajax__tab_tab,
+    .Tab .ajax__tab_tab {
+        width: 286px
+    }
+    .TbDate .AdminTextBoxJudet {
+        width: 305px !important
+    }
+    .formWrap .TextBox {
+        width: 425px !important
+    }
+    .TitluCos {
+        display: none
+    }
+    #shoppingCartBox {
+        width: 70px;
+        padding: 11px 0px 0px 13px;
+        position: relative;
+        margin-left: 10px;
+        float: right;
+        top: -47px
+    }
+    .ProductsCount {
+        left: 60%
+    }
+    .Noutati .prodListItem {
+        width: 450px !important
+    }
+    .Bestseller .prodListItem {
+        width: 450px !important;
+        margin-bottom: 10px
+    }
+    .sidebar {
+        width: 215px;
+        margin-right: 20px
+    }
+    .sidebar .MenuSideL1 a {
+        width: 210px !important;
+        box-sizing: border-box
+    }
+    .sidebar .MenuSideL2 a {
+        width: 210px !important
+    }
+    .content {
+        width: 715px;
+        margin-left: 0px;
+        margin-bottom: 10px
+    }
+    #subCat {
+        width: 715px
+    }
+    #subCat table {
+        width: 715px !important
+    }
+    #subCat table tr {
+        width: 715px !important
+    }
+    #subCat table td {
+        width: 238px !important;
+        float: left
+    }
+    .subCatItem .title {
+        line-height: 52px
+    }
+    .StocOrder {
+        width: 60%
+    }
+    .StocOrderTxt {
+        width: 65%
+    }
+    .StocOrderBox {
+        width: 30%
+    }
+    .StocOrder2 {
+        width: 40%
+    }
+    .StocOrderTxt2 {
+        width: 40%;
+        text-align: left
+    }
+    .StocOrderBox2 {
+        width: 60%
+    }
+    .ArticlePageContent table {
+        width: 715px !important
+    }
+    .ArticlePageContent table td {
+        width: 715px !important;
+        float: left
+    }
+    .ArticlePager {
+        text-align: center
+    }
+    .CategoriiArticolePg table {
+        width: 715px !important
+    }
+    .CategoriiArticolePg table td {
+        width: 715px !important;
+        float: left
+    }
+    .PagerTb {
+        text-align: center
+    }
+    .TbArticoleBlog {
+        width: 715px !important
+    }
+    .TitluArticol {
+        width: 60% !important
+    }
+    .DataComment {
+        width: 10% !important
+    }
+    .ArticlePageContent {
+        width: 715px !important
+    }
+    .GalleryInsideArticle {
+        width: 40% !important;
+        text-align: center
+    }
+    .InsideArticle {
+        width: 60% !important
+    }
+    .CommentSection .hrProfileS {
+        width: 675px !important
+    }
+    #dComments {
+        width: 100% !important;
+        float: left
+    }
+    #guestbook .comment,
+    #ArticlePage .comment {
+        width: 480px
+    }
+    .DataComentariu {
+        width: 440px
+    }
+    #dComment {
+        width: 100% !important;
+        float: left
+    }
+    #dComment table {
+        width: 100% !important;
+        float: left
+    }
+    #dComment table td {
+        width: 100% !important;
+        float: left
+    }
+    #dComment .TextBox {
+        width: 490px !important
+    }
+    .BannerJos {
+        height: auto !important
+    }
+    .BannerJos img {
+        height: auto !important;
+        margin-bottom: -20px
+    }
+    .rslides,
+    .rslides img {
+        width: 100%;
+        height: auto
+    }
+    #slides {
+        height: auto
+    }
+    .stocLinieLeft,
+    .stocLinieRight {
+        display: none
+    }
+    .ConsoleContent .InfoStoc {
+        box-sizing: border-box;
+        padding: 0px 8px
+    }
+    .ConsoleContent .subtext {
+        height: 42px
+    }
+    .XboxButton {
+        display: none
+    }
+    .Sageata {
+        display: none
+    }
+    .BannerTxt {
+        display: none
+    }
+    .ButtonPriceBanner {
+        display: none
+    }
+    .ButtonAdaugaBanner {
+        display: none
+    }
+    .BannerTxt1 {
+        top: 59px;
+        display: none
+    }
+    .bottomContent {
+        width: 20%
+    }
+    .bottomContent1 {
+        width: 40%
+    }
+    .TbCommentsG .TextBox {
+        width: 250px !important
+    }
+    .SearchContent .prodListItem {
+        margin: 15px 34px 20px 0px !important
+    }
+    .SearchContent .prodListItem:nth-child(4n) {
+        margin: 15px 34px 20px 0px !important
+    }
+    .SearchContent .prodListItem:nth-child(3n) {
+        margin: 15px 0px 20px 0px !important
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    #container,
+    .container {
+        width: 1000px
+    }
+    .content {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 45px
+    }
+    .slicknav_menu {
+        display: none
+    }
+    #slides {
+        display: block
+    }
+    #navigation {
+        display: block
+    }
+    .logo {
+        width: 33%
+    }
+    .ImgBanner img {
+        width: 500px !important
+    }
+    .dropMenuLeft .MenuCatL1 {
+        padding: 0 5px
+    }
+    .dropMenuLeft .MenuCatL1 span {
+        font-size: 14px !important
+    }
+    .ImgHomeBanner img {
+        width: 48% !important;
+        float: left;
+        height: auto !important;
+        margin-top: 10px
+    }
+    .sidebar {
+        width: 215px;
+        margin-right: 20px;
+        margin-top: 10px
+    }
+    .sidebar .MenuSideL1 a {
+        width: 210px !important;
+        box-sizing: border-box
+    }
+    .sidebar .MenuSideL2 a {
+        width: 210px !important
+    }
+    .content {
+        width: 765px;
+        margin-left: 0px;
+        margin-bottom: 10px
+    }
+    #subCat {
+        width: 765px
+    }
+    #subCat table td {
+        width: 254px !important;
+        float: left
+    }
+    .subCatItem .title {
+        line-height: 52px
+    }
+    .ArticlePageContent table {
+        width: 765px !important
+    }
+    .ArticlePageContent table td {
+        width: 765px !important;
+        float: left
+    }
+    .ArticlePager {
+        text-align: center
+    }
+    .CategoriiArticolePg table {
+        width: 765px !important
+    }
+    .CategoriiArticolePg table td {
+        width: 765px !important;
+        float: left
+    }
+    .PagerTb {
+        text-align: center
+    }
+    .TbArticoleBlog {
+        width: 100% !important
+    }
+    .TitluArticol {
+        width: 60% !important
+    }
+    .DataComment {
+        width: 10% !important
+    }
+    .ArticlePageContent {
+        width: 765px !important
+    }
+    .GalleryInsideArticle {
+        width: 40% !important;
+        text-align: center
+    }
+    .InsideArticle {
+        width: 60% !important
+    }
+    .CommentSection .hrProfileS {
+        width: 675px !important
+    }
+    #dComments {
+        width: 50% !important;
+        float: left
+    }
+    #ArticlePage .comment {
+        width: 310px
+    }
+    #guestbook .comment {
+        width: 100%
+    }
+    .DataComentariu {
+        width: 270px
+    }
+    #dComment {
+        width: 50% !important;
+        float: left
+    }
+    #dComment table {
+        width: 100% !important;
+        float: left
+    }
+    #dComment table td {
+        width: 100% !important;
+        float: left
+    }
+    #dComment .TextBox {
+        width: 320px !important
+    }
+    .TbPager {
+        height: 35px
+    }
+    .prodListItem table {
+        width: 216px
+    }
+    .prodListItem table td {
+        width: 216px
+    }
+    .TbDate .TextBox {
+        width: 395px !important
+    }
+    .TbCreazaCont .ContJudet {
+        width: 410px !important
+    }
+    .TbDate .JudetTextBox {
+        width: 410px !important
+    }
+    .PreorderPopUp .PopUp {
+        margin-top: 20px
+    }
+    .LinieFooter img {
+        width: 1000px;
+        height: 1px
+    }
+    .LinieHeader img {
+        width: 1000px;
+        height: 1px
+    }
+    .Consola1 {
+        width: 20%;
+        height: 110px
+    }
+    .Consola2 {
+        width: 20%;
+        height: 110px
+    }
+    .Consola3 {
+        width: 20%;
+        height: 110px
+    }
+    .Consola4 {
+        width: 20%;
+        height: 110px
+    }
+    .Consola5 {
+        width: 20%;
+        height: 110px
+    }
+    .Consola1 img {
+        box-sizing: border-box;
+        padding: 17px 0px 0px 75px
+    }
+    .Consola2 img {
+        box-sizing: border-box;
+        padding: 17px 0px 0px 75px
+    }
+    .Consola3 img {
+        box-sizing: border-box;
+        padding: 17px 0px 0px 75px
+    }
+    .Consola4 img {
+        box-sizing: border-box;
+        padding: 17px 0px 0px 75px
+    }
+    .Consola5 img {
+        box-sizing: border-box;
+        padding: 17px 0px 0px 75px
+    }
+    .ProduseCategorie .prodListItem:nth-child(5n) {
+        margin-right: 30px
+    }
+    .ProduseCategorie .prodListItem:nth-child(4n) {
+        margin-right: 0px
+    }
+    .ProduseCategorie .prodListItem {
+        width: 227px
+    }
+    .CategoryContent .prodListItem,
+    .content .prodListItem {
+        margin-right: 24px
+    }
+    .LastAdded .prodListItem .subtext {
+        width: 40%
+    }
+    .dropMenuLeft .MenuCatL1 {
+        width: 70px
+    }
+    .Noutati .prodListItem {
+        width: 280px !important;
+        margin: 10px 10px 10px 0px !important
+    }
+    .subtext .InfoStoc .stocLinieLeft {
+        display: none
+    }
+    .subtext .InfoStoc .stocLinieRight {
+        display: none
+    }
+    .ConsoleContent .DivDetaliiStoc {
+        width: 90%
+    }
+    .CategoryContent .prodListItem:nth-child(4n),
+    .content .prodListItem:nth-child(4n) {
+        margin-right: 24px
+    }
+    .CategoryContentAll .prodListItem {
+        width: 232px
+    }
+    .subCatItem {
+        width: 233px
+    }
+    .rslides,
+    .rslides img {
+        width: 100%;
+        height: auto
+    }
+    #slides {
+        height: auto
+    }
+    .BannerTxt {
+        font-size: 27px;
+        bottom: 12px;
+        position: relative
+    }
+    .ButtonPriceBanner {
+        padding: 10px 20px 10px 20px
+    }
+    .ButtonAdaugaBanner {
+        padding: 10px 20px 10px 20px
+    }
+    .ConsoleContent .InfoStoc {
+        box-sizing: border-box;
+        padding: 0px 8px
+    }
+    .ConsoleContent .subtext {
+        height: 42px
+    }
+    .BannerTxt1 {
+        bottom: 84px
+    }
+    .Bestseller .prodListItem {
+        width: 275px !important;
+        margin-bottom: 10px
+    }
+    .Noutati .prodListItem {
+        width: 275px
+    }
+    .LastAdded .InfoStoc {
+        text-align: right
+    }
+    .InFuture .ButonPrecomanda {
+        margin-top: -39px;
+        margin-left: 135px
+    }
+    .Noutati .prodListItem .title {
+        height: 52px
+    }
+    .caption {
+        width: 95%;
+        top: 33%;
+        left: 0%
+    }
+    .Tab .ajax__tab_active .ajax__tab_tab,
+    .Tab .ajax__tab_hover .ajax__tab_tab,
+    .Tab .ajax__tab_tab {
+        width: 303px
+    }
+    .bottomContent {
+        width: 20%
+    }
+    .bottomContent1 {
+        width: 40%
+    }
+    .formWrap .TextBox {
+        width: 465px !important;
+        border-radius: 3px;
+        height: 25px
+    }
+    .StocOrder {
+        width: 58%;
+        float: left
+    }
+    .StocOrder2 {
+        width: 30%;
+        float: left
+    }
+    .dropMenuLeft .MenuCatL1 a {
+        padding-left: 3px
+    }
+    .TbCommentsG .TextBox {
+        width: 250px !important
+    }
+    .SearchContent .prodListItem {
+        margin: 15px 34px 20px 0px !important
+    }
+    .SearchContent .prodListItem:nth-child(4n) {
+        margin: 15px 34px 20px 0px !important
+    }
+    .SearchContent .prodListItem:nth-child(3n) {
+        margin: 15px 0px 20px 0px !important
+    }
+}
+@media only screen and (min-width: 1201px) {
+    #container,
+    .container {
+        width: 1200px
+    }
+}
+@media only screen and (max-width: 360px) {
+    .icon-user-check {
+        left: 53px !important
+    }
+    .icon-document-edit2 {
+        left: 230px !important
+    }
+    .icon-people2 {
+        left: 160px !important
+    }
+    .icon-mail-envelope-open {
+        left: 100px !important
+    }
+}
+@media only screen and (min-width: 767px) and (max-width: 840px) {
+    .headerLeft {
+        width: 41% !important;
+        margin-left: 40px !important
+    }
+}

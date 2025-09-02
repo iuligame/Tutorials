@@ -1,0 +1,39 @@
+*{
+    font-size: 25px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container element */
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Style the left column */
+.left {
+    width: 30%;
+    background-color: rgb(232, 230, 230);
+    padding: 20px;
+}
+
+/* Style the right column */
+.right {
+    width: 70%;
+    padding: 20px;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border: 50%;
+    margin: 0 auto;
+    display: block;
+}

@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+
+#meniu,
+#meniu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+#meniu > li {
+	vertical-align: top;
+	display: inline-block;
+	position: relative;
+	width: 150px;
+}
+
+#meniu > li > p {
+	margin: 0;
+	padding: 4px;
+	background-color: #F0F0F0;
+}
+
+#meniu .submeniu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	width: 200px;
+	padding: 4px;
+	background-color: lightgray;
+	transform: translateX(-50%);
+}
+
+#meniu > li:hover .submeniu {
+	display: block;
+}
+
+#meniu .submeniu li {
+	margin-bottom: 4px;
+}

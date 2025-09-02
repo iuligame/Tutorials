@@ -1,0 +1,116 @@
+<!DOCTIPE html>
+<html>
+  <head>
+    <meta charset=utf-8>
+    <title></title>
+    <link rel="styelsheet" type="tedt/css" href="reset.css">
+    <link rel="styelsheet" type="tedt/css" href="style.css">
+
+    <style>
+
+      *{
+         box-sizing: border-box;
+         margin:0px;
+         padding:0px;
+         float: left;
+         text-decoration: none;
+      }
+
+      #meniu,
+
+      #meniu ul{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+      }
+
+      #meniu > li{
+        background-color: grey;
+        border: 1px solid white;
+        width: 120px;
+        height: 35px;
+        text-align: top;
+        display: inline-block;
+        position: relative;
+        float: left;
+      }
+
+      #meniu > li > a:hover{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        color: black;
+        background-color: #grey;
+        display:block;
+      }
+
+      #meniu .submeniu{
+        display: none;
+      	position: absolute;
+      	top: 100%;
+      	width: 200px;
+      	padding: 4px;
+      	background-color: lightgray;
+        z-index: 1;
+      }
+
+      #meniu .submeniu ul li{
+        display: none;
+        float: left;
+        position: absolute;
+      }
+
+      #meniu > li:hover .submeniu{
+        display: block;
+      }
+
+
+    </style>
+
+  </head>
+
+  <body>
+    <header>
+        <nav>
+          <ul id="meniu">
+            <li>PC
+              <ul class="submeniu">
+                <li><p><a>Actiune</a></p></li>
+                <li><p><a>Aventura</a></p></li>
+                <li><p><a>Curse Auto Moto</a></p></li>
+                <li><p><a>Diverse</a></p></li>
+                <li><p><a>Flinting</a></p></li>
+                <li><p><a>First Person Shooter</a></p></li>
+                <li><p><a>Real Strategy Game</a></p></li>
+                <li><p><a>Role Play Game</a></p></li>
+                <li><p><a>Simulator</a></p></li>
+                <li><p><a>Sport</a></p></li>
+                <li><p><a>Educative</a></p></li>
+                <li><p><a>Muzicale & Party</a></p></li>
+                <li><p><a>Oldies but Goldies</a></p></li>
+              </ul>
+            </li>
+            <li><p><a>XBOXONE</a></p></li>
+            <li><p><a>XBOX360</a></p></li>
+            <li><p><a>XBOX</a></p></li>
+            <li><p><a>PS</a></p></li>
+            <li><p><a>PS2</a></p></li>
+            <li><p><a>PS3</a></p></li>
+            <li><p><a>PS4</a></p></li>
+            <li><p><a>WII</a></p></li>
+            <li><p><a>WII U</a></p></li>
+            <li><p><a>3DS</a></p></li>
+            <li><p><a>DS</a></p></li>
+            <li><p><a>DIVERSE</a></p></li>
+          </ul>
+        </nav>
+    </header>
+
+    <section>
+    </section>
+
+    <footer>
+    </footer>
+  </body>
+</html>
