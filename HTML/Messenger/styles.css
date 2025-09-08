@@ -1,0 +1,81 @@
+*{
+    background-color: rgb(235, 232, 249);
+}
+
+.section{
+    margin: 10px;
+    flex: 1;
+    flex-direction: row;
+}
+
+.container{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 1% 1% 1% 1%;
+}
+
+.container-users{
+    margin: 10px;
+}
+
+.users{
+    margin: 10px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid gray;
+}
+
+.user{
+    margin: 10px;
+}
+
+.users-messenger{
+    margin: 10px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-messanger{
+    margin: 10px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imput{
+    margin: 10px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message{
+    width: 1000px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.link{
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: blue;
+}
+

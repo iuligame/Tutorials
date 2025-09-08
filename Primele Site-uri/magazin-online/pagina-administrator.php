@@ -22,7 +22,7 @@
               <li>Guestbook</li>
               <li><a href = "pagina-de-inregistrare.php">Sign In<a/></li>
               <li><a href = "pagina-de-logare.php">Log In<a/></li>
-              <li><a href = "pagina-de-cos-de-cumparaturi">Cos de cuparaturi<a/></li>
+              <li><a href = "pagina-de-cos-de-cumparaturi.php">Cos de cuparaturi<a/></li>
             </div>
         </div>
 
