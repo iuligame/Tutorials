@@ -22,6 +22,7 @@
 .users{
     margin: 5px;
     display: flex;
+    border-bottom: 2px solid lightgray;
 }
 
 .user{
