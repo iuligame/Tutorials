@@ -1,51 +1,56 @@
 *{
-    background-color: rgb(235, 232, 249);
-}
-
-.section{
-    margin: 10px;
-    flex: 1;
-    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{
-    margin: 10px;
     display: flex;
-    justify-content: center;
-    border: 2px solid black;
-    border-radius: 1% 1% 1% 1%;
+    background-color: rgb(235, 232, 249);
 }
 
-.container-users{
+.sidebar{
+    width: 300px;
     margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.chat{
+    margin: 5px;
+    border: 2px solid black;
 }
 
 .users{
-    margin: 10px;
-    flex: 1;
+    margin: 5px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 2px solid gray;
 }
 
 .user{
-    margin: 10px;
+    margin: 5px;
 }
 
-.users-messenger{
-    margin: 10px;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.chat{
+    border-radius: 10px;
 }
 
-.user-messanger{
-    margin: 10px;
-    flex: 1;
+.user-chat{
+    border-radius: 10px;
+}
+
+
+.message-text{
+    color: black;
+    width: 80%;
+}
+
+.messages{
+    margin-top: 20px;
+    width: 90%;
+    height: 70vh;
+    background-color: rgb(235, 232, 249);
+    border-radius: 10px;
+    overflow-y: scroll;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -58,24 +63,29 @@
 }
 
 .message{
-    width: 1000px;
-    height: 40px;
+    color: black;
+    width: 150%;
+}
+
+.links{
+    background-color: white;
     border: 2px solid black;
-    border-radius: 10px 10px 10px 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    border-radius: 10px;
 }
 
 .link{
+    margin: 5px;
+    background-color: white;
     color: black;
     justify-content: center;
-    align-items: center;
-    margin-left: 10px;
-    font-size: 20px;
-    text-decoration: none;
+    text-align: left;
+    position: relative;
+    left: 77%;
+    font-size: 15px;
 }
 
 .link:hover{
+    background-color: white;
     color: blue;
 }
 
