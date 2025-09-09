@@ -7,10 +7,12 @@ html{
 }
 
 .container{
+    flex: 1;
     display: flex;
 }
 
 .sidebar{
+    flex: 1;
     width: 300px;
     margin: 5px;
     border: 2px solid black;
@@ -18,37 +20,45 @@ html{
 }
 
 .chat{
+    flex: 1;
     margin: 5px;
     border: 2px solid black;
 }
 
 .users{
+    flex: 1;
     margin: 5px;
     display: flex;
     border-bottom: 2px solid lightgray;
 }
 
 .user{
+    flex: 1;
     margin: 5px;
     position: relative;
     top: 10px;
 }
 
 .chat{
+    flex: 1;
     border-radius: 10px;
 }
 
-.user-chat{
+.chat-users{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
 }
-
 
 .message-text{
+    flex: 1;
     color: black;
     width: 80%;
 }
 
 .messages{
+    flex: 1;
     margin-top: 20px;
     width: 90%;
     height: 70vh;
@@ -61,6 +71,7 @@ html{
 }
 
 .imput{
+    flex: 1;
     margin: 10px;
     flex: 1;
     display: flex;
@@ -69,28 +80,32 @@ html{
 }
 
 .message{
+    flex: 1;
     color: black;
     width: 150%;
 }
 
 .links{
+    flex: 1;
     background-color: white;
     border: 2px solid black;
     border-radius: 10px;
 }
 
 .link{
+    flex: 1;
     margin: 5px;
     background-color: white;
     color: black;
     justify-content: center;
     text-align: left;
     position: relative;
-    left: 77%;
+    left: 70%;
     font-size: 15px;
 }
 
 .link:hover{
+    flex: 1;
     background-color: white;
     color: blue;
 }
