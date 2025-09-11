@@ -1,5 +1,5 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 html{
@@ -15,21 +15,28 @@ html{
     flex: 1;
     width: 300px;
     margin: 5px;
-    border: 2px solid black;
-    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
 }
 
 .chat{
     flex: 1;
     margin: 5px;
-    border: 2px solid black;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+
+.chat-users{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .users{
     flex: 1;
     margin: 5px;
     display: flex;
-    border-bottom: 2px solid lightgray;
+    border-bottom: 1px solid lightgray;
 }
 
 .user{
@@ -39,16 +46,12 @@ html{
     top: 10px;
 }
 
-.chat{
-    flex: 1;
-    border-radius: 10px;
+.title{
+    font-weight: normal;
 }
 
-.chat-users{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
+.user-message-text .message-text{
+    color: lightgray;
 }
 
 .message-text{
@@ -70,10 +73,13 @@ html{
     align-items: center;
 }
 
+.chat-message .message{
+    
+}
+
 .imput{
     flex: 1;
     margin: 10px;
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,7 +94,7 @@ html{
 .links{
     flex: 1;
     background-color: white;
-    border: 2px solid black;
+    border: 1px solid lightgray;
     border-radius: 10px;
 }
 
@@ -96,11 +102,11 @@ html{
     flex: 1;
     margin: 5px;
     background-color: white;
-    color: black;
+    color: lightgray;
     justify-content: center;
     text-align: left;
     position: relative;
-    left: 70%;
+    left: 77%;
     font-size: 15px;
 }
 
