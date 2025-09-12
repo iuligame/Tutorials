@@ -45,9 +45,8 @@ html{
 }
 
 .user{
+    display: flex;
     margin: 5px;
-    position: relative;
-    bottom: 15%;
 }   
 
 .title{
