@@ -91,40 +91,25 @@ html{
     margin: 10px;
 }
 
-.imput{
+input{
     flex: 1;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.message{
-    flex: 1;
-    color: black;
-}
-
-.links{
-    flex: 1;
-    background-color: white;
+    width: 95%;
+    border-radius: 20px;
     border: 1px solid lightgray;
-    border-radius: 10px;
-    position: relative;
+    padding-left: 20px;
+    font-size: 16px;
+    color: gray;
 }
 
 .link{
-    margin: 2px;
-    background-color: transparent;
-    color: lightgray;
-    justify-content: center;
-    text-align: left;
     position: relative;
-    left: 80%;
-    font-size: 15px;
+    bottom: 22px;
+    left: 340px;
+    color: gray;
 }
 
 .link:hover{
-    background-color: white;
-    color: blue;
+    color:blue;
+    cursor: pointer;
 }
 
