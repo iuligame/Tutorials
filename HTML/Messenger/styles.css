@@ -13,7 +13,7 @@ html{
 
 .sidebar{
     flex: 1;
-    width: 300px;
+    width: 100vh;
     margin: 5px;
     border: 1px solid lightgray;
     background-color: white;
@@ -92,7 +92,7 @@ html{
 }
 
 input{
-    flex: 1;
+    display: flex;
     width: 95%;
     border-radius: 20px;
     border: 1px solid lightgray;
@@ -102,9 +102,6 @@ input{
 }
 
 .link{
-    position: relative;
-    bottom: 22px;
-    left: 340px;
     color: gray;
 }
 
