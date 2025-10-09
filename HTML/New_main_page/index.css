@@ -1,0 +1,27 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-menu{
+    width:1000px; 
+    height:200px; 
+    background-color:blueviolet;
+    display:flex;
+    justify-content: space-between; 
+}
+
+.navbar{
+    display:flex; 
+    justify-content: space-between; 
+    flex: 1;
+}
+
+.menu{
+    display:flex; 
+    justify-content: space-between;
+    color: white;
+    flex: 1;
+    position: relative;
+    top: 25px;
+}
+
