@@ -1,56 +1,399 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>New main page</title>
 </head>
+
 <body class="main">
     <header class="title">
-        <navbar class="navbar" style="display:flex; justify-content: space-between; flex:1">
-            <div class="navbar-menu" style="width:1000px; height:80px; background-color:blueviolet;">
-                <div class="logo">
-                    <div class="icon">
-                        <i class="fa fa-cloud fa-4x" style="color: white"></i>
+        <navbar class="navbar" style="display:flex; justify-content: space-between; flex:1;">
+            <div class="menius">
+                <div class="navbar-menu" style="width:1000px; height:80px; background-color:blueviolet;">
+                    <div class="logo">
+                        <div class="icon">
+                            <i class="fa fa-cloud fa-4x" style="color: white"></i>
+                        </div>
+                    </div>
+                    <div class="menu" style="display:flex; justify-content:space-around; color:white;">
+                        <div class="option"><a>Main</a></div>
+                        <div class="option"><a>Taxes</a></div>
+                        <div class="option"><a>IDA Jurnal</a></div>
+                        <div class="option"><a>Client</a></div>
+                    </div>
+                    <div class="user-section">
+                        <div class="instance-add"><a class="button">+ New Invoice</a></div>
+                        <div class="notice"><i class="fa-solid fa-bell"></i></div>
+                        <div class="profile">
+                            <div class="user"><img src="./Images/156718_175292089161613_2300981_n.jpg" width="40px"
+                                    height="40px" border-radious="5%"></div>
+                            <div class="arrow"><a> v </a></div>
+                        </div>
                     </div>
                 </div>
-                <div class="menu" style="display:flex; justify-content:space-around; color:white;">
-                    <div class="option">Eu</div>
-                    <div class="option">Sunt</div>
-                    <div class="option">Un</div>
-                    <div class="option">Prost</div>
-                </div>
-                <div class="user-section">
-                    <div class="instance-add"></div>
-                    <div class="notice"></div>
-                    <div class="profile">
-                        <div class="user"></div>
-                        <div class="arrow"></div>
+                <div class="navbar-submenu">
+                    <div class="submanu">
+                        <div class="suboption"><a>Income</a></div>
+                        <div class="suboption"><a>Expenses</a></div>
+                        <div class="suboption"><a>Jurnal</a></div>
                     </div>
-                </div>
-            </div>
-            <div class="navbar-submenu">
-                <div class="submanu">
-                    <div class="suboption"></div>
-                    <div class="suboption"></div>
-                    <div class="suboption"></div>
-                </div>
-                <div class="design-selector">
-                    <div class="option-menu"></div>
-                </div>
-                <div class="search">
-                    <div class="search-bar"></div>
+                    <div class="design-selector">
+                        <div class="option-menu">
+                            <select class="subselect">
+                                <option value="0">Graphic,Design,Video..(15%)</option>
+                                <option value="1">Graphic,Design,Video..(30%)</option>
+                                <option value="2">Graphic,Design,Video..(35%)</option>
+                                <option value="3">Graphic,Design,Video..(40%)</option>
+                                <option value="4">Graphic,Design,Video..(45%)</option>
+                                <option value="5">Graphic,Design,Video..(50%)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <div class="search-bar">
+                            <form type="search" id="search"></form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </navbar>
     </header>
     <section>
-
+        <div class="container">
+            <div class="sub-container">
+                <div class="section-title"><p1>Previous Inivoces</p1></div>
+                    <div class="option-menus">
+                        <div class="option-menu">
+                                    <select class="sub-select">
+                                        <option value="0">All</option>
+                                        <option value="1"> </option>
+                                        <option value="2"> </option>
+                                        <option value="3"> </option>
+                                        <option value="4"> </option>
+                                        <option value="5"> </option>
+                                    </select>
+                        </div>
+                        <div class="option-menu">
+                                    <select class="sub-select">
+                                        <option value="0">Filtrer by recevier</option>
+                                        <option value="1"> </option>
+                                        <option value="2"> </option>
+                                        <option value="3"> </option>
+                                        <option value="4"> </option>
+                                        <option value="5"> </option>
+                                    </select>
+                        </div>
+                        <div class="option-menu">
+                                    <select class="sub-select">
+                                        <option value="0">2018 y.</option>
+                                        <option value="1"> </option>
+                                        <option value="2"> </option>
+                                        <option value="3"> </option>
+                                        <option value="4"> </option>
+                                        <option value="5"> </option>
+                                    </select>
+                        </div>
+                        <div class="option-menu">
+                                    <select class="sub-select">
+                                        <option value="0">Whole period</option>
+                                        <option value="1"> </option>
+                                        <option value="2"> </option>
+                                        <option value="3"> </option>
+                                        <option value="4"> </option>
+                                        <option value="5"> </option>
+                                    </select>
+                        </div>
+                    </div>
+                        
+                </div>
+                <div class="sub-container">
+                    <div class="list">
+                        <div class="option">
+                            <a class="download"><p1>PDF  V<p1></a>
+                        </div>
+                        <div class="option">
+                            <p1>2018-04-07</p1>
+                            <p2>ABS 00001</p2>
+                        </div>
+                        <div class="option">
+                            <p1>UAB Microsoft</p1>
+                        </div>
+                        <div class="option">
+                            <p1>1.380,77€</p1>
+                            <p3>Invoice value</p3>
+                        </div>
+                        <div class="option">
+                            <p1>1.240,16€</p1>
+                            <p3>After tax</p3>
+                        </div>
+                        <div class="option">
+                            <div>
+                                <a class="follow">
+                                    <p1>+Fix Payment</p1>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="button">
+                                    <p1><i class="fa-solid fa-pencil"></i></p1>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="button">
+                                    <i class="fa-solid fa-x"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="sub-container">
+                <div class="section-title"><p1>Activity Income</p1></div>
+               <div class="sub-container">
+                    <div class="list">
+                        <div class="option">
+                            <a class="download"><p1>PDF  V<p1></a>
+                        </div>
+                        <div class="option">
+                            <p1>2018-04-07</p1>
+                            <p2>ABS 00001</p2>
+                        </div>
+                        <div class="option">
+                            <p1>UAB Microsoft</p1>
+                        </div>
+                        <div class="option">
+                            <p1>1.380,77€</p1>
+                            <p3>Invoice value</p3>
+                        </div>
+                        <div class="option">
+                            <p1>1.240,16€</p1>
+                            <p3>After tax</p3>
+                        </div>
+                        <div class="option">
+                            <div>
+                                <a class="follow">
+                                    <p1>+Fix Payment</p1>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="button">
+                                    <p1><i class="fa-solid fa-pencil"></i></p1>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="button">
+                                    <i class="fa-solid fa-x"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                <div class="sub-container">
+                    <div class="sub-container">
+                    <div class="list">
+                        <div class="option">
+                            <a class="download"><p1>PDF  V<p1></a>
+                        </div>
+                        <div class="option">
+                            <p1>2018-04-07</p1>
+                            <p2>ABS 00001</p2>
+                        </div>
+                        <div class="option">
+                            <p1>UAB Microsoft</p1>
+                        </div>
+                        <div class="option">
+                            <p1>1.380,77€</p1>
+                            <p3>Invoice value</p3>
+                        </div>
+                        <div class="option">
+                            <p1>1.240,16€</p1>
+                            <p3>After tax</p3>
+                        </div>
+                        <div class="option">
+                            <div>
+                                <a class="follow">
+                                    <p1>+Fix Payment</p1>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="button">
+                                    <p1><i class="fa-solid fa-pencil"></i></p1>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="button">
+                                    <i class="fa-solid fa-x"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-container">
+                    <div class="list">
+                        <div class="option">
+                            <a class="download"><p1>PDF  V<p1></a>
+                        </div>
+                        <div class="option">
+                            <p1>2018-04-07</p1>
+                            <p2>ABS 00001</p2>
+                        </div>
+                        <div class="option">
+                            <p1>UAB Microsoft</p1>
+                        </div>
+                        <div class="option">
+                            <p1>1.380,77€</p1>
+                            <p3>Invoice value</p3>
+                        </div>
+                        <div class="option">
+                            <p1>1.240,16€</p1>
+                            <p3>After tax</p3>
+                        </div>
+                        <div class="option">
+                            <div>
+                                <a class="follow">
+                                    <p1>+Fix Payment</p1>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="button">
+                                    <p1><i class="fa-solid fa-pencil"></i></p1>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="button">
+                                    <i class="fa-solid fa-x"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-container">
+                    <div class="list">
+                        <div class="option">
+                            <a class="download"><p1>PDF  V<p1></a>
+                        </div>
+                        <div class="option">
+                            <p1>2018-04-07</p1>
+                            <p2>ABS 00001</p2>
+                        </div>
+                        <div class="option">
+                            <p1>UAB Microsoft</p1>
+                        </div>
+                        <div class="option">
+                            <p1>1.380,77€</p1>
+                            <p3>Invoice value</p3>
+                        </div>
+                        <div class="option">
+                            <p1>1.240,16€</p1>
+                            <p3>After tax</p3>
+                        </div>
+                        <div class="option">
+                            <div>
+                                <a class="follow">
+                                    <p1>+Fix Payment</p1>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="button">
+                                    <p1><i class="fa-solid fa-pencil"></i></p1>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="button">
+                                    <i class="fa-solid fa-x"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="sub-container">
+               <div class="sub-container">
+                    <div class="list">
+                        <div class="option">
+                            <a class="download"><p1>PDF  V<p1></a>
+                        </div>
+                        <div class="option">
+                            <p1>2018-04-07</p1>
+                            <p2>ABS 00001</p2>
+                        </div>
+                        <div class="option">
+                            <p1>UAB Microsoft</p1>
+                        </div>
+                        <div class="option">
+                            <p1>1.380,77€</p1>
+                            <p3>Invoice value</p3>
+                        </div>
+                        <div class="option">
+                            <p1>1.240,16€</p1>
+                            <p3>After tax</p3>
+                        </div>
+                        <div class="option">
+                            <div>
+                                <a class="follow">
+                                    <p1>+Fix Payment</p1>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="button">
+                                    <p1><i class="fa-solid fa-pencil"></i></p1>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="button">
+                                    <i class="fa-solid fa-x"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-container">
+                    <div class="list">
+                        <div class="option">
+                            <a class="download"><p1>PDF  V<p1></a>
+                        </div>
+                        <div class="option">
+                            <p1>2018-04-07</p1>
+                            <p2>ABS 00001</p2>
+                        </div>
+                        <div class="option">
+                            <p1>UAB Microsoft</p1>
+                        </div>
+                        <div class="option">
+                            <p1>1.380,77€</p1>
+                            <p3>Invoice value</p3>
+                        </div>
+                        <div class="option">
+                            <p1>1.240,16€</p1>
+                            <p3>After tax</p3>
+                        </div>
+                        <div class="option">
+                            <div>
+                                <a class="follow">
+                                    <p1>+Fix Payment</p1>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="button">
+                                    <p1><i class="fa-solid fa-pencil"></i></p1>
+                                </a>
+                            </div>
+                            <div>
+                                <a class="button">
+                                    <i class="fa-solid fa-x"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
     </section>
     <footer>
 
     </footer>
 </body>
+
 </html>

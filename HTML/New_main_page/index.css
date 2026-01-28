@@ -2,18 +2,26 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar-menu{
-    width:1000px; 
-    height:200px; 
-    background-color:blueviolet;
-    display:flex;
-    justify-content: space-between; 
+body{
+    background-color: #f2f6ff;
 }
+
+/* - Navbar - */
 
 .navbar{
     display:flex; 
     justify-content: space-between; 
     flex: 1;
+}
+
+/* - Navbar-menu - */
+
+.navbar-menu{
+    width:1000px; 
+    height:200px; 
+    background-color:#7760cc;
+    display:flex;
+    justify-content: space-between; 
 }
 
 .menu{
@@ -25,3 +33,37 @@
     top: 25px;
 }
 
+/* - Navbar-submanu - */
+
+.navbar-submenu{
+    width:1000px; 
+    height:200px; 
+    display:flex;
+    justify-content: space-between; 
+}
+
+.option-menus{
+    margin: 10px;
+    display: flex;
+}
+
+.sub-select{
+    margin: 10px;
+}
+
+/* .sub-container{
+    width: 100%;
+    height: 30px;
+    color: gray;
+    border-radius: 5%;
+} */
+
+.list{
+    display: flex;
+    margin: 10px;
+}
+
+.option{
+    display: flex;
+    margin: 10px;
+}
