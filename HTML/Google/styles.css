@@ -26,6 +26,7 @@ a{
 
 .link:hover{
     color:black;
+    text-decoration:underline;
 }
 
 .user{
@@ -62,4 +63,8 @@ a{
     border:gray solid 2px;
     border-radius: 3%;
     width: 300px;
+}
+
+.input{
+    border: none;
 }
