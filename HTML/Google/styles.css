@@ -1,0 +1,65 @@
+#{
+    font-family: Arial, sans-serif;
+}
+
+.links{
+    position: absolute;
+    display: flex;
+    top: 1%;
+    right: 1%;
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin: 9px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.link{
+    margin: 9px;
+    color:black;
+}
+
+.link:hover{
+    color:black;
+}
+
+.user{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.dots{
+    width: 24px;
+    height: 24px;
+    margin: 9px;
+}
+
+.google_section{
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.google{
+    position: relative;
+    top: 300px;
+    left: 150px;
+    list-style-type: none;
+}
+
+
+.search-buttons{
+    position:relative;
+    left: 95px;
+    display: flex;
+    list-style-type: none;
+    border:gray solid 2px;
+    border-radius: 3%;
+    width: 300px;
+}
