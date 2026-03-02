@@ -1,0 +1,42 @@
+.body{
+    background-color: #BB6FD0;
+    background-image: linear-gradient(to right, #BB6FD0, #3775AC);
+    margin-left: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 800px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: solid black 2px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    margin: 10px;
+    display: flex;
+}
+
+.fa-brands{
+    margin: 10px;
+}
+
+.text{
+    margin: 20px;
+    color: white;
+}
+
+.button{
+    text-decoration: none;
+    margin: 5px;
+}
+
+.link{
+    text-decoration: none;
+}
