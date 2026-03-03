@@ -6,6 +6,7 @@ html{
     margin: 0;
 }
 
+
 .title{
     list-style: none;
     display: flex;
@@ -101,12 +102,6 @@ button:hover{
     height: 1000px;
     color:white;
     list-style: none;
-    
-}
-
-.news-section{
-    margin: 10px;
-    padding: 10px;
 }
 
 .text{
@@ -114,6 +109,11 @@ button:hover{
     margin: 10px;
     padding: 10px;
     color: white;
+}
+
+.subject-text{
+    text-align: center;
+    margin: 100px;
 }
 
 .more{
@@ -139,4 +139,83 @@ button:hover{
 
 .subject{
     list-style: none;
+}
+
+.footer{
+    margin:0;
+}
+
+.section-footer-1{
+    list-style: none;
+    background-color: #FAD547;
+}
+
+.career-text{
+    font-size: small;
+}
+
+.footer-link{
+    color:black;
+    text-decoration: none;
+    font-size: bold;
+}
+
+.footer-text{
+    font-size: small;
+    text-decoration: italic;
+    color:gray;
+}
+
+.section-footer-texts{
+    list-style: none;
+}
+
+.section-footer-text{
+    list-style: none;
+}
+
+.main-footer-links{
+    list-style: none;
+}
+
+.main-footer-link-texts{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-button{
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5%;
+    margin:10px;
+}
+
+.footer-button-text:hover{
+    background-color: rgb(238, 66, 34);
+}
+
+.footer-button-text{
+    margin:10px;
+}
+
+.section-footer-2{
+    background-color: black;
+    color: white;
+    list-style: none;
+}
+
+.second-footer-link{
+    display: flex;
+    justify-content: space-around;
+}
+
+.second-footer-link-text{
+    justify-content: space-around;
+    list-style: none;
+}
+
+.second-footer-link-undergound{
+    display: flex;
 }
