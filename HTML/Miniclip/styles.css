@@ -1,4 +1,4 @@
-html{
+html, body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: bold;
@@ -6,18 +6,28 @@ html{
     margin: 0;
 }
 
+img, video {
+    height: auto;
+    max-width: 100%;
+}
 
-.title{
-    list-style: none;
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navbar */
+.navbar{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
-    height: 120px;
+    height: 80px;
     padding: 0;
     margin: 0;
-    position: absolute;
+    position: fixed;
+    z-index: 1;
 }
 
 .links{
@@ -30,6 +40,24 @@ html{
     margin: 15px;
     padding: 0;
 }
+
+.link a{
+    text-decoration: none;
+    color: white;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+
+/* Content */
+
+.main-section{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
 
 .button{
     text-decoration: none;
@@ -50,12 +78,12 @@ html{
 .game{
     text-align: center;
     width: 250px;
-    height: 100px;
     margin: 0;
     padding: 0;
     position: absolute;
-    bottom: 450px;
-    left: 350px;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .advertisment{
@@ -67,7 +95,7 @@ html{
     display: flex;
     justify-content: center;
     list-style: none;
-
+    padding: 0;
 }
 
 .button{
@@ -91,18 +119,27 @@ button:hover{
     padding: 0;
 }
 
-.main-section{
-    margin: 0;
-    padding: 0;
-}
 
 .store-section{
+    display: flex;
     background-color: rgb(71, 106, 210);
     width: 100%;
-    height: 1000px;
     color:white;
     list-style: none;
 }
+
+.store-section .container{
+    display: flex;
+}
+
+.store-section .store-description{
+    flex: 1;
+}
+
+.store-section .store-image{
+    flex: 2;
+}
+
 
 .text{
     text-align: center;
@@ -137,7 +174,10 @@ button:hover{
     display: flex;
 }
 
+/* News */
+
 .subject{
+    display: flex;
     list-style: none;
 }
 
