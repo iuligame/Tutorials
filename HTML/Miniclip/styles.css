@@ -91,6 +91,17 @@ img, video {
     list-style: none;
 }
 
+.playnow{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(238, 66, 34);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10%;
+    color: white;
+    text-decoration: none;
+}
+
 .buttons{
     display: flex;
     justify-content: center;
@@ -155,9 +166,27 @@ button:hover{
 
 .more{
     width: 10px;
-    height: 15px;
+    height: 10px;
     background-color: rgb(238, 66, 34);
-    border-radius: 25%;
+    border-radius: 15%;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* News */
+
+.whatsnew{
+    width: auto;
+    height: 50px;
+    background-color: rgb(238, 66, 34);
+    color: white;
+}
+
+.newabout{
+    position: relative;
+    top: 10px;
 }
 
 .new{
@@ -174,12 +203,27 @@ button:hover{
     display: flex;
 }
 
-/* News */
-
 .subject{
     display: flex;
     list-style: none;
 }
+.text-subject{
+    position: relative;
+    bottom: 12px;
+}
+
+.seemore{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(238, 66, 34);
+    border-radius: 15%;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Undergrounds */
 
 .footer{
     margin:0;
@@ -224,8 +268,6 @@ button:hover{
     justify-content: space-around;
 }
 
-/* Undergrounds */
-
 .footer-button{
     color:white;
     text-decoration: none;
@@ -234,11 +276,13 @@ button:hover{
     margin:10px;
 }
 
-.footer-button-text:hover{
-    background-color: rgb(238, 66, 34);
+.footer-button-text{
+    margin:10px;
 }
 
-.footer-button-text{
+.footer-button-text:hover{
+    background-color: rgb(238, 66, 34);
+    border-radius: 5%;
     margin:10px;
 }
 
