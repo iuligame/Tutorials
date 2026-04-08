@@ -66,7 +66,7 @@ html{
     color: #999999;
 }
 
-.input{
+.search{
     width: 120px;
     height: 20px;
 }
@@ -108,5 +108,41 @@ html{
 
 /* Section */
 
+.main-section-logo{
+    display: flex;
+    margin: 100px;
+}
 
+.title{
+    margin: 20px;
+}
+
+.donate-button{
+    width: 200px;
+    height: 100px;
+    background-color: #42BCD7;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+}
+
+.weayback-maschine-logo{
+    position: relative;
+    bottom: 70px;
+}
+
+.donate-button:hover{
+    background-color: #64C1D5;
+}
+
+.anchor-text{
+    color:#7D92C9;
+    text-decoration: none;
+}
+
+.anchor-text:hover{
+    color:#C69FFE;
+    text-decoration: underline;
+}
 
