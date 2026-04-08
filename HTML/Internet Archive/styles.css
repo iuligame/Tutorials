@@ -3,7 +3,7 @@ html{
 }
 
 .navbar-container{
-    background-color: gray;
+    background-color: #222222;
     display: flex;
     justify-content: space-between;
 }
@@ -12,13 +12,17 @@ html{
     display: flex;
 }
 
+.main-navbar-logo{
+    margin: 10px;
+}
+
 .icons{
     display: flex;
 }
 
 .icon{
     list-style: none;
-    
+    margin: 5px;
 }
 
 .item{
@@ -29,21 +33,30 @@ html{
 .profile{
     width: 50px;
     height: 50px;
-    background-color: gray;
     display: flex;
 }
 
 .sign{
-    color: gray;
+    color: #999999;
     text-decoration: none;
 }
+
+.account{
+    margin: 5px;
+}
+
+.quiche-access{
+    display: flex;
+    margin: 5px;
+}
+
 .upload{
     display: flex;
-    color: gray;
+    color: #999999;
 }
 
 .anchor-arrow{
-    color: lightgray;
+    color: #999999;
     text-decoration: none;
 }
 
@@ -52,17 +65,17 @@ html{
 }
 
 .second-navbar{
-    background-color: lightgray;
+    background-color: #333333;
     display: flex;
 }
 
 .links{
-    color: gray;
+    color: #999999;
     display: flex;
 }
 
 .anchor-link-text{
-    color: gray;
+    color: #999999;
     text-decoration: none;
     justify-content: space-around;
     margin: 10px;
