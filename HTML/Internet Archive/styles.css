@@ -106,7 +106,7 @@ html{
     color:white;
 }
 
-/* Section */
+/* Main-Section */
 
 .main-section-logo{
     display: flex;
@@ -146,3 +146,37 @@ html{
     text-decoration: underline;
 }
 
+/* Section-Conainer */
+
+
+.container-information-tool{
+    list-style-type: none;
+}
+
+.containers{
+    display: flex;
+}
+
+.tutorial{
+    color:black
+}
+
+.tools{
+     color:#7D92C9;
+    text-decoration: none;
+}
+
+.tools:hover{
+    color:#C69FFE;
+    text-decoration: underline;
+}
+
+.tool{
+     color:#7D92C9;
+    text-decoration: none;
+}
+
+.tool:hover{
+    color:#C69FFE;
+    text-decoration: underline;
+}
