@@ -58,7 +58,7 @@
             <div class="title">
                 <div class="text"><p>Explore more then 1 trilion <a class="anchor-text" href="#">web pages</a> saved over time</p></div>
                 <div class="URL-search">
-                    <input autocomplete="off" class="URL-input" placeholder="Enter a URL or words related to a site’s home page" type="text" aria-autocomplete="both" aria-expanded="false" aria-haspopup="listbox"  role="combobox" inputmode="url" enterkeyhint="Search" url="">
+                    <input autocomplete="off" class="web-save-url-input" placeholder="Enter a URL or words related to a site’s home page" type="text" aria-autocomplete="both" aria-expanded="false" aria-haspopup="listbox"  role="combobox" inputmode="url" enterkeyhint="Search" url="">
                 </div>
             </div>
         </div>
@@ -116,7 +116,7 @@
     <section class="informations-section">
         <div class="containers">
             <div class="container">
-                <div class="continer-information-title"><a class="tools" href="#"><img src="./Section/steam.png" alt="tools">Tools</div></a>
+                <div class="continer-information-title"><a class="tools" href="#"><img src="./Section/steam.png" alt="tools">Tools</a></div>
                 <div class="continer-information-option">
                     <ul class="container-inforamtion-tools">
                         <li class="container-information-tool"><a class="tool" href="#">Wayback Machine Availability API</a></li>
@@ -130,18 +130,18 @@
                 </div>
             </div>
             <div class="container">
-                <div class="continer-information-title"><a class="tools" href="#"><img src="./Section/information.png" alt="tools">Tools</div></div>
+                <div class="continer-information-title"><a class="tools" href="#"><img src="./Section/information.png" alt="tools">Tools</a></div>
                 <div class="continer-information-option">
                     <p class="tutorial">Archive-It enables you to capture, manage and search collections of digital content without any technical expertise or hosting facilities.</p><p class="tutorial-achore"><a class="tool" href="#">Visit Archive-It to build and browse the collections.</a></p>
                 </div>
             </div>
             <div class="container">
-                <div class="continer-information-title"><a class="tools" href="#"><img src="./Section/search.png" alt="tools" width="50px" height="50px">Subscription Service</div></div>
+                <div class="continer-information-title"><a class="tools" href="#"><img src="./Section/search.png" alt="tools" width="50px" height="50px">Subscription Service</a></div>
                 <div class="continer-information-option">
-                    <div class="continer-information-sub-option"><input type="text" placeholder="Enter any keyword" class="web-save-url-input web_input web_text"></div>
+                    <div class="continer-information-sub-option"><input type="text" placeholder="Enter any keyword" class="web-save-url-input"></div>
                     <div class="continer-information-sub-option">
                         <div class="continer-information-sub-option-search-collection">
-                            <select class="web-save-url-input web_input web_text">
+                            <select class="web-save-url-input">
                                 <option value="gov-pdf">.gov PDFs</option>
                                 <option value="gov">.gov web pages</option>
                                 <option value="cia-world-factbook">CIA World Factbook</option>
@@ -189,9 +189,10 @@
                                 <option value="time.com">time.com</option>
                                 <option value="vice.com">vice.com</option>
                                 <option value="zaman.com.tr">zaman.com.tr</option>
-                            </select></div>
+                            </select>
+                        </div>
                         <div class="continer-information-sub-option-search-file">
-                            <a class="search">SEARCH</a>
+                            <a href="#" class="search-botton">SEARCH</a>
                         </div>
                     </div>
                     <div class="continer-information-sub-option">
@@ -200,15 +201,15 @@
                 </div>
             </div>
             <div class="container">
-                <div class="continer-information-title"><a class="tools" href="#"><img src="./Section/save_page.png" alt="tools">Save Page Now</div></div>
+                <div class="continer-information-title"><a class="tools" href="#"><img src="./Section/save_page.png" alt="tools">Save Page Now</a></div>
                 <div class="continer-information-option">
                     <div class="continer-information-sub-option">
                         <div class="continer-information-sub-option-web-bar">
-                            <div class="continer-information-sub-option-search-web-bar">'
-                                <input class="web-save-url-input web_input web_text" type="text" name="url_preload" placeholder="https://">
+                            <div class="continer-information-sub-option-search-web-bar">
+                                <input class="web-save-url-input" type="text" name="url_preload" placeholder="https://">
                             </div>
                             <div class="continer-information-sub-option-seacth-web-bar-button">
-                                <a class="search">SAVE PAGE</a>
+                                <a href="#" class="search-botton">SAVE PAGE</a>
                             </div>
                         </div>
                         <div class="continer-information-sub-option-search-web-bar-tutorial">
@@ -219,20 +220,20 @@
             </div>
         </div>
     </section>
-    <footer>
-        <div class="footer-container-1">
-            <div class="footer-conatiner-1-span-list">
-                <span><a href="#">FAQ</a>|<a href="#">Contact Us</a>|<a href="#">Terms of Service (Dec 31, 2014)</a></span>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-conatiner-span-list">
+                <span class="span"><a class="footer-link" href="#">FAQ</a>|<a class="footer-link" href="#">Contact Us</a>|<a class="footer-link" href="#">Terms of Service (Dec 31, 2014)</a></span>
             </div>
         </div>
-        <div class="footer-container-2">
-            <div class="footer-conatiner-2-span-lists">
-                <div class="footer-conatiner-2-span-list">
-                    <span>The Wayback Machine is an initiative of the <a href="#">Internet Archive</a>, a 501(c)(3) non-profit, building a digital library of Internet sites and other cultural artifacts in digital form.
-Other <a href="#">projects</a> include <a href="#">Open Library</a> & <a href="#">archive-it.org</a>.</span>
+        <div class="footer-container">
+            <div class="footer-conatiner-span-list">
+                <div class="footer-conatiner-span-option">
+                    <span class="span">The Wayback Machine is an initiative of the <a class="footer-link" href="#">Internet Archive</a>, a 501(c)(3) non-profit, building a digital library of Internet sites and other cultural artifacts in digital form.
+Other <a class="footer-link" href="#">projects</a> include <a class="footer-link" href="#">Open Library</a> & <a class="footer-link" href="#">archive-it.org</a>.</span>
                 </div>
-                <div class="footer-conatiner-2-span-list">
-                    <span>Your use of the Wayback Machine is subject to the Internet Archive's <a href="#">Terms of Use</a>.</span>
+                <div class="footer-conatiner-span-option">
+                    <span class="span">Your use of the Wayback Machine is subject to the Internet Archive's <a class="footer-link" href="#">Terms of Use</a>.</span>
                 </div>
             </div>
         </div>

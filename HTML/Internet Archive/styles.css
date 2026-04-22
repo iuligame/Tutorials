@@ -156,6 +156,11 @@ html{
     display: flex;
 }
 
+.container{
+    margin: 20px;
+    padding: 20px;
+}
+
 .tutorial{
     color:black
 }
@@ -180,3 +185,45 @@ html{
     text-decoration: underline;
 }
 
+.web-save-url-input{
+    border-radius: 5%;
+}
+
+.search-botton{
+    width: 100px;
+    height: 25px;
+    background-color:#EBEBEB;
+    margin: 5px;
+    text-decoration: none;
+    color:black;
+}
+
+.search-botton:hover{
+    background-color: #CDCDCD;
+    margin: 5px;
+}
+
+/* Footer */
+
+.footer{
+    margin: 20px;
+}
+
+.span{
+    justify-content: center;
+}
+
+.footer-conatiner-span-list{
+    margin: 20px;
+    text-align: center;
+}
+
+.footer-link{
+    color:#7D92C9;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color:#C69FFE;
+    text-decoration: underline;
+}
