@@ -115,8 +115,43 @@ html{
 }
 /* Internet archive */
 
+.website-section-background{
+    background-color: #FBF5E6;
+    width: 400px;
+    height: 200px;
+    border-radius: 25%;
+    box-shadow: 2px 2px #C1AD98;
+}
+
 .website-section{
     background-color: #666666;
+}
+
+.website-section-text{
+    text-align: center;
+    color:white;
+    margin: 0px;
+}
+
+.website-section-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.website-section-logo-title{
+    justify-content: center;
+    margin: 20px;
+}
+
+.wayback-machine-logo-link{
+    justify-content: center;
+    margin: 10px;
+}
+
+.wayback-machine-logo-url{
+    position: relative;
+    top: 100px;
+    margin: 10px;
 }
 
 /* Wayback-Machine-Section */
