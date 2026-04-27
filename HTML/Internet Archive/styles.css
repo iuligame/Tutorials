@@ -113,8 +113,13 @@ html{
 .anchor-link-text:hover{
     color:white;
 }
+/* Internet archive */
 
-/* Main-Section */
+.website-section{
+    background-color: #666666;
+}
+
+/* Wayback-Machine-Section */
 
 .main-section-logo{
     display: flex;
