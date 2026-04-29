@@ -111,205 +111,94 @@
             </div>
         </div>
     </section>
-    <section class="informations-section">
-        <div>
-            <div>
-                <div><img src="./Section/download.svg" alt="logo"></div>
-                <div></div>
+    <section class="informations-sections">
+        <div class="informations-section">
+            <div class="information-archive">
+                <div class="archive-image"><img src="./Section/Internet Archive.svg" alt="logo"></div>
             </div>
-            <div>
+            <div class="information-archive">
                 <div>
-                    <div>
-                        <strong>
+                    <div class="archive">
+                        <strong class="strong">
                             "Internet Archive is a non-profit library of milions of free texts, movies, software, music,
                             websites, and more."
                         </strong>
                     </div>
-                    <div>
-                        <ul>
-                            <li><img src="./Section/window.svg" alt="">
+                    <div class="archive">
+                        <ul class="archive-links">
+                            <li class="archive-link"><a href="#"><img class="archive-image" id="web" src="./Section/window.svg" alt="" style="filter: invert(90%) sepia(12%) saturate(4697%) hue-rotate(335deg) brightness(107%) contrast(102%);"></a>
                                 <p>1T</p>
                             </li>
-                            <li><img src="./Section/book.svg" alt="">
+                            <li class="archive-link"><a href="#"><img class="archive-image" id="book" src="./Section/book.svg" alt="" style="filter: saturate(100%) invert(79%) sepia(42%) saturate(1575%) hue-rotate(330deg) brightness(102%) contrast(96%);"></a>
                                 <p>50M</p>
                             </li>
-                            <li><img src="./Section/film.svg" alt="">
+                            <li class="archive-link"><a href="#"><img class="archive-image" id="film" src="./Section/film.svg" alt="" style="filter: invert(57%) sepia(33%) saturate(6194%) hue-rotate(333deg) brightness(100%) contrast(90%);"></a>
                                 <p>16M</p>
                             </li>
-                            <li><img src="./Section/speaker.svg" alt="">
+                            <li class="archive-link"><a href="#"><img class="archive-image" id="speaker" src="./Section/speaker.svg" alt="" style="filter: invert(53%) sepia(62%) saturate(3361%) hue-rotate(164deg) brightness(100%) contrast(101%);"></a>
                                 <p>13M</p>
                             </li>
-                            <li><img src="./Section/television.svg" alt="">
+                            <li class="archive-link"><a href="#"><img class="archive-image" id="television" src="./Section/television.svg" alt="" style="filter: invert(42%) sepia(41%) saturate(1693%) hue-rotate(331deg) brightness(111%) contrast(89%);"></a>
                                 <p>3.4M</p>
                             </li>
-                            <li><img src="./Section/floppy_disk.svg" alt="">
+                            <li class="archive-link"><a href="#"><img class="archive-image" id="flappy_disk" src="./Section/floppy_disk.svg" alt="" style="filter: invert(73%) sepia(60%) saturate(419%) hue-rotate(36deg) brightness(95%) contrast(86%);"></a>
                                 <p>1.3M</p>
                             </li>
-                            <li><img src="./Section/image.svg .png" alt="">
+                            <li class="archive-link"><a href="#"><img class="archive-image" id="image" src="./Section/image.svg" alt=""style="filter: invert(70%) sepia(12%) saturate(772%) hue-rotate(220deg) brightness(88%) contrast(96%);"></a>
                                 <p>5.4M</p>
                             </li>
-                            <li><img src="./Section/microfone.svg" alt="">
+                            <li class="archive-link"><a href="#"><img class="archive-image" id="microfon" src="./Section/microfone.svg" alt=""style="filter: invert(70%) sepia(68%) saturate(6213%) hue-rotate(164deg) brightness(101%) contrast(106%);"></a>
                                 <p>289K</p>
                             </li>
-                            <li><img src="./Section/downloads.svg" alt="">
+                            <li class="archive-link"><a href="#"><img class="archive-image" id="downloads" src="./Section/downloads.svg" alt=""style="filter: invert(37%) sepia(81%) saturate(3889%) hue-rotate(224deg) brightness(103%) contrast(101%);"></a>
                                 <p>3.4M</p>
                             </li>
                         </ul>
                     </div>
-                    <div>
-                        <div id="input-row">
-                            <!--?lit$9722618914$-->
-                            <ia-dropdown id="category-dropdown" displaycaret="" includeselectedoption=""
-                                closeonselect="" closeonescape="" closeonbackdropclick="" openviabutton=""
-                                open=""><template shadowrootmode="open"><!---->
-                                    <div class="ia-dropdown-group">
-                                        <div class="button-row">
-                                            <button class="click-main" aria-haspopup="true" aria-expanded="true">
-                                                <span class="sr-only" id="caret-label">Toggle
-                                                    <!--?lit$9722618914$-->options</span>
-                                                <slot name="dropdown-label"></slot>
-                                                <!--?lit$9722618914$-->
-                                                <span class="caret" aria-hidden="true">
-                                                    <!--?lit$9722618914$-->
-                                                    <span class="caret-up">
-                                                        <slot name="caret-up"><!--?lit$9722618914$--><svg
-                                                                class="caret-up-svg" viewBox="0 0 8 4"
-                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                <path
-                                                                    d="m6.7226499 3.51689722c.22976435.15317623.54019902.0910893.69337525-.13867505.13615665-.20423497.10222882-.47220946-.06836249-.63681849l-.07031256-.05655675-3.2773501-2.18490007-3.2773501 2.18490007c-.22976434.15317623-.29185128.4636109-.13867505.69337524.13615665.20423498.39656688.27598409.61412572.18182636l.07924953-.04315131 2.7226499-1.81402514z"
-                                                                    fill=""></path>
-                                                            </svg></slot>
-                                                    </span>
-                                                    <!--?lit$9722618914$-->
-                                                    <span class="caret-down" hidden="">
-                                                        <slot name="caret-down"><!--?lit$9722618914$--><svg
-                                                                class="caret-down-svg" viewBox="0 0 8 4"
-                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                <path
-                                                                    d="m6.7226499.58397485c.22976435-.15317623.54019902-.09108929.69337525.13867505.13615665.20423498.10222882.47220947-.06836249.63681849l-.07031256.05655676-3.2773501 2.18490006-3.2773501-2.18490006c-.22976434-.15317623-.29185128-.4636109-.13867505-.69337525.13615665-.20423497.39656688-.27598409.61412572-.18182636l.07924953.04315131 2.7226499 1.81402515z"
-                                                                    fill=""></path>
-                                                            </svg></slot>
-                                                    </span>
-
-                                                </span>
-
-                                            </button>
-                                            <!--?lit$9722618914$-->
-                                        </div>
-
-                                        <ul id="dropdown-main" role="menu" class="open">
-                                            <!--?lit$9722618914$--><!--?lit$9722618914$--><!---->
-                                            <li role="menuitem" class="selected"><!--?lit$9722618914$--><button>
-                                                    <!--?lit$9722618914$--><span><!--?lit$9722618914$-->All</span>
-                                                </button></li><!----><!---->
-                                            <li role="menuitem" class=""><!--?lit$9722618914$--><button>
-                                                    <!--?lit$9722618914$--><span><!--?lit$9722618914$-->Books/Documents</span>
-                                                </button></li><!----><!---->
-                                            <li role="menuitem" class=""><!--?lit$9722618914$--><button>
-                                                    <!--?lit$9722618914$--><span><!--?lit$9722618914$-->Text
-                                                        Contents</span>
-                                                </button></li><!----><!---->
-                                            <li role="menuitem" class=""><!--?lit$9722618914$--><button>
-                                                    <!--?lit$9722618914$--><span><!--?lit$9722618914$-->Radio</span>
-                                                </button></li><!----><!---->
-                                            <li role="menuitem" class=""><!--?lit$9722618914$--><button>
-                                                    <!--?lit$9722618914$--><span><!--?lit$9722618914$-->TV</span>
-                                                </button></li><!----><!---->
-                                            <li role="menuitem" class=""><!--?lit$9722618914$--><button>
-                                                    <!--?lit$9722618914$--><span><!--?lit$9722618914$-->Video</span>
-                                                </button></li><!----><!---->
-                                            <li role="menuitem" class=""><!--?lit$9722618914$--><button>
-                                                    <!--?lit$9722618914$--><span><!--?lit$9722618914$-->Audio</span>
-                                                </button></li><!----><!---->
-                                            <li role="menuitem" class=""><!--?lit$9722618914$--><button>
-                                                    <!--?lit$9722618914$--><span><!--?lit$9722618914$-->Software</span>
-                                                </button></li><!----><!---->
-                                            <li role="menuitem" class=""><!--?lit$9722618914$--><button>
-                                                    <!--?lit$9722618914$--><span><!--?lit$9722618914$-->Images</span>
-                                                </button></li><!----><!---->
-                                            <li role="menuitem" class=""><!--?lit$9722618914$--><button>
-                                                    <!--?lit$9722618914$--><span><!--?lit$9722618914$-->Live
-                                                        Music</span>
-                                                </button></li><!----><!---->
-                                            <li role="menuitem" class=""><!--?lit$9722618914$--><button>
-                                                    <!--?lit$9722618914$--><span><!--?lit$9722618914$-->Collections</span>
-                                                </button></li><!----><!---->
-                                            <li role="menuitem" class=""><!--?lit$9722618914$--><button>
-                                                    <!--?lit$9722618914$--><span><!--?lit$9722618914$-->Data</span>
-                                                </button></li><!----><!---->
-                                            <li role="menuitem" class=""><!--?lit$9722618914$--><button>
-                                                    <!--?lit$9722618914$--><span><!--?lit$9722618914$-->Web Sites</span>
-                                                </button></li><!----><!--?-->
-                                        </ul>
-
-                                        <!--?lit$9722618914$-->
-                                        <div id="dropdown-backdrop"></div>
-
-                                    </div>
-                                </template>
-                                <span slot="dropdown-label"><!--?lit$9722618914$-->All</span>
-                            </ia-dropdown>
-                            <!--?lit$9722618914$-->
-                            <ia-clearable-text-input id="search-input" placeholder="Search"
-                                clearbuttonscreenreaderlabel="Clear search query"
-                                screenreaderlabel="Search the Archive. Filters and Advanced Search available below."><template
-                                    shadowrootmode="open" shadowrootdelegatesfocus=""><!---->
-                                    <div id="container">
-                                        <slot name="icon"></slot>
-                                        <label for="text-input" class="sr-only"><!--?lit$9722618914$-->Search the
-                                            Archive. Filters and Advanced Search available below.</label>
-                                        <input id="text-input" type="text" inputmode="search" enterkeyhint="search"
-                                            autocapitalize="off" placeholder="Search">
-                                        <button id="clear-button" type="button" hidden="">
-                                            <ia-icon-close aria-hidden="true"><template shadowrootmode="open"><!---->
-                                                    <svg viewBox="0 0 40 40" version="1.1"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="m29.1923882 10.8076118c.5857864.5857865.5857864 1.535534 0 2.1213204l-7.0711162 7.0703398 7.0711162 7.0717958c.5857864.5857864.5857864 1.5355339 0 2.1213204-.5857865.5857864-1.535534.5857864-2.1213204 0l-7.0717958-7.0711162-7.0703398 7.0711162c-.5857864.5857864-1.5355339.5857864-2.1213204 0-.5857864-.5857865-.5857864-1.535534 0-2.1213204l7.0706602-7.0717958-7.0706602-7.0703398c-.5857864-.5857864-.5857864-1.5355339 0-2.1213204.5857865-.5857864 1.535534-.5857864 2.1213204 0l7.0703398 7.0706602 7.0717958-7.0706602c.5857864-.5857864 1.5355339-.5857864 2.1213204 0z"
-                                                            class="fill-color" fill-rule="evenodd"></path>
-                                                    </svg>
-                                                </template></ia-icon-close>
-                                            <span class="sr-only"><!--?lit$9722618914$-->Clear search query</span>
-                                        </button>
-                                    </div>
-                                </template></ia-clearable-text-input>
-
-                            <!--?lit$9722618914$-->
-                            <button id="search-button" type="button" aria-label="Search">
-                                <!--?lit$9722618914$--><img alt=""
-                                    src="data:image/svg+xml,%3csvg%20viewBox='0%200%20100%20100'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20class='fill-color'%20d='m17.0555551%2041.3194459c0-12.7430552%2010.3541664-23.1027772%2023.0847216-23.1027772%2012.7166664%200%2023.0777773%2010.359722%2023.0777773%2023.1027772%200%2012.7361108-10.3611109%2023.0986106-23.0777773%2023.0986106-12.7305552%200-23.0847216-10.3624998-23.0847216-23.0986106zm-17.24305512%200c0%2022.2916661%2018.04583292%2040.3472213%2040.32777672%2040.3472213%208.9208332%200%2017.145833-2.9319449%2023.8194439-7.8527776l24.1513883%2024.0777771c1.2125%201.1402778%202.8430555%201.8430556%204.6374999%201.8430556%203.7444443%200%206.7805554-3.0361111%206.7805554-6.7791665%200-2.0652778-.9222222-3.9069444-2.3736111-5.1499999l-23.718055-23.7458328c4.4152777-6.4791665%207.0152776-14.3055552%207.0152776-22.7402772%200-22.2791661-18.0458328-40.34861006-40.312499-40.34861006-22.2819438%200-40.32777672%2018.06944396-40.32777672%2040.34861006z'%20fill='%232c2c2c'%20fill-rule='evenodd'%20/%3e%3c/svg%3e">
-                            </button>
-
+                    <div class="archive">
+                        <div class="archive-search">
+                            <select class="select">
+                                <option value="1">All</option>
+                                <option value="2">Books/Documents</option>
+                                <option value="3">Text Contents</option>
+                                <option value="4">Radio</option>
+                                <option value="5">TV</option>
+                                <option value="6">Video</option>
+                                <option value="7">Audio</option>
+                                <option value="8">Software</option>
+                                <option value="9">Images</option>
+                                <option value="10">Live Music</option>
+                                <option value="11">Collection</option>
+                                <option value="12">Data</option>
+                                <option value="13">Web Sites</option>
+                            </select>   
                         </div>
+                        <div class="archive-search"><input type="search" placeholder="Search"></div>
                     </div>
-                    <div>
-                        <a>Advanced Search</a>
-                    </div>
+                    <div class="archive"><a class="advanced_search" href="#">Advanced Search</a></div>
                 </div>
-                <div>
-                    <div><h1>Archive News</h1></div>
-                    <ul>
-                        <li><a><span>Information Stewardship Forum 2026: Creating Community and Purpose Around US Government Information </span></a></li>
-                        <li><a><span>Introducing Vanishing Culture: A New Book on the Loss of Our Digital Memory</span></a></li>
-                        <li><a><span>Gone but Not Forgotten: Recovering the Dead Web</span></a></li>
-                    </ul>
-                    <div><a>More posts</a></div>
-                </div>
+            <div class="infromation-archive">
+                <div class="title-new"><h1>Archive News</h1></div>
+                <ul class="archive-news">
+                    <li class="archive-new"><a href="#"><span>Information Stewardship Forum 2026: Creating Community and Purpose Around US Government Information </span></a></li>
+                    <li class="archive-new"><a href="#"><span>Introducing Vanishing Culture: A New Book on the Loss of Our Digital Memory</span></a></li>
+                    <li class="archive-new"><a href="#"><span>Gone but Not Forgotten: Recovering the Dead Web</span></a></li>
+                </ul>
+                <div class="more-news"><a class="more" href="#">More posts</a></div>
             </div>
-            <div></div>
         </div>
     </section>
     <section class="archive-section">
         <div>New to the Archive?</div>
-        <ul>
-            <li>How to search the archive</li>
-            <li>How to download files</li>
-            <li>Listening to music on the archive</li>
-            <li>How do I find old web pages?</li>
-            <li>How to upload to the archive</li>
-            <li>Print distability resources</li>
-            <li>How to change your account settings</li>
-            <li>Other common quastions</li>
+        <ul class="archive-section-quastions">
+            <li><a class="archive-section-quastion" href="#">How to search the archive</a></li>
+            <li><a class="archive-section-quastion" href="#">How to download files</a></li>
+            <li><a class="archive-section-quastion" href="#">Listening to music on the archive</a></li>
+            <li><a class="archive-section-quastion" href="#">How do I find old web pages?</a></li>
+            <li><a class="archive-section-quastion" href="#">How to upload to the archive</a></li>
+            <li><a class="archive-section-quastion" href="#">Print distability resources</a></li>
+            <li><a class="archive-section-quastion" href="#">How to change your account settings</a></li>
+            <li><a class="archive-section-quastion" href="#">Other common quastions</a></li>
         </ul>
     </section>
     <footer class="footer">

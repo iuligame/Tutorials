@@ -113,7 +113,7 @@ html{
 .anchor-link-text:hover{
     color:white;
 }
-/* Internet archive */
+/* Internet Archive Section */
 
 .website-section-background{
     background-color: #FBF5E6;
@@ -154,6 +154,60 @@ html{
     margin: 10px;
 }
 
+.archive-links{
+    display: flex;
+}
+
+.archive-link{
+    list-style: none;
+    margin: 20px; 
+}
+
+.archive-image{
+    width: 40px;
+    height: 40px;
+}
+
+.information-section{
+    display: flex;
+    margin: 20px;
+}
+
+/* .information-archive{
+    display: flex;
+    margin: 20px;
+} */
+
+.archive-new{
+    list-style: none;
+    margin: 10px;
+}
+
+.archive-new a{
+    color:black;
+    text-decoration: none;
+}
+
+.more{
+    color: black;
+    text-decoration: none;
+}
+
+.archive-section-quastions{
+    list-style: none;
+}
+
+.archive-section-quastions a{
+    color:black;
+    text-decoration: none;
+}
+
+.advanced_search{
+    color:black;
+    text-decoration: none;
+}
+
+
 /* Wayback-Machine-Section */
 
 .main-section-logo{
@@ -192,6 +246,10 @@ html{
 .anchor-text:hover{
     color:#C69FFE;
     text-decoration: underline;
+}
+
+.archive-search{
+    display: flex;
 }
 
 /* Section-Conainer */
