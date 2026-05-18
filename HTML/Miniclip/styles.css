@@ -196,6 +196,10 @@ button:hover{
     padding: 10px;
 }
 
+.announce-texts{
+    background-color: rgb(236, 234, 234);
+}
+
 .announce-text{
     list-style: none;
     margin: 10px;
